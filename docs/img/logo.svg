@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <clipPath id="disc"><circle cx="128" cy="128" r="120"/></clipPath>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#13324a"/>
+      <stop offset="1" stop-color="#0a1622"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <circle cx="128" cy="128" r="124" fill="url(#bg)" stroke="#22d3ee" stroke-width="4"/>
+  <!-- range rings -->
+  <g fill="none" stroke="#22d3ee" stroke-opacity="0.35" stroke-width="2">
+    <circle cx="128" cy="128" r="90"/>
+    <circle cx="128" cy="128" r="58"/>
+    <circle cx="128" cy="128" r="26"/>
+    <line x1="128" y1="10" x2="128" y2="246"/>
+    <line x1="10" y1="128" x2="246" y2="128"/>
+  </g>
+  <!-- sweep -->
+  <path d="M128 128 L218 128 A90 90 0 0 0 191.6 64.4 Z" fill="url(#sweep)"/>
+  <!-- broadcast waves from the corner (the illuminator) -->
+  <g fill="none" stroke="#f59e0b" stroke-width="5" stroke-linecap="round" clip-path="url(#disc)">
+    <path d="M58 198 A26 26 0 0 1 84 172"/>
+    <path d="M58 216 A44 44 0 0 1 102 172" stroke-opacity="0.75"/>
+    <path d="M58 234 A62 62 0 0 1 120 172" stroke-opacity="0.45"/>
+  </g>
+  <circle cx="58" cy="198" r="7" fill="#f59e0b"/>
+  <!-- drone, top-right, inside the sweep -->
+  <g transform="translate(176 86)" fill="#e5e7eb">
+    <rect x="-9" y="-6" width="18" height="12" rx="4"/>
+    <g stroke="#e5e7eb" stroke-width="3.5" stroke-linecap="round">
+      <line x1="-6" y1="-4" x2="-19" y2="-15"/><line x1="6" y1="-4" x2="19" y2="-15"/>
+      <line x1="-6" y1="4" x2="-19" y2="15"/><line x1="6" y1="4" x2="19" y2="15"/>
+    </g>
+    <g fill="none" stroke="#e5e7eb" stroke-width="2.5">
+      <ellipse cx="-19" cy="-15" rx="10" ry="3"/><ellipse cx="19" cy="-15" rx="10" ry="3"/>
+      <ellipse cx="-19" cy="15" rx="10" ry="3"/><ellipse cx="19" cy="15" rx="10" ry="3"/>
+    </g>
+  </g>
+  <!-- detection box -->
+  <rect x="146" y="60" width="60" height="52" fill="none" stroke="#ef4444" stroke-width="3" stroke-dasharray="10 6"/>
+</svg>
