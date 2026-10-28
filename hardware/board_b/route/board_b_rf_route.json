@@ -1,0 +1,1 @@
+{"ok":true,"engine":"gridless","complete":false,"unrouted":2,"conflicts":3,"stats":{"searches":1132,"expansions":1205403,"ripups":214,"failed":2},"status":"shape-based router: 166 nets, 2 connections open, 956 vias, wire length 10342.6 mm, 1132 searches, 214 rip-ups","imported":{"wires":1396,"vias":956},"seconds":429.343}

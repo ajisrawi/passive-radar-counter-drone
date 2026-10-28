@@ -1,0 +1,78 @@
+unit mm
+shape route pass 1: 7 nets incomplete, 113 connections open, 0 conflicts, 0 rip-ups, 99.4s
+  fail DDR_DQ30: 1 sources, 1 goals, soft search 106899 expansions
+  fail DDR_CKE: 1 sources, 4 goals, soft search 14 expansions
+  fail DDR_VTT: 6 sources, 6 goals, soft search 14 expansions
+  fail SPI_DO: 1 sources, 1 goals, soft search 120213 expansions
+  fail SPI_ENB2: 1 sources, 1 goals, soft search 120204 expansions
+  fail +1V35: 1 sources, 4 goals, soft search 70 expansions
+  fail VADJ: 1 sources, 15 goals, soft search 18 expansions
+shape route pass 2: 7 nets incomplete, 113 connections open, 0 conflicts, 0 rip-ups, 229.9s
+  fail DDR_DQ30: 1 sources, 1 goals, soft search 106899 expansions
+  fail DDR_CKE: 1 sources, 4 goals, soft search 14 expansions
+  fail DDR_VTT: 6 sources, 6 goals, soft search 14 expansions
+  fail SPI_DO: 1 sources, 1 goals, soft search 120213 expansions
+  fail SPI_ENB2: 1 sources, 1 goals, soft search 120204 expansions
+  fail +1V35: 1 sources, 4 goals, soft search 70 expansions
+  fail VADJ: 1 sources, 15 goals, soft search 18 expansions
+shape route pass 3: 7 nets incomplete, 113 connections open, 0 conflicts, 0 rip-ups, 361.9s
+  fail DDR_DQ30: 1 sources, 1 goals, soft search 106899 expansions
+  fail DDR_CKE: 1 sources, 4 goals, soft search 14 expansions
+  fail DDR_VTT: 6 sources, 6 goals, soft search 14 expansions
+  fail SPI_DO: 1 sources, 1 goals, soft search 120213 expansions
+  fail SPI_ENB2: 1 sources, 1 goals, soft search 120204 expansions
+  fail +1V35: 1 sources, 4 goals, soft search 70 expansions
+  fail VADJ: 1 sources, 15 goals, soft search 18 expansions
+shape route pass 4: 7 nets incomplete, 113 connections open, 0 conflicts, 0 rip-ups, 494.5s
+  fail DDR_DQ30: 1 sources, 1 goals, soft search 106899 expansions
+  fail DDR_CKE: 1 sources, 4 goals, soft search 14 expansions
+  fail DDR_VTT: 6 sources, 6 goals, soft search 14 expansions
+  fail SPI_DO: 1 sources, 1 goals, soft search 120213 expansions
+  fail SPI_ENB2: 1 sources, 1 goals, soft search 120204 expansions
+  fail +1V35: 1 sources, 4 goals, soft search 70 expansions
+  fail VADJ: 1 sources, 15 goals, soft search 18 expansions
+shape route pass 5: 7 nets incomplete, 113 connections open, 0 conflicts, 0 rip-ups, 626.3s
+  fail DDR_DQ30: 1 sources, 1 goals, soft search 106899 expansions
+  fail DDR_CKE: 1 sources, 4 goals, soft search 14 expansions
+  fail DDR_VTT: 6 sources, 6 goals, soft search 14 expansions
+  fail SPI_DO: 1 sources, 1 goals, soft search 120213 expansions
+  fail SPI_ENB2: 1 sources, 1 goals, soft search 120204 expansions
+  fail +1V35: 1 sources, 4 goals, soft search 70 expansions
+  fail VADJ: 1 sources, 15 goals, soft search 18 expansions
+shape route pass 6: 7 nets incomplete, 113 connections open, 0 conflicts, 0 rip-ups, 790.6s
+  fail DDR_DQ30: 1 sources, 1 goals, soft search 106899 expansions
+  fail DDR_CKE: 1 sources, 4 goals, soft search 14 expansions
+  fail DDR_VTT: 6 sources, 6 goals, soft search 14 expansions
+  fail SPI_DO: 1 sources, 1 goals, soft search 120213 expansions
+  fail SPI_ENB2: 1 sources, 1 goals, soft search 120204 expansions
+  fail +1V35: 1 sources, 4 goals, soft search 70 expansions
+  fail VADJ: 1 sources, 15 goals, soft search 18 expansions
+shape route pass 7: 7 nets incomplete, 113 connections open, 0 conflicts, 0 rip-ups, 943.6s
+  fail DDR_DQ30: 1 sources, 1 goals, soft search 106899 expansions
+  fail DDR_CKE: 1 sources, 4 goals, soft search 14 expansions
+  fail DDR_VTT: 6 sources, 6 goals, soft search 14 expansions
+  fail SPI_DO: 1 sources, 1 goals, soft search 120213 expansions
+  fail SPI_ENB2: 1 sources, 1 goals, soft search 120204 expansions
+  fail +1V35: 1 sources, 4 goals, soft search 70 expansions
+  fail VADJ: 1 sources, 15 goals, soft search 18 expansions
+shape route pass 8: 7 nets incomplete, 113 connections open, 0 conflicts, 0 rip-ups, 1090.9s
+  fail DDR_DQ30: 1 sources, 1 goals, soft search 106899 expansions
+  fail DDR_CKE: 1 sources, 4 goals, soft search 14 expansions
+  fail DDR_VTT: 6 sources, 6 goals, soft search 14 expansions
+  fail SPI_DO: 1 sources, 1 goals, soft search 120213 expansions
+  fail SPI_ENB2: 1 sources, 1 goals, soft search 120204 expansions
+  fail +1V35: 1 sources, 4 goals, soft search 70 expansions
+  fail VADJ: 1 sources, 15 goals, soft search 18 expansions
+shape route pass 9: 7 nets incomplete, 113 connections open, 0 conflicts, 0 rip-ups, 1233.7s
+  fail DDR_DQ30: 1 sources, 1 goals, soft search 106899 expansions
+  fail DDR_CKE: 1 sources, 4 goals, soft search 14 expansions
+  fail DDR_VTT: 6 sources, 6 goals, soft search 14 expansions
+  fail SPI_DO: 1 sources, 1 goals, soft search 120213 expansions
+  fail SPI_ENB2: 1 sources, 1 goals, soft search 120204 expansions
+  fail +1V35: 1 sources, 4 goals, soft search 70 expansions
+  fail VADJ: 1 sources, 15 goals, soft search 18 expansions
+shape route pass 10: 7 nets incomplete, 113 connections open, 0 conflicts, 0 rip-ups, 1378.1s
+  fail DDR_DQ30: 1 sources, 1 goals, soft search 106899 expansions
+  fail DDR_CKE: 1 sources, 4 goals, soft search 14 expansions
+  fail DDR_VTT: 6 sources, 6 goals, soft search 14 expansions
+  fail SPI_DO: 1 sources, 1 goals, soft search 120213 expansions

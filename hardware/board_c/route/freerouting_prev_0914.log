@@ -1,0 +1,7 @@
+2026-10-21 06:47:39.175 INFO   Freerouting v2.5.0 (build-date: 2026-10-05)
+2026-10-21 06:47:39.470 INFO   Hardware: 8 CPU cores, 464 CPU score, 2996 MB RAM
+2026-10-21 06:47:39.471 WARN   GUI is disabled and you don't have a console available, so the only feedback from Freerouting is in the log.
+2026-10-21 06:47:40.819 INFO   [427300\6027F6] Loading board file 'board_c.dsn'...
+2026-10-21 06:47:41.268 INFO   [427300\6027F6] Job '427300\6027F6' started at 2026-10-21T03:47:41.268627600Z.
+2026-10-21 06:47:53.944 INFO   [427300\6027F6] Pipeline thread limits: autorouter pass is single-threaded, optimizer.max_threads=7.
+2026-10-21 06:48:36.336 INFO   [427300\6027F6] Auto-routing stage started on board '0b0d0e25b038dc5c871159746e4a22ea' with baseline score 264.02 for 700 unrouted items.

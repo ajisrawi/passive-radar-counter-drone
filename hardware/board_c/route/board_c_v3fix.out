@@ -1,0 +1,21 @@
+OpenRoute 0.1 — design board_c: 251 nets, 314 components, 8 layers, resolution um 1
+unit mm
+lattice 2176x1876x4 pitch=100 connections=703
+read routes: 385 pieces of copper loaded, 1 skipped
+route  pass   1 | routed 1088/1088 | unrouted 0 | conflicts 713 | vias 1379 | length 14312.8mm | 91.5s
+route  pass   2 | routed 929/1088 | unrouted 159 | conflicts 134 | vias 1054 | length 11860.6mm | 126.6s
+route  pass   3 | routed 1044/1088 | unrouted 44 | conflicts 388 | vias 1189 | length 13273.5mm | 187.2s
+route  pass   4 | routed 1076/1088 | unrouted 12 | conflicts 138 | vias 1215 | length 13792.1mm | 274.5s
+route  pass   5 | routed 1077/1088 | unrouted 11 | conflicts 126 | vias 1219 | length 13935.2mm | 377.1s
+route  pass   6 | routed 1086/1088 | unrouted 2 | conflicts 103 | vias 1236 | length 14102.1mm | 303.6s
+route  pass   7 | routed 1088/1088 | unrouted 0 | conflicts 85 | vias 1235 | length 14095.9mm | 608.7s
+route  pass   8 | routed 1085/1088 | unrouted 3 | conflicts 70 | vias 1233 | length 14055.8mm | 654.3s
+route  pass   9 | routed 1086/1088 | unrouted 2 | conflicts 77 | vias 1241 | length 14111.5mm | 357.4s
+route  pass  10 | routed 1085/1088 | unrouted 3 | conflicts 67 | vias 1238 | length 14078.9mm | 367.6s
+route  pass  11 | routed 1088/1088 | unrouted 0 | conflicts 67 | vias 1239 | length 14095.9mm | 348.4s
+route  pass  12 | routed 1088/1088 | unrouted 0 | conflicts 74 | vias 1239 | length 14093.4mm | 356.6s
+route  pass  13 | routed 1085/1088 | unrouted 3 | conflicts 62 | vias 1231 | length 14071.6mm | 349.1s
+route  pass  14 | routed 1087/1088 | unrouted 1 | conflicts 62 | vias 1237 | length 14094.1mm | 340.8s
+route  pass  15 | routed 1088/1088 | unrouted 0 | conflicts 60 | vias 1237 | length 14093.9mm | 348.7s
+route  pass  16 | routed 1088/1088 | unrouted 0 | conflicts 60 | vias 1237 | length 14093.9mm | 347.7s
+route  pass  17 | routed 1088/1088 | unrouted 0 | conflicts 60 | vias 1237 | length 14093.9mm | 327.6s

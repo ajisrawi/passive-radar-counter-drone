@@ -1,0 +1,32 @@
+
+6. Printing statistics.
+
+=== pcl_core ===
+
+        +----------Local Count, excluding submodules.
+        | 
+    31085 wires
+    58693 wire bits
+      568 public wires
+     9648 public wire bits
+       29 ports
+      334 port bits
+    22332 cells
+        3   $scopeinfo
+        1   BUFG
+      585   CARRY4
+      148   DSP48E1
+     8896   FDRE
+      193   FDSE
+      226   IBUF
+       57   INV
+     1667   LUT2
+     2934   LUT3
+     1967   LUT4
+     2936   LUT5
+     2327   LUT6
+      108   OBUF
+      192   RAM32M
+       88   RAM64M
+        4   RAMB36E1
+

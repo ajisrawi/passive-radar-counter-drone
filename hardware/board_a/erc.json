@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-20T20:07:22",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/c1c00bc2-2dac-41e2-8d91-2eae9fa359e6",
+            "violations": []
+        },
+        {
+            "path": "/Power: 12 V in, 5.6 V buck, low-noise 5 V and 3.3 V/",
+            "uuid_path": "/c1c00bc2-2dac-41e2-8d91-2eae9fa359e6/8619b15d-c810-42be-a491-df4c5ebbe9b7",
+            "violations": []
+        },
+        {
+            "path": "/Calibration noise source and 6-way splitter/",
+            "uuid_path": "/c1c00bc2-2dac-41e2-8d91-2eae9fa359e6/f5093907-ada0-44e0-88dd-a9f4b544b0c9",
+            "violations": []
+        },
+        {
+            "path": "/RF channels 0-2/",
+            "uuid_path": "/c1c00bc2-2dac-41e2-8d91-2eae9fa359e6/5b966878-ce55-46d9-aba5-2139fd6194ee",
+            "violations": []
+        },
+        {
+            "path": "/RF channels 3-5/",
+            "uuid_path": "/c1c00bc2-2dac-41e2-8d91-2eae9fa359e6/713e9be9-dddf-402e-92c3-e1a2e96dd4df",
+            "violations": []
+        }
+    ],
+    "source": "board_a.kicad_sch"
+}

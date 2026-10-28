@@ -1,0 +1,81 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-26T07:50:33",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38",
+            "violations": []
+        },
+        {
+            "path": "/Power: 12 V in, sequenced rails incl. GTX, DDR termination/",
+            "uuid_path": "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38/57df3778-576e-462b-a4f8-dfb7c95734ad",
+            "violations": []
+        },
+        {
+            "path": "/Zynq power pins, GTX power, configuration, JTAG, XADC/",
+            "uuid_path": "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38/5d6ddac7-c7af-4f20-b2e9-1fedfc8467a2",
+            "violations": []
+        },
+        {
+            "path": "/Zynq PS: clock, reset, boot straps, QSPI, SD, UART, I2C, SFP control/",
+            "uuid_path": "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38/8143bd3c-0f6c-4c5a-b482-44169a18756a",
+            "violations": []
+        },
+        {
+            "path": "/DDR3L 1 GB x32 (2 x NT5CC256M16, PS DDR, bank 502)/",
+            "uuid_path": "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38/92c6dd09-458b-436c-ae38-2f31b13b4c9f",
+            "violations": []
+        },
+        {
+            "path": "/2 x 10 GbE SFP+ (GTX quad 112), 156.25 MHz reference, SFP I2C mux/",
+            "uuid_path": "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38/25e11e61-ea89-4822-bff8-d2a5f2a8053b",
+            "violations": []
+        },
+        {
+            "path": "/Gigabit Ethernet management port: RTL8211F (RGMII 3.3 V) + HR911130C/",
+            "uuid_path": "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38/4998b787-8517-498a-981d-8f03ac8cb260",
+            "violations": []
+        },
+        {
+            "path": "/GNSS: u-blox MAX-M10S, VCC_IO 1.8 V, PPS to HP bank 33 (SRCC)/",
+            "uuid_path": "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38/00a8a53b-b52b-4591-b23d-0e47aa9b18cf",
+            "violations": []
+        },
+        {
+            "path": "/FMC LPC carrier: digitizer LVDS on HR banks 12/13 (2.5 V)/",
+            "uuid_path": "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38/a01a4bb1-53bf-4cb8-9453-d3ea2d6b8e4e",
+            "violations": []
+        },
+        {
+            "path": "/Zynq XC7Z035-2FFG676I (all units)/",
+            "uuid_path": "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38/30393d78-10fd-4061-ad8f-d6a22ed1e926",
+            "violations": []
+        }
+    ],
+    "source": "board_c2.kicad_sch"
+}

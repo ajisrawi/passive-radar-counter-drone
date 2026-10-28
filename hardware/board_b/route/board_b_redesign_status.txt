@@ -1,0 +1,35 @@
+#ROUTING STATUS <<< board_b_redesign >>>
+Nets         =      166   Connections         =      818
+Completion   =   99.63%   Unconnections       =        3
+Conflicts    =        0   Total Vias          =      888
+Routed length=   8737.100 mm
+# Overall Routing Time: 939.2s
+
+  Kind   Pass | Unroutes | Conflicts |  Vias |  Length(mm) |   Time
+  route     1 |        0 |       305 |   891 |     8756.10 |  252.0s
+  route     2 |        3 |       117 |   901 |     8658.90 |  108.2s
+  route     3 |        1 |       115 |   930 |     8761.60 |   82.9s
+  route     4 |        1 |        56 |   940 |     8772.90 |   55.6s
+  route     5 |        1 |        36 |   943 |     8779.20 |   42.4s
+  route     6 |        2 |        44 |   941 |     8761.90 |   40.9s
+  route     7 |        2 |        20 |   949 |     8784.50 |   49.2s
+  route     8 |        2 |        12 |   956 |     8792.40 |   20.7s
+  route     9 |        2 |        10 |   957 |     8805.30 |    9.1s
+  route    10 |        0 |        10 |   964 |     8849.80 |    7.1s
+  route    11 |        0 |        10 |   964 |     8850.20 |    6.1s
+  route    12 |        0 |        10 |   963 |     8851.00 |    6.2s
+  route    13 |        0 |        10 |   963 |     8851.00 |    6.5s
+  route    14 |        0 |        10 |   963 |     8851.00 |    6.4s
+  route    15 |        0 |        10 |   962 |     8852.70 |    6.6s
+  route    16 |        0 |        10 |   962 |     8853.30 |    7.6s
+  route    17 |        0 |        10 |   962 |     8852.70 |    8.5s
+  route    18 |        0 |        10 |   962 |     8852.70 |    7.7s
+  route    19 |        0 |        10 |   962 |     8852.70 |    7.2s
+  route    20 |        0 |        10 |   962 |     8852.70 |    7.2s
+  route    21 |        0 |        10 |   962 |     8852.70 |    7.8s
+  route    22 |        3 |         0 |   944 |     8691.90 |    2.3s
+  route    23 |        3 |         0 |   944 |     8691.90 |    0.0s
+  route    24 |        3 |         0 |   944 |     8691.90 |    0.0s
+  route    25 |        3 |         0 |   944 |     8691.90 |    0.0s
+  route    26 |        3 |         0 |   944 |     8691.90 |    0.0s
+  clean    27 |        3 |         0 |   888 |     8737.10 |  189.8s

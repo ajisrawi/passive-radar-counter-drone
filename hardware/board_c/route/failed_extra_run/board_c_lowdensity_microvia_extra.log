@@ -1,0 +1,28 @@
+OpenRoute 0.1 — design board_c: 251 nets, 314 components, 8 layers, resolution um 1
+unit mm
+lattice 2176x1876x4 pitch=100 connections=703
+read routes: 381 pieces of copper loaded, 4 skipped
+route  pass   1 | routed 1069/1084 | unrouted 15 | conflicts 2 | vias 1297 | length 22850.6mm | 416.8s
+route  pass   2 | routed 1069/1084 | unrouted 15 | conflicts 0 | vias 1296 | length 22844.9mm | 331.5s
+route  pass   3 | routed 1071/1084 | unrouted 13 | conflicts 0 | vias 1299 | length 22848.9mm | 325.9s
+route  pass   4 | routed 1071/1084 | unrouted 13 | conflicts 0 | vias 1299 | length 22848.9mm | 1116.6s
+route  pass   5 | routed 1071/1084 | unrouted 13 | conflicts 0 | vias 1299 | length 22848.9mm | 317.9s
+clean  pass   6 | routed 740/1084 | unrouted 344 | conflicts 0 | vias 882 | length 8020.4mm | 18.0s
+clean: improved 256 connections
+wrote session C:\Users\ahmad\Documents\Passive Radar for Counter Drone\hardware\board_c\route/board_c_lowdensity_microvia_extra.ses
+#ROUTING STATUS <<< board_c >>>
+Nets         =      251   Connections         =     1084
+Completion   =   68.27%   Unconnections       =      344
+Conflicts    =        0   Total Vias          =      882
+Routed length=   8020.375 mm
+# Overall Routing Time: 2530.6s
+
+  Kind   Pass | Unroutes | Conflicts |  Vias |  Length(mm) |   Time
+  route     1 |       15 |         2 |  1297 |    22850.55 |  416.8s
+  route     2 |       15 |         0 |  1296 |    22844.86 |  331.5s
+  route     3 |       13 |         0 |  1299 |    22848.86 |  325.9s
+  route     4 |       13 |         0 |  1299 |    22848.86 | 1116.6s
+  route     5 |       13 |         0 |  1299 |    22848.86 |  317.9s
+  clean     6 |      344 |         0 |   882 |     8020.38 |   18.0s
+
+total time 2530.7s

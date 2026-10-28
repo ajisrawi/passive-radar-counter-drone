@@ -1,0 +1,6 @@
+fanout pass 1: unrouted=571 conflicts=0 vias=135 length=14.00mm completion=18.66% time=0.1s
+route pass 2: unrouted=4 conflicts=9830 vias=1556 length=22079.30mm completion=57.26% time=92.7s
+route pass 3: unrouted=22 conflicts=3805 vias=1637 length=21990.00mm completion=65.24% time=129.9s
+route pass 4: unrouted=28 conflicts=2061 vias=1608 length=21507.10mm completion=69.94% time=147.9s
+route pass 5: unrouted=32 conflicts=1236 vias=1623 length=21519.80mm completion=75.36% time=204.1s
+route pass 6: unrouted=29 conflicts=1026 vias=1645 length=21320.30mm completion=78.63% time=229.0s

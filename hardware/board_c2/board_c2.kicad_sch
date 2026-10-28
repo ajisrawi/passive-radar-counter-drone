@@ -1,0 +1,1384 @@
+(kicad_sch
+  (version 20231120)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (uuid "03782813-1c8f-40ec-9d7b-bb5f0b74ef38")
+  (paper "A3")
+  (title_block
+    (title "Board C2 - Zynq-7035 processing board, 2 x 10 GbE SFP+, FMC carrier")
+  )
+  (lib_symbols
+    (symbol
+      "power:PWR_FLAG"
+      (power global)
+      (pin_numbers
+        (hide yes)
+      )
+      (pin_names
+        (offset 0)
+        (hide yes)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property
+        "Reference"
+        "#FLG"
+        (at 0 1.905 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "PWR_FLAG"
+        (at 0 3.81 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Datasheet"
+        ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Description"
+        "Special symbol for telling ERC where power comes from"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "ki_keywords"
+        "flag power"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (symbol
+        "PWR_FLAG_0_0"
+        (pin
+          power_out
+          line
+          (at 0 0 90)
+          (length 0)
+          (name
+            ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol
+        "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (embedded_fonts no)
+    )
+  )
+  (text
+    "Board C2 - Zynq-7035 processing board, 2 x 10 GbE SFP+, FMC carrier"
+    (exclude_from_sim no)
+    (at 30 20 0)
+    (effects
+      (font
+        (size 4 4)
+      )
+      (justify left bottom)
+    )
+    (uuid "04cb0a7d-1bee-443b-9a8b-0388c3f56e58")
+  )
+  (sheet
+    (at 30 40)
+    (size 70 30)
+    (fields_autoplaced yes)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "57df3778-576e-462b-a4f8-dfb7c95734ad")
+    (property
+      "Sheetname"
+      "Power: 12 V in, sequenced rails incl. GTX, DDR termination"
+      (at 30 39.3 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property
+      "Sheetfile"
+      "power.kicad_sch"
+      (at 30 70.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (page "2")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 120 40)
+    (size 70 30)
+    (fields_autoplaced yes)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "5d6ddac7-c7af-4f20-b2e9-1fedfc8467a2")
+    (property
+      "Sheetname"
+      "Zynq power pins, GTX power, configuration, JTAG, XADC"
+      (at 120 39.3 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property
+      "Sheetfile"
+      "zynq_power.kicad_sch"
+      (at 120 70.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (page "3")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 210 40)
+    (size 70 30)
+    (fields_autoplaced yes)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "8143bd3c-0f6c-4c5a-b482-44169a18756a")
+    (property
+      "Sheetname"
+      "Zynq PS: clock, reset, boot straps, QSPI, SD, UART, I2C, SFP control"
+      (at 210 39.3 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property
+      "Sheetfile"
+      "zynq_ps.kicad_sch"
+      (at 210 70.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (page "4")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 300 40)
+    (size 70 30)
+    (fields_autoplaced yes)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "92c6dd09-458b-436c-ae38-2f31b13b4c9f")
+    (property
+      "Sheetname"
+      "DDR3L 1 GB x32 (2 x NT5CC256M16, PS DDR, bank 502)"
+      (at 300 39.3 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property
+      "Sheetfile"
+      "ddr3.kicad_sch"
+      (at 300 70.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (page "5")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 30 90)
+    (size 70 30)
+    (fields_autoplaced yes)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "25e11e61-ea89-4822-bff8-d2a5f2a8053b")
+    (property
+      "Sheetname"
+      "2 x 10 GbE SFP+ (GTX quad 112), 156.25 MHz reference, SFP I2C mux"
+      (at 30 89.3 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property
+      "Sheetfile"
+      "sfp.kicad_sch"
+      (at 30 120.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (page "6")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 120 90)
+    (size 70 30)
+    (fields_autoplaced yes)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "4998b787-8517-498a-981d-8f03ac8cb260")
+    (property
+      "Sheetname"
+      "Gigabit Ethernet management port: RTL8211F (RGMII 3.3 V) + HR911130C"
+      (at 120 89.3 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property
+      "Sheetfile"
+      "ethernet.kicad_sch"
+      (at 120 120.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (page "7")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 210 90)
+    (size 70 30)
+    (fields_autoplaced yes)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "00a8a53b-b52b-4591-b23d-0e47aa9b18cf")
+    (property
+      "Sheetname"
+      "GNSS: u-blox MAX-M10S, VCC_IO 1.8 V, PPS to HP bank 33 (SRCC)"
+      (at 210 89.3 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property
+      "Sheetfile"
+      "gnss.kicad_sch"
+      (at 210 120.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (page "8")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 300 90)
+    (size 70 30)
+    (fields_autoplaced yes)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "a01a4bb1-53bf-4cb8-9453-d3ea2d6b8e4e")
+    (property
+      "Sheetname"
+      "FMC LPC carrier: digitizer LVDS on HR banks 12/13 (2.5 V)"
+      (at 300 89.3 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property
+      "Sheetfile"
+      "fmc.kicad_sch"
+      (at 300 120.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (page "9")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 30 140)
+    (size 70 30)
+    (fields_autoplaced yes)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "30393d78-10fd-4061-ad8f-d6a22ed1e926")
+    (property
+      "Sheetname"
+      "Zynq XC7Z035-2FFG676I (all units)"
+      (at 30 139.3 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property
+      "Sheetfile"
+      "zynq.kicad_sch"
+      (at 30 170.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (page "10")
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 30.48 210.82 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "3cb5876f-4a50-4011-86e8-1a4905272284")
+    (property
+      "Reference"
+      "#FLG001"
+      (at 30.48 204.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "PWR_FLAG"
+      (at 30.48 206.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 30.48 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 30.48 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "253f97b8-eb0d-4c8e-b5b0-5f2c2f22645b")
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (reference "#FLG001")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label
+    "+12V"
+    (shape passive)
+    (at 30.48 210.82 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "9bf1075d-79a4-4dc9-92e5-3601fc5b9a57")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 30.48 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 88.9 210.82 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "4d90904d-807f-4a34-8b3d-e1f72a46c861")
+    (property
+      "Reference"
+      "#FLG002"
+      (at 88.9 204.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "PWR_FLAG"
+      (at 88.9 206.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 88.9 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 88.9 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "ae9e0ac4-2551-4d6b-8667-693722ba09c9")
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (reference "#FLG002")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label
+    "+1V35"
+    (shape passive)
+    (at 88.9 210.82 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "d47eedac-c676-4e66-932c-d1f0f98c2d60")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 88.9 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 149.86 210.82 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "0c03c0eb-80e4-487f-851e-364db61b0a5b")
+    (property
+      "Reference"
+      "#FLG003"
+      (at 149.86 204.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "PWR_FLAG"
+      (at 149.86 206.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 149.86 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 149.86 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "7c0f26ca-804a-4a43-8859-d71714570cbb")
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (reference "#FLG003")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label
+    "+1V8"
+    (shape passive)
+    (at 149.86 210.82 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "047ad001-a601-4b64-bee0-5bc4d6b9bb22")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 149.86 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 210.82 210.82 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "946eee73-9f7e-47e8-b788-506caba9815d")
+    (property
+      "Reference"
+      "#FLG004"
+      (at 210.82 204.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "PWR_FLAG"
+      (at 210.82 206.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 210.82 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 210.82 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "5fbc45ee-941c-4151-90cd-f3110a686662")
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (reference "#FLG004")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label
+    "+3V3"
+    (shape passive)
+    (at 210.82 210.82 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "dd981264-3f20-421f-87c4-f1abed63edc6")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 210.82 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 269.24 210.82 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "476ac10b-d12f-402a-b048-051e8b279c3e")
+    (property
+      "Reference"
+      "#FLG005"
+      (at 269.24 204.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "PWR_FLAG"
+      (at 269.24 206.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 269.24 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 269.24 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "e4dc7bf7-2265-443c-9c15-b210ee570c9a")
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (reference "#FLG005")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label
+    "GND"
+    (shape passive)
+    (at 269.24 210.82 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "ee470c25-db00-49a6-965d-2413be8b4e35")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 269.24 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 330.2 210.82 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "fa7a9a9d-96ff-49ce-a625-8c806ae572d0")
+    (property
+      "Reference"
+      "#FLG006"
+      (at 330.2 204.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "PWR_FLAG"
+      (at 330.2 206.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 330.2 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 330.2 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "231987d9-ada1-4166-9f77-c7b81ef31b22")
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (reference "#FLG006")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label
+    "SFP0_VCCR"
+    (shape passive)
+    (at 330.2 210.82 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "3b59777d-761a-40a5-b353-4e0f0ce0e823")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 330.2 210.82 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 30.48 226.06 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "083ada56-0515-4a99-96d7-5806fdbcd118")
+    (property
+      "Reference"
+      "#FLG007"
+      (at 30.48 220.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "PWR_FLAG"
+      (at 30.48 222.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 30.48 226.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 30.48 226.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "d08befb9-4616-42b0-949a-a15894b988e0")
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (reference "#FLG007")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label
+    "SFP0_VCCT"
+    (shape passive)
+    (at 30.48 226.06 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "880263da-65f7-4cc2-bfa4-07f38a00141c")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 30.48 226.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 88.9 226.06 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "61178a81-7f34-444a-a04d-6e696a625947")
+    (property
+      "Reference"
+      "#FLG008"
+      (at 88.9 220.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "PWR_FLAG"
+      (at 88.9 222.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 88.9 226.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 88.9 226.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "38f3e642-c48a-483e-8012-459c253fb7f3")
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (reference "#FLG008")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label
+    "SFP1_VCCR"
+    (shape passive)
+    (at 88.9 226.06 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "40f22482-24d8-4fb5-8e34-59260b744404")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 88.9 226.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 149.86 226.06 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "0854ab76-ce85-45fb-8f7e-9bd42814154f")
+    (property
+      "Reference"
+      "#FLG009"
+      (at 149.86 220.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "PWR_FLAG"
+      (at 149.86 222.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 149.86 226.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 149.86 226.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "b1354340-18fe-4f17-ad74-609c993d0572")
+    )
+    (instances
+      (project
+        "board_c2"
+        (path
+          "/03782813-1c8f-40ec-9d7b-bb5f0b74ef38"
+          (reference "#FLG009")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label
+    "SFP1_VCCT"
+    (shape passive)
+    (at 149.86 226.06 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "cd2eddd7-f710-4355-8092-2348ebf16c03")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 149.86 226.06 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (sheet_instances
+    (path
+      "/"
+      (page "1")
+    )
+  )
+)

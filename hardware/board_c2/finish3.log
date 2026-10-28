@@ -1,0 +1,20 @@
+constraint regions: 14
+lattice 722x657x6 pitch=305.17578125 connections=1548
+read routes: 1253 pieces of copper loaded, 1 skipped
+route  pass   1 | routed 2630/2801 | unrouted 171 | conflicts 80 | vias 1533 | length 14873.0mm | 78.7s
+route  pass   2 | routed 2749/2801 | unrouted 52 | conflicts 275 | vias 1713 | length 16629.3mm | 122.6s
+route  pass   3 | routed 2775/2801 | unrouted 26 | conflicts 113 | vias 1786 | length 17388.6mm | 120.1s
+route  pass   4 | routed 2779/2801 | unrouted 22 | conflicts 47 | vias 1803 | length 17553.3mm | 159.0s
+route  pass   5 | routed 2783/2801 | unrouted 18 | conflicts 31 | vias 1798 | length 17639.4mm | 110.5s
+route  pass   6 | routed 2785/2801 | unrouted 16 | conflicts 29 | vias 1809 | length 17721.2mm | 104.6s
+route  pass   7 | routed 2786/2801 | unrouted 15 | conflicts 31 | vias 1810 | length 17747.7mm | 93.8s
+route  pass   8 | routed 2784/2801 | unrouted 17 | conflicts 21 | vias 1807 | length 17749.2mm | 131.2s
+route  pass   9 | routed 2788/2801 | unrouted 13 | conflicts 25 | vias 1817 | length 17852.3mm | 97.2s
+route  pass  10 | routed 2788/2801 | unrouted 13 | conflicts 23 | vias 1819 | length 17852.0mm | 99.8s
+route  pass  11 | routed 2787/2801 | unrouted 14 | conflicts 21 | vias 1813 | length 17830.6mm | 99.4s
+route  pass  12 | routed 2787/2801 | unrouted 14 | conflicts 21 | vias 1813 | length 17830.6mm | 140.0s
+clean  pass  13 | routed 2787/2801 | unrouted 14 | conflicts 21 | vias 1750 | length 17917.9mm | 141.7s
+clean: improved 64 connections
+clean  pass  14 | routed 2787/2801 | unrouted 14 | conflicts 21 | vias 1740 | length 17893.2mm | 46.4s
+clean: improved 16 connections
+wrote session /out.ses

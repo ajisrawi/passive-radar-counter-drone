@@ -1,0 +1,618 @@
+(kicad_sch
+  (version 20231120)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (uuid "378300cf-aba6-464b-a21e-4b89ba310b6f")
+  (paper "A3")
+  (title_block
+    (title "Board A2 (n78) - front end 3300-3800 MHz (5G n78) + calibration noise source")
+  )
+  (lib_symbols
+    (symbol
+      "power:PWR_FLAG"
+      (power global)
+      (pin_numbers
+        (hide yes)
+      )
+      (pin_names
+        (offset 0)
+        (hide yes)
+      )
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (in_pos_files yes)
+      (duplicate_pin_numbers_are_jumpers no)
+      (property
+        "Reference"
+        "#FLG"
+        (at 0 1.905 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Value"
+        "PWR_FLAG"
+        (at 0 3.81 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Footprint"
+        ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Datasheet"
+        ""
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "Description"
+        "Special symbol for telling ERC where power comes from"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (property
+        "ki_keywords"
+        "flag power"
+        (at 0 0 0)
+        (show_name no)
+        (do_not_autoplace no)
+        (hide yes)
+        (effects
+          (font
+            (size 1.27 1.27)
+          )
+        )
+      )
+      (symbol
+        "PWR_FLAG_0_0"
+        (pin
+          power_out
+          line
+          (at 0 0 90)
+          (length 0)
+          (name
+            ""
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+          (number
+            "1"
+            (effects
+              (font
+                (size 1.27 1.27)
+              )
+            )
+          )
+        )
+      )
+      (symbol
+        "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27)
+          )
+          (stroke
+            (width 0)
+            (type default)
+          )
+          (fill
+            (type none)
+          )
+        )
+      )
+      (embedded_fonts no)
+    )
+  )
+  (text
+    "Board A2 (n78) - front end 3300-3800 MHz (5G n78) + calibration noise source"
+    (exclude_from_sim no)
+    (at 30 20 0)
+    (effects
+      (font
+        (size 4 4)
+      )
+      (justify left bottom)
+    )
+    (uuid "ee9338a9-f914-4d4c-8004-39633f379d81")
+  )
+  (sheet
+    (at 30 40)
+    (size 70 30)
+    (fields_autoplaced yes)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "7ed06583-b9cc-4bd8-bae9-fd27de8fe4b2")
+    (property
+      "Sheetname"
+      "Power: 12 V in, 5.6 V buck, two low-noise 5 V LNA rails, noise-source rail, 3.3 V"
+      (at 30 39.3 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property
+      "Sheetfile"
+      "power.kicad_sch"
+      (at 30 70.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project
+        "board_a2_n78"
+        (path
+          "/378300cf-aba6-464b-a21e-4b89ba310b6f"
+          (page "2")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 120 40)
+    (size 70 30)
+    (fields_autoplaced yes)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "d6784395-1a33-46d1-b04a-efebd8a8f461")
+    (property
+      "Sheetname"
+      "Calibration noise source and 6-way splitter"
+      (at 120 39.3 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property
+      "Sheetfile"
+      "noise_source.kicad_sch"
+      (at 120 70.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project
+        "board_a2_n78"
+        (path
+          "/378300cf-aba6-464b-a21e-4b89ba310b6f"
+          (page "3")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 210 40)
+    (size 70 30)
+    (fields_autoplaced yes)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "13dd7186-3efc-4394-a03a-a2f50001ae40")
+    (property
+      "Sheetname"
+      "RF channels 0-2"
+      (at 210 39.3 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property
+      "Sheetfile"
+      "channels_0.kicad_sch"
+      (at 210 70.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project
+        "board_a2_n78"
+        (path
+          "/378300cf-aba6-464b-a21e-4b89ba310b6f"
+          (page "4")
+        )
+      )
+    )
+  )
+  (sheet
+    (at 300 40)
+    (size 70 30)
+    (fields_autoplaced yes)
+    (stroke
+      (width 0.1524)
+      (type solid)
+    )
+    (fill
+      (color 0 0 0 0)
+    )
+    (uuid "639bcbc4-38a7-410d-8d61-4d596a18f1f3")
+    (property
+      "Sheetname"
+      "RF channels 3-5"
+      (at 300 39.3 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left bottom)
+      )
+    )
+    (property
+      "Sheetfile"
+      "channels_1.kicad_sch"
+      (at 300 70.6 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (justify left top)
+      )
+    )
+    (instances
+      (project
+        "board_a2_n78"
+        (path
+          "/378300cf-aba6-464b-a21e-4b89ba310b6f"
+          (page "5")
+        )
+      )
+    )
+  )
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 30.48 109.22 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "012ff690-516c-4265-bfe2-a920cee9bc41")
+    (property
+      "Reference"
+      "#FLG001"
+      (at 30.48 103.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "PWR_FLAG"
+      (at 30.48 105.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 30.48 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 30.48 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "890eba5a-02fc-46e9-9596-3e987b7ec1a5")
+    )
+    (instances
+      (project
+        "board_a2_n78"
+        (path
+          "/378300cf-aba6-464b-a21e-4b89ba310b6f"
+          (reference "#FLG001")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label
+    "+12V"
+    (shape passive)
+    (at 30.48 109.22 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "7aa975e1-1ee0-44b2-8d62-6286ea27f419")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 30.48 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 88.9 109.22 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "31d272ff-9f0f-44d7-8279-1006cb06308a")
+    (property
+      "Reference"
+      "#FLG002"
+      (at 88.9 103.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "PWR_FLAG"
+      (at 88.9 105.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 88.9 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 88.9 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "d9dabe29-ef41-4b37-87f4-0d07faa6b1f7")
+    )
+    (instances
+      (project
+        "board_a2_n78"
+        (path
+          "/378300cf-aba6-464b-a21e-4b89ba310b6f"
+          (reference "#FLG002")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label
+    "+5V_LNA_A"
+    (shape passive)
+    (at 88.9 109.22 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "81289781-ae47-45da-bb44-8c7308514ce0")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 88.9 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (symbol
+    (lib_id "power:PWR_FLAG")
+    (at 149.86 109.22 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board no)
+    (dnp no)
+    (uuid "a99d2f61-e8cc-4f38-b49f-810165934366")
+    (property
+      "Reference"
+      "#FLG003"
+      (at 149.86 103.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Value"
+      "PWR_FLAG"
+      (at 149.86 105.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+      )
+    )
+    (property
+      "Footprint"
+      ""
+      (at 149.86 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (property
+      "Datasheet"
+      "~"
+      (at 149.86 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+    (pin
+      "1"
+      (uuid "65cfab4d-fadf-4b2f-b870-c014031a3b1f")
+    )
+    (instances
+      (project
+        "board_a2_n78"
+        (path
+          "/378300cf-aba6-464b-a21e-4b89ba310b6f"
+          (reference "#FLG003")
+          (unit 1)
+        )
+      )
+    )
+  )
+  (global_label
+    "GND"
+    (shape passive)
+    (at 149.86 109.22 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27)
+      )
+      (justify right)
+    )
+    (uuid "6eee721d-fd9c-4473-9eff-c675d4d98c0b")
+    (property
+      "Intersheetrefs"
+      "${INTERSHEET_REFS}"
+      (at 149.86 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+        )
+        (hide yes)
+      )
+    )
+  )
+  (sheet_instances
+    (path
+      "/"
+      (page "1")
+    )
+  )
+)

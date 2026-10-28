@@ -1,0 +1,1 @@
+{"ok":true,"violations":2,"summary":"hole-to-copper 2","items":[{"kind":"hole-to-copper","at":{"x":16.57,"y":83.05},"layer":"F.Cu","message":"pad J5-14 hole to trace SD_CD: 0.136 mm < 0.2 mm"},{"kind":"hole-to-copper","at":{"x":16.57,"y":83.05},"layer":"F.Cu","message":"pad J5-14 hole to trace SD_CD: 0.109 mm < 0.2 mm"}]}

@@ -1,0 +1,40 @@
+OpenRoute 0.1 — design board_c: 251 nets, 314 components, 8 layers, resolution um 1
+unit mm
+lattice 2176x1876x4 pitch=100 connections=1156
+read routes: 838 pieces of copper loaded, 0 skipped
+route  pass   1 | routed 1994/1994 | unrouted 0 | conflicts 19 | vias 1653 | length 14504.6mm | 7.5s
+route  pass   2 | routed 1990/1994 | unrouted 4 | conflicts 3 | vias 1653 | length 14466.4mm | 7.9s
+route  pass   3 | routed 1994/1994 | unrouted 0 | conflicts 3 | vias 1655 | length 14504.0mm | 4.2s
+route  pass   4 | routed 1994/1994 | unrouted 0 | conflicts 3 | vias 1655 | length 14504.0mm | 4.3s
+route  pass   5 | routed 1994/1994 | unrouted 0 | conflicts 3 | vias 1655 | length 14504.0mm | 4.1s
+route  pass   6 | routed 1994/1994 | unrouted 0 | conflicts 3 | vias 1655 | length 14504.0mm | 4.2s
+route  pass   7 | routed 1994/1994 | unrouted 0 | conflicts 3 | vias 1655 | length 14504.9mm | 4.2s
+route  pass   8 | routed 1994/1994 | unrouted 0 | conflicts 3 | vias 1655 | length 14504.0mm | 4.2s
+route  pass   9 | routed 1994/1994 | unrouted 0 | conflicts 3 | vias 1655 | length 14504.0mm | 4.1s
+route  pass  10 | routed 1994/1994 | unrouted 0 | conflicts 0 | vias 1656 | length 14504.0mm | 3.7s
+nothing to route
+clean  pass  12 | routed 1994/1994 | unrouted 0 | conflicts 0 | vias 1653 | length 14510.3mm | 15.5s
+clean: improved 2 connections
+miter: 65 corners mitered, 398 kept square (clearance or a branch at the corner)
+wrote session C:\Users\ahmad\Documents\Passive Radar for Counter Drone\hardware\board_c\route/board_c_v10.ses
+#ROUTING STATUS <<< board_c >>>
+Nets         =      251   Connections         =     1994
+Completion   =  100.00%   Unconnections       =        0
+Conflicts    =        0   Total Vias          =     1653
+Routed length=  14510.320 mm
+# Overall Routing Time: 67.9s
+
+  Kind   Pass | Unroutes | Conflicts |  Vias |  Length(mm) |   Time
+  route     1 |        0 |        19 |  1653 |    14504.57 |    7.5s
+  route     2 |        4 |         3 |  1653 |    14466.42 |    7.9s
+  route     3 |        0 |         3 |  1655 |    14504.02 |    4.2s
+  route     4 |        0 |         3 |  1655 |    14504.02 |    4.3s
+  route     5 |        0 |         3 |  1655 |    14504.02 |    4.1s
+  route     6 |        0 |         3 |  1655 |    14504.02 |    4.2s
+  route     7 |        0 |         3 |  1655 |    14504.92 |    4.2s
+  route     8 |        0 |         3 |  1655 |    14504.02 |    4.2s
+  route     9 |        0 |         3 |  1655 |    14504.02 |    4.1s
+  route    10 |        0 |         0 |  1656 |    14504.02 |    3.7s
+  clean    12 |        0 |         0 |  1653 |    14510.32 |   15.5s
+
+total time 67.9s

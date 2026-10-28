@@ -1,0 +1,14 @@
+
+Precision study: 524,288-sample CPI, ECA 160 taps on the host, FPGA canceller 128 taps, mean of 3 runs. Target SNR change vs. floating point (negative = loss):
+  direct signal 43.8 dB above noise (after the FPGA canceller the surveillance residual is 1.3 dB above noise):
+    12-bit all channels                                   -0.1 dB  (runs -0.1 -0.1 -0.1)
+    10-bit all channels                                   -1.4 dB  (runs -1.5 -1.2 -1.4)
+    8-bit all channels                                    -8.5 dB  (runs -8.6 -8.5 -8.3)
+    FPGA cancel (12-bit in), surv -> 8-bit, ref 12-bit    -0.1 dB  (runs -0.1 -0.1 -0.1)
+    FPGA cancel (12-bit in), surv -> 6-bit, ref 12-bit    -0.1 dB  (runs -0.1 -0.1 -0.1)
+  direct signal 53.3 dB above noise (after the FPGA canceller the surveillance residual is 5.4 dB above noise):
+    12-bit all channels                                   -0.3 dB  (runs -0.3 -0.4 -0.2)
+    10-bit all channels                                   -3.1 dB  (runs -3.1 -3.3 -2.9)
+    8-bit all channels                                   -13.1 dB  (runs -12.6 -13.1 -13.4)
+    FPGA cancel (12-bit in), surv -> 8-bit, ref 12-bit    -0.3 dB  (runs -0.3 -0.3 -0.2)
+    FPGA cancel (12-bit in), surv -> 6-bit, ref 12-bit    -0.3 dB  (runs -0.3 -0.4 -0.2)

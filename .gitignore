@@ -1,0 +1,19 @@
+# third-party binaries (download separately)
+hardware/tools/jre25/
+hardware/tools/freerouting/
+# vendor 3D models (LCSC/EasyEDA), large and not ours to redistribute
+hardware/lib/prc.3dshapes/
+# old backup
+hardware/lib_backup_before_board_a2/
+# Python / editors / OS
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.blend1
+# secrets never go in the repo (DeepPCB key is read from DEEPPCB_API_KEY)
+.env
+*.key

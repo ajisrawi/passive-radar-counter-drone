@@ -1,0 +1,87 @@
+{
+ "band": "high",
+ "cal_before_mm": {
+  "CH0_CAL": 118.78,
+  "CH1_CAL": 139.82,
+  "CH2_CAL": 161.12,
+  "CH3_CAL": 182.17,
+  "CH4_CAL": 96.7,
+  "CH5_CAL": 114.04
+ },
+ "cal_after_mm": {
+  "CH0_CAL": 182.17,
+  "CH1_CAL": 182.17,
+  "CH2_CAL": 182.17,
+  "CH3_CAL": 182.17,
+  "CH4_CAL": 182.17,
+  "CH5_CAL": 182.17
+ },
+ "cal_spread_after_mm": 0.0,
+ "tune": {
+  "ok": true,
+  "tuned": [
+   {
+    "net": "CH0_CAL",
+    "before": 118.77978348745873,
+    "after": 182.16935078512108,
+    "target": 182.16935078512108,
+    "ok": true
+   },
+   {
+    "net": "CH1_CAL",
+    "before": 139.8228977868684,
+    "after": 182.169350785121,
+    "target": 182.16935078512108,
+    "ok": true
+   },
+   {
+    "net": "CH2_CAL",
+    "before": 161.11732137494639,
+    "after": 182.16935078512108,
+    "target": 182.16935078512108,
+    "ok": true
+   },
+   {
+    "net": "CH4_CAL",
+    "before": 96.69980594225954,
+    "after": 182.16935078512105,
+    "target": 182.16935078512108,
+    "ok": true
+   },
+   {
+    "net": "CH5_CAL",
+    "before": 114.03702712997563,
+    "after": 182.1693507851211,
+    "target": 182.16935078512108,
+    "ok": true
+   }
+  ]
+ },
+ "fence_vias": 611,
+ "drc": "none",
+ "drc_violations": 0,
+ "gnd_pour": {
+  "ok": true,
+  "opens": 0
+ },
+ "gerber": {
+  "ok": true,
+  "dir": "C:\\Users\\ahmad\\Documents\\Passive Radar for Counter Drone\\hardware\\board_a2\\high\\fab",
+  "files": [
+   "board_a2_high-fab.zip"
+  ],
+  "layers": 4,
+  "drillFiles": [
+   "board_a2_high-PTH.drl"
+  ]
+ },
+ "assembly": {
+  "dir": "C:\\Users\\ahmad\\Documents\\Passive Radar for Counter Drone\\hardware\\board_a2\\high\\fab",
+  "files": [
+   "board_a2_high-BOM.csv",
+   "board_a2_high-CPL.csv"
+  ],
+  "parts": 212,
+  "lines": 53
+ }
+}

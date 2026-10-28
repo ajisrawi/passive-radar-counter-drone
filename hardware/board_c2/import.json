@@ -1,0 +1,1 @@
+{"ok":true,"design":"board_c2.sch.json","schematics":["power","zynq_power","zynq_ps","ddr3","sfp","ethernet","gnss","fmc","zynq","board_c2"],"parts":455,"nets":602,"issues":[]}

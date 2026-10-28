@@ -1,0 +1,46 @@
+OpenRoute 0.1 — design board_b_redesign: 166 nets, 228 components, 8 layers, resolution um 1
+unit mm
+lattice 1501x1051x4 pitch=100 connections=818
+read routes: 611 pieces of copper loaded, 0 skipped
+route  pass   1 | routed 1428/1429 | unrouted 1 | conflicts 10 | vias 902 | length 9193.4mm | 14.4s
+route  pass   2 | routed 1425/1429 | unrouted 4 | conflicts 0 | vias 900 | length 9196.7mm | 7.6s
+route  pass   3 | routed 1429/1429 | unrouted 0 | conflicts 8 | vias 904 | length 9197.1mm | 3.1s
+route  pass   4 | routed 1429/1429 | unrouted 0 | conflicts 4 | vias 907 | length 9199.6mm | 10.3s
+route  pass   5 | routed 1429/1429 | unrouted 0 | conflicts 4 | vias 907 | length 9199.6mm | 10.8s
+route  pass   6 | routed 1429/1429 | unrouted 0 | conflicts 4 | vias 910 | length 9195.3mm | 13.4s
+route  pass   7 | routed 1429/1429 | unrouted 0 | conflicts 4 | vias 909 | length 9196.7mm | 15.8s
+route  pass   8 | routed 1429/1429 | unrouted 0 | conflicts 4 | vias 906 | length 9198.5mm | 15.6s
+route  pass   9 | routed 1429/1429 | unrouted 0 | conflicts 4 | vias 909 | length 9196.7mm | 15.7s
+route  pass  10 | routed 1429/1429 | unrouted 0 | conflicts 4 | vias 906 | length 9198.5mm | 15.7s
+route  pass  11 | routed 1429/1429 | unrouted 0 | conflicts 4 | vias 909 | length 9196.7mm | 15.9s
+route  pass  12 | routed 1429/1429 | unrouted 0 | conflicts 4 | vias 906 | length 9198.5mm | 15.9s
+route  pass  13 | routed 1429/1429 | unrouted 0 | conflicts 0 | vias 906 | length 9198.5mm | 5.1s
+nothing to route
+clean  pass  15 | routed 1429/1429 | unrouted 0 | conflicts 0 | vias 900 | length 9210.4mm | 22.5s
+clean: improved 5 connections
+miter: 111 corners mitered, 99 kept square (clearance or a branch at the corner)
+wrote session C:\Users\ahmad\Documents\Passive Radar for Counter Drone\hardware\board_b\route/board_b_v2.ses
+#ROUTING STATUS <<< board_b_redesign >>>
+Nets         =      166   Connections         =     1429
+Completion   =  100.00%   Unconnections       =        0
+Conflicts    =        0   Total Vias          =      900
+Routed length=   9210.392 mm
+# Overall Routing Time: 184.8s
+
+  Kind   Pass | Unroutes | Conflicts |  Vias |  Length(mm) |   Time
+  route     1 |        1 |        10 |   902 |     9193.40 |   14.4s
+  route     2 |        4 |         0 |   900 |     9196.73 |    7.6s
+  route     3 |        0 |         8 |   904 |     9197.13 |    3.1s
+  route     4 |        0 |         4 |   907 |     9199.63 |   10.3s
+  route     5 |        0 |         4 |   907 |     9199.63 |   10.8s
+  route     6 |        0 |         4 |   910 |     9195.33 |   13.4s
+  route     7 |        0 |         4 |   909 |     9196.69 |   15.8s
+  route     8 |        0 |         4 |   906 |     9198.49 |   15.6s
+  route     9 |        0 |         4 |   909 |     9196.69 |   15.7s
+  route    10 |        0 |         4 |   906 |     9198.49 |   15.7s
+  route    11 |        0 |         4 |   909 |     9196.69 |   15.9s
+  route    12 |        0 |         4 |   906 |     9198.49 |   15.9s
+  route    13 |        0 |         0 |   906 |     9198.49 |    5.1s
+  clean    15 |        0 |         0 |   900 |     9210.39 |   22.5s
+
+total time 184.8s

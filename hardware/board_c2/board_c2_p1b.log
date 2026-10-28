@@ -1,0 +1,155 @@
+unit mm
+constraint regions: 14
+lattice 722x657x6 pitch=305.17578125 connections=118
+fanout pass   1 | routed 0/118 | unrouted 118 | conflicts 0 | vias 0 | length 0.0mm | 0.0s
+route  pass   2 | routed 116/118 | unrouted 2 | conflicts 143 | vias 275 | length 2968.1mm | 10.7s
+route  pass   3 | routed 111/118 | unrouted 7 | conflicts 37 | vias 271 | length 2884.8mm | 21.8s
+route  pass   4 | routed 113/118 | unrouted 5 | conflicts 16 | vias 278 | length 2948.6mm | 20.5s
+route  pass   5 | routed 114/118 | unrouted 4 | conflicts 10 | vias 279 | length 2963.3mm | 31.2s
+route  pass   6 | routed 115/118 | unrouted 3 | conflicts 6 | vias 283 | length 3014.8mm | 22.8s
+route  pass   7 | routed 116/118 | unrouted 2 | conflicts 4 | vias 283 | length 3038.9mm | 23.6s
+route  pass   8 | routed 116/118 | unrouted 2 | conflicts 4 | vias 283 | length 3039.9mm | 19.1s
+route  pass   9 | routed 116/118 | unrouted 2 | conflicts 4 | vias 283 | length 3038.6mm | 40.5s
+route  pass  10 | routed 116/118 | unrouted 2 | conflicts 4 | vias 282 | length 3038.3mm | 66.7s
+route  pass  11 | routed 116/118 | unrouted 2 | conflicts 4 | vias 282 | length 3038.3mm | 64.7s
+route  pass  12 | routed 116/118 | unrouted 2 | conflicts 4 | vias 281 | length 3041.7mm | 26.5s
+route  pass  13 | routed 116/118 | unrouted 2 | conflicts 4 | vias 282 | length 3038.9mm | 28.9s
+route  pass  14 | routed 116/118 | unrouted 2 | conflicts 4 | vias 281 | length 3041.7mm | 20.4s
+route  pass  15 | routed 116/118 | unrouted 2 | conflicts 4 | vias 280 | length 3044.7mm | 23.1s
+route  pass  16 | routed 116/118 | unrouted 2 | conflicts 4 | vias 281 | length 3041.7mm | 22.9s
+route  pass  17 | routed 116/118 | unrouted 2 | conflicts 4 | vias 282 | length 3038.9mm | 29.8s
+route  pass  18 | routed 116/118 | unrouted 2 | conflicts 4 | vias 282 | length 3038.9mm | 19.9s
+route  pass  19 | routed 116/118 | unrouted 2 | conflicts 4 | vias 279 | length 3049.0mm | 20.1s
+route  pass  20 | routed 116/118 | unrouted 2 | conflicts 4 | vias 279 | length 3049.0mm | 23.1s
+route  pass  21 | routed 116/118 | unrouted 2 | conflicts 4 | vias 279 | length 3050.8mm | 29.1s
+route  pass  22 | routed 116/118 | unrouted 2 | conflicts 4 | vias 279 | length 3050.8mm | 19.6s
+route  pass  23 | routed 113/118 | unrouted 5 | conflicts 0 | vias 276 | length 2978.5mm | 28.1s
+route  pass  24 | routed 114/118 | unrouted 4 | conflicts 0 | vias 277 | length 2990.1mm | 17.1s
+route  pass  25 | routed 114/118 | unrouted 4 | conflicts 0 | vias 277 | length 2990.1mm | 27.4s
+route  pass  26 | routed 114/118 | unrouted 4 | conflicts 0 | vias 277 | length 2990.1mm | 17.3s
+clean  pass  27 | routed 114/118 | unrouted 4 | conflicts 0 | vias 215 | length 3106.1mm | 3.7s
+clean: improved 49 connections
+clean  pass  28 | routed 114/118 | unrouted 4 | conflicts 0 | vias 206 | length 3107.6mm | 3.1s
+clean: improved 22 connections
+route  pass  29 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 17.1s
+route  pass  30 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 18.5s
+route  pass  31 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 25.4s
+route  pass  32 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 17.0s
+route  pass  33 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 17.3s
+route  pass  34 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 16.4s
+route  pass  35 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 21.3s
+route  pass  36 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.3s
+route  pass  37 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.6s
+route  pass  38 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.4s
+route  pass  39 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 21.4s
+route  pass  40 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.3s
+route  pass  41 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.1s
+route  pass  42 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.5s
+route  pass  43 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 22.2s
+route  pass  44 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 15.2s
+route  pass  45 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.4s
+route  pass  46 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.5s
+route  pass  47 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 21.5s
+route  pass  48 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 15.9s
+route  pass  49 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.5s
+route  pass  50 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.1s
+route  pass  51 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 21.2s
+route  pass  52 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.2s
+route  pass  53 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.1s
+route  pass  54 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.5s
+route  pass  55 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 21.8s
+route  pass  56 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.4s
+route  pass  57 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.2s
+route  pass  58 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.0s
+route  pass  59 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 21.1s
+route  pass  60 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.3s
+route  pass  61 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.3s
+route  pass  62 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 15.1s
+route  pass  63 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 22.0s
+route  pass  64 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.7s
+route  pass  65 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.5s
+route  pass  66 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 15.6s
+route  pass  67 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 21.3s
+route  pass  68 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.1s
+route  pass  69 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.3s
+route  pass  70 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.4s
+route  pass  71 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 22.0s
+route  pass  72 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.2s
+route  pass  73 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.2s
+route  pass  74 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.2s
+route  pass  75 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 21.2s
+route  pass  76 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.0s
+route  pass  77 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 15.1s
+route  pass  78 | routed 116/118 | unrouted 2 | conflicts 0 | vias 211 | length 3152.8mm | 14.3s
+clean  pass  79 | routed 116/118 | unrouted 2 | conflicts 0 | vias 210 | length 3157.7mm | 2.9s
+clean: improved 4 connections
+clean  pass  80 | routed 116/118 | unrouted 2 | conflicts 0 | vias 210 | length 3157.0mm | 2.9s
+clean: improved 1 connections
+clean  pass  81 | routed 116/118 | unrouted 2 | conflicts 0 | vias 210 | length 3157.0mm | 2.8s
+clean: improved 0 connections
+tune DDR_DQ0: 28.672 -> 33.472 mm (target 60.702) NOT MET
+tune DDR_DQ1: 36.688 -> 39.088 mm (target 60.702) NOT MET
+tune DDR_DQ2: 34.336 -> 60.702 mm (target 60.702)
+tune DDR_DQ3: 39.130 -> 60.702 mm (target 60.702)
+tune DDR_DQ4: 29.662 -> 29.662 mm (target 60.702) NOT MET
+tune DDR_DQ6: 32.814 -> 60.702 mm (target 60.702)
+tune DDR_DQ7: 32.131 -> 60.702 mm (target 60.702)
+tune DDR_DM0: 37.933 -> 60.702 mm (target 60.702)
+tune DDR_DQS0_P: 0.000 -> 0.000 mm (target 60.702) NOT MET
+tune DDR_DQS0_N: 0.000 -> 0.000 mm (target 60.702) NOT MET
+tune DDR_DQ8: 31.762 -> 50.563 mm (target 50.563)
+tune DDR_DQ10: 32.178 -> 50.563 mm (target 50.563)
+tune DDR_DQ11: 44.906 -> 50.563 mm (target 50.563)
+tune DDR_DQ12: 36.136 -> 50.563 mm (target 50.563)
+tune DDR_DQ13: 45.756 -> 50.563 mm (target 50.563)
+tune DDR_DQ14: 36.802 -> 50.563 mm (target 50.563)
+tune DDR_DQ15: 42.672 -> 50.563 mm (target 50.563)
+tune DDR_DM1: 39.145 -> 50.563 mm (target 50.563)
+tune DDR_DQS1_P: 0.000 -> 0.000 mm (target 50.563) NOT MET
+tune DDR_DQS1_N: 0.000 -> 0.000 mm (target 50.563) NOT MET
+tune DDR_DQ16: 33.572 -> 50.773 mm (target 50.773)
+tune DDR_DQ18: 31.812 -> 50.773 mm (target 50.773)
+tune DDR_DQ19: 48.792 -> 50.773 mm (target 50.773)
+tune DDR_DQ20: 30.683 -> 30.683 mm (target 50.773) NOT MET
+tune DDR_DQ21: 37.376 -> 50.773 mm (target 50.773)
+tune DDR_DQ22: 33.355 -> 50.773 mm (target 50.773)
+tune DDR_DQ23: 39.086 -> 50.773 mm (target 50.773)
+tune DDR_DM2: 43.351 -> 50.773 mm (target 50.773)
+tune DDR_DQS2_P: 0.000 -> 0.000 mm (target 50.773) NOT MET
+tune DDR_DQS2_N: 0.000 -> 0.000 mm (target 50.773) NOT MET
+tune DDR_DQ24: 37.141 -> 42.511 mm (target 42.511)
+tune DDR_DQ25: 31.776 -> 42.511 mm (target 42.511)
+tune DDR_DQ27: 35.414 -> 42.511 mm (target 42.511)
+tune DDR_DQ28: 30.585 -> 42.511 mm (target 42.511)
+tune DDR_DQ29: 37.366 -> 42.511 mm (target 42.511)
+tune DDR_DQ30: 0.000 -> 0.000 mm (target 42.511) NOT MET
+tune DDR_DQ31: 36.862 -> 42.511 mm (target 42.511)
+tune DDR_DM3: 28.864 -> 28.864 mm (target 42.511) NOT MET
+tune DDR_DQS3_P: 0.000 -> 0.000 mm (target 42.511) NOT MET
+tune DDR_DQS3_N: 0.000 -> 0.000 mm (target 42.511) NOT MET
+tune DDR_A0: 80.032 -> 100.452 mm (target 100.452)
+tune DDR_A1: 71.744 -> 100.452 mm (target 100.452)
+tune DDR_A2: 79.557 -> 100.452 mm (target 100.452)
+tune DDR_A3: 91.046 -> 100.452 mm (target 100.452)
+tune DDR_A4: 93.173 -> 100.452 mm (target 100.452)
+tune DDR_A5: 88.671 -> 100.452 mm (target 100.452)
+tune DDR_A6: 76.582 -> 100.452 mm (target 100.452)
+tune DDR_A7: 94.876 -> 100.452 mm (target 100.452)
+tune DDR_A8: 90.411 -> 100.452 mm (target 100.452)
+tune DDR_A10: 79.879 -> 100.452 mm (target 100.452)
+tune DDR_A11: 62.093 -> 100.452 mm (target 100.452)
+tune DDR_A12: 66.263 -> 100.452 mm (target 100.452)
+tune DDR_A13: 62.614 -> 100.452 mm (target 100.452)
+tune DDR_A14: 67.141 -> 100.452 mm (target 100.452)
+tune DDR_BA0: 87.636 -> 100.452 mm (target 100.452)
+tune DDR_BA1: 75.356 -> 100.452 mm (target 100.452)
+tune DDR_BA2: 90.443 -> 100.452 mm (target 100.452)
+tune DDR_RAS_B: 86.787 -> 100.452 mm (target 100.452)
+tune DDR_CAS_B: 91.451 -> 100.452 mm (target 100.452)
+tune DDR_WE_B: 89.392 -> 100.452 mm (target 100.452)
+tune DDR_CS_B: 92.786 -> 100.452 mm (target 100.452)
+tune DDR_CKE: 76.385 -> 100.452 mm (target 100.452)
+tune DDR_ODT: 99.187 -> 100.452 mm (target 100.452)
+tune DDR_CK_P: 0.000 -> 0.000 mm (target 100.452) NOT MET
+tune DDR_CK_N: 0.000 -> 0.000 mm (target 100.452) NOT MET
+wrote session /out.ses

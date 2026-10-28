@@ -1,0 +1,77 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-20T20:08:36",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.3",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/dfe7e909-9a59-4730-9154-eeadcfb79001",
+            "violations": []
+        },
+        {
+            "path": "/Power: 12 V in, sequenced rails, DDR termination/",
+            "uuid_path": "/dfe7e909-9a59-4730-9154-eeadcfb79001/3be5c471-b7c7-47b5-9120-b1db4b785cb0",
+            "violations": []
+        },
+        {
+            "path": "/Zynq power pins, configuration, JTAG, XADC/",
+            "uuid_path": "/dfe7e909-9a59-4730-9154-eeadcfb79001/67c391e3-9945-463e-bb73-2b55cf2cae6f",
+            "violations": []
+        },
+        {
+            "path": "/Zynq PS: clock, reset, boot straps, QSPI, SD, UART, I2C/",
+            "uuid_path": "/dfe7e909-9a59-4730-9154-eeadcfb79001/6cec051b-fdcc-4e4d-8296-25682ca05ca6",
+            "violations": []
+        },
+        {
+            "path": "/DDR3L 512 MB x16 (PS DDR, bank 502)/",
+            "uuid_path": "/dfe7e909-9a59-4730-9154-eeadcfb79001/5735fd06-a78b-44a4-8957-4217887667a5",
+            "violations": []
+        },
+        {
+            "path": "/Gigabit Ethernet: RTL8211F (RGMII 3.3 V) + HR911130C/",
+            "uuid_path": "/dfe7e909-9a59-4730-9154-eeadcfb79001/460af64b-ffc6-4b29-af9f-8ef4562a3d2d",
+            "violations": []
+        },
+        {
+            "path": "/GNSS: u-blox MAX-M10S, PPS to PL for time sync/",
+            "uuid_path": "/dfe7e909-9a59-4730-9154-eeadcfb79001/d7a8d30e-471b-499f-8fcc-85cd51ead767",
+            "violations": []
+        },
+        {
+            "path": "/FMC LPC carrier: digitizer LVDS on banks 34/35 (2.5 V)/",
+            "uuid_path": "/dfe7e909-9a59-4730-9154-eeadcfb79001/8b8eb98f-d72d-4299-9430-607debd7a947",
+            "violations": []
+        },
+        {
+            "path": "/Zynq XC7Z020-1CLG400C (all units)/",
+            "uuid_path": "/dfe7e909-9a59-4730-9154-eeadcfb79001/45796fa5-197c-4162-8d07-1f5151e66414",
+            "violations": []
+        }
+    ],
+    "source": "board_c.kicad_sch"
+}

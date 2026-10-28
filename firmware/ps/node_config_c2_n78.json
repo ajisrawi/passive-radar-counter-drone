@@ -1,0 +1,26 @@
+{
+  "_comment": "Board C2, 5G n78 stack (56 MHz slice at 61.44 MS/s). block_log2 14 -> 3750 Hz slow-time rate. The C2 build runs the PL at 245.76 MHz (4 clocks per sample): two md_engine instances of 3 slots each (in_valid must be >= NTGT+1 clocks apart) and a 64-tap canceller, see FIRMWARE.md.",
+  "board": "C2",
+  "sample_rate": 61440000,
+  "carrier_hz": 3550000000,
+  "element_pitch_m": 0.039,
+  "channels": 4,
+  "md_slots": 6,
+  "block_log2": 14,
+  "md_out_shift": 8,
+  "cpi_len": 15360000,
+  "sv_shift": 2,
+  "ref_shift": 0,
+  "report_s": 0.5,
+  "md": {"nfft": 2048, "rotor_top_hz": 1600.0},
+  "uio": "/dev/uio0",
+  "control_port": 50000,
+  "host_port": 50000,
+  "radio": {
+    "phy_devices": ["ad9361-phy", "ad9361-phy-B", "ad9361-phy-C"],
+    "rx_lo_hz": 3550000000,
+    "rf_bandwidth_hz": 56000000,
+    "rx_gain_db": 35,
+    "mcs": true
+  }
+}

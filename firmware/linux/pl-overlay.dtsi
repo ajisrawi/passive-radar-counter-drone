@@ -1,0 +1,128 @@
+// Device-tree additions for the passive-radar node on ADI Kuiper Linux (Zynq-7000), include from the board .dts.
+// Modelled on ADI's FMCOMMS5 tree (two AD9361) extended to three; check against the ADI kernel you build
+// (adi_kuiper / linux "main" branch, Documentation/devicetree/bindings/iio/adc/adi,ad9361.yaml).
+// NOT BOOTED YET: written together with firmware/vivado/build.tcl (addresses, IRQs and EMIO numbers match it).
+//
+// Boot arguments: uio_pdrv_genirq.of_id=generic-uio   (so the generic-uio nodes below bind to UIO)
+// Modules: u-dma-buf (github.com/ikwzm/udmabuf) for the stream buffer.
+
+/ {
+    clocks {
+        ad9361_clkin: clock@0 {                 // 40 MHz TCXO on Board B, shared by the three chips
+            compatible = "fixed-clock";
+            #clock-cells = <0>;
+            clock-frequency = <40000000>;
+            clock-output-names = "ad9361_ext_refclk";
+        };
+    };
+
+    pcl_core: pcl-core@43c00000 {               // firmware/hdl/pcl_core.v -> /dev/uio0 (pcl_noded)
+        compatible = "generic-uio";
+        reg = <0x43c00000 0x1000>;
+        interrupt-parent = <&intc>;
+        interrupts = <0 29 4>;                  // IRQ_F2P[0] = md_irq
+    };
+
+    pcl_dma: pcl-dma@40400000 {                 // stream AXI DMA (S2MM SG) -> /dev/uio1 (pcl_streamd)
+        compatible = "generic-uio";
+        reg = <0x40400000 0x10000>;
+        interrupt-parent = <&intc>;
+        interrupts = <0 30 4>;                  // IRQ_F2P[1]
+    };
+
+    udmabuf0 {                                  // 4096 descriptors + 4096 x 1536 B packet buffers
+        compatible = "ikwzm,u-dma-buf";
+        device-name = "udmabuf0";
+        size = <0x00700000>;                    // 7 MB
+    };
+};
+
+&fpga_axi {
+    rx_dma_dummy: dma-controller@7c400000 {     // the ADI converter driver wants a DMA channel per core; the
+        status = "disabled";                    // stream does not use it (pcl_core has its own path). If the
+    };                                          // cf_axi_adc driver refuses to probe without one, add an
+                                                // axi_dmac per core in build.tcl as ADI's FMCOMMS5 does.
+    cf_ad9361_adc_core_0: cf-ad9361-lpc@79020000 {
+        compatible = "adi,axi-ad9361-6.00.a";
+        reg = <0x79020000 0x6000>;
+        spibus-connected = <&adc0_ad9361>;
+    };
+    cf_ad9361_adc_core_1: cf-ad9361-B@79040000 {
+        compatible = "adi,axi-ad9361-6.00.a";
+        reg = <0x79040000 0x6000>;
+        spibus-connected = <&adc1_ad9361>;
+    };
+    cf_ad9361_adc_core_2: cf-ad9361-C@79060000 {
+        compatible = "adi,axi-ad9361-6.00.a";
+        reg = <0x79060000 0x6000>;
+        spibus-connected = <&adc2_ad9361>;
+    };
+};
+
+&spi0 {
+    status = "okay";
+    #address-cells = <1>;
+    #size-cells = <0>;
+    num-cs = <3>;
+
+    adc0_ad9361: ad9361-phy@0 {
+        compatible = "adi,ad9361";
+        reg = <0>;
+        spi-cpha;
+        spi-max-frequency = <10000000>;
+        clocks = <&ad9361_clkin 0>;
+        clock-names = "ad9361_ext_refclk";
+        clock-output-names = "rx_sampl_clk", "tx_sampl_clk";
+        #clock-cells = <1>;
+        reset-gpios = <&gpio0 54 0>;            // EMIO o[0] AD_RESETB (shared)
+        sync-gpios = <&gpio0 55 0>;             // EMIO o[1] AD_SYNC_IN (multi-chip sync, shared)
+        enable-gpios = <&gpio0 56 0>;           // EMIO o[2]
+        txnrx-gpios = <&gpio0 57 0>;            // EMIO o[3]
+        adi,digital-interface-tune-skip-mode = <0>;
+        adi,lvds-mode-enable;
+        adi,lvds-rx-onchip-termination-enable;
+        adi,2rx-2tx-mode-enable;
+        adi,frequency-division-duplex-mode-enable;
+        adi,rx-rf-port-input-select = <0>;      // RXxA inputs (Board B)
+        adi,rx-synthesizer-frequency-hz = /bits/ 64 <626000000>;
+        adi,gc-rx1-mode = <0>;                  // manual gain (pcl_noded sets it)
+        adi,gc-rx2-mode = <0>;
+        adi,xo-disable-use-ext-refclk-enable;   // each chip runs its own (internal) LO from the shared 40 MHz
+    };
+    adc1_ad9361: ad9361-phy-B@1 {
+        compatible = "adi,ad9361";
+        reg = <1>;
+        spi-cpha;
+        spi-max-frequency = <10000000>;
+        clocks = <&ad9361_clkin 0>;
+        clock-names = "ad9361_ext_refclk";
+        clock-output-names = "rx_sampl_clk_B", "tx_sampl_clk_B";
+        #clock-cells = <1>;
+        adi,lvds-mode-enable;
+        adi,lvds-rx-onchip-termination-enable;
+        adi,2rx-2tx-mode-enable;
+        adi,frequency-division-duplex-mode-enable;
+        adi,rx-rf-port-input-select = <0>;
+        adi,gc-rx1-mode = <0>;
+        adi,gc-rx2-mode = <0>;
+        adi,xo-disable-use-ext-refclk-enable;
+    };
+    adc2_ad9361: ad9361-phy-C@2 {
+        compatible = "adi,ad9361";
+        reg = <2>;
+        spi-cpha;
+        spi-max-frequency = <10000000>;
+        clocks = <&ad9361_clkin 0>;
+        clock-names = "ad9361_ext_refclk";
+        clock-output-names = "rx_sampl_clk_C", "tx_sampl_clk_C";
+        #clock-cells = <1>;
+        adi,lvds-mode-enable;
+        adi,lvds-rx-onchip-termination-enable;
+        adi,2rx-2tx-mode-enable;
+        adi,frequency-division-duplex-mode-enable;
+        adi,rx-rf-port-input-select = <0>;
+        adi,gc-rx1-mode = <0>;
+        adi,gc-rx2-mode = <0>;
+        adi,xo-disable-use-ext-refclk-enable;
+    };
+};

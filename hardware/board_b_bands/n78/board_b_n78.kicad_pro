@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "filename": "board_b_n78.kicad_pro",
+    "version": 1
+  },
+  "sheets": [
+    [
+      "8ea4361a-cbc8-453e-aa33-02f984f6344e",
+      "Root"
+    ],
+    [
+      "29392921-b85c-4717-9332-f6928bf0d037",
+      "AD9361 #1 (CH0, CH1)"
+    ],
+    [
+      "29d96e6f-1b0d-4dd8-a683-1dcfe49d793e",
+      "AD9361 #2 (CH2, CH3)"
+    ],
+    [
+      "b4c7a499-9e77-4a86-84b3-3c41c4abc0e6",
+      "AD9361 #3 (CH4, CH5)"
+    ],
+    [
+      "fdf2d341-91ea-47be-b3ad-7d8095d0ec5f",
+      "RF inputs: SMA, attenuator positions, baluns"
+    ],
+    [
+      "6ca8cd95-2f4a-47fa-b28f-b9e6fb5b2366",
+      "40 MHz reference distribution"
+    ],
+    [
+      "3f85507a-09cb-4367-b41b-eb0d2a4abc5c",
+      "Power: 12 V -> 1.8 V -> 3 x 1.3 V low-noise LDOs"
+    ],
+    [
+      "9bb4ee69-6b72-4e10-9840-d9cb61e6c19c",
+      "FMC LPC mezzanine connector"
+    ]
+  ]
+}

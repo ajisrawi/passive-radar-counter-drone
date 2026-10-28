@@ -1,0 +1,11 @@
+OpenRoute 0.1 — design C:\Users\ahmad\Documents\Passive Radar for Counter Drone\hardware\board_c\route\board_c.dsn: 251 nets, 314 components, 8 layers, resolution um 10
+lattice 2176x1876x4 pitch=1000 connections=702
+fanout pass   1 | routed 131/702 | unrouted 571 | conflicts 0 | vias 135 | length 14.0mm | 0.1s
+route  pass   2 | routed 683/702 | unrouted 19 | conflicts 6392 | vias 1093 | length 19944.2mm | 435.8s
+route  pass   3 | routed 674/702 | unrouted 28 | conflicts 1851 | vias 1186 | length 20069.5mm | 410.2s
+route  pass   4 | routed 672/702 | unrouted 30 | conflicts 1145 | vias 1189 | length 20161.0mm | 358.1s
+route  pass   5 | routed 672/702 | unrouted 30 | conflicts 769 | vias 1209 | length 20033.9mm | 413.2s
+route  pass   6 | routed 668/702 | unrouted 34 | conflicts 576 | vias 1210 | length 19974.7mm | 388.0s
+route  pass   7 | routed 669/702 | unrouted 33 | conflicts 488 | vias 1213 | length 19910.2mm | 364.7s
+route  pass   8 | routed 668/702 | unrouted 34 | conflicts 280 | vias 1237 | length 20131.9mm | 390.6s
+exit=127

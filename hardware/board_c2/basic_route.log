@@ -1,0 +1,92 @@
+unit mm
+constraint regions: 14
+lattice 722x657x6 pitch=305.17578125 connections=1639
+fanout pass   1 | routed 1030/1639 | unrouted 609 | conflicts 0 | vias 1040 | length 565.5mm | 31.7s
+route  pass   2 | routed 1600/1639 | unrouted 39 | conflicts 733 | vias 2094 | length 25579.8mm | 133.3s
+route  pass   3 | routed 1621/1639 | unrouted 18 | conflicts 244 | vias 2161 | length 27416.7mm | 181.8s
+route  pass   4 | routed 1627/1639 | unrouted 12 | conflicts 179 | vias 2188 | length 27559.5mm | 75.5s
+route  pass   5 | routed 1623/1639 | unrouted 16 | conflicts 146 | vias 2195 | length 27457.9mm | 52.4s
+route  pass   6 | routed 1624/1639 | unrouted 15 | conflicts 99 | vias 2196 | length 27328.5mm | 49.4s
+route  pass   7 | routed 1632/1639 | unrouted 7 | conflicts 56 | vias 2224 | length 27837.5mm | 31.4s
+route  pass   8 | routed 1632/1639 | unrouted 7 | conflicts 46 | vias 2223 | length 27775.0mm | 32.0s
+route  pass   9 | routed 1635/1639 | unrouted 4 | conflicts 52 | vias 2230 | length 27915.3mm | 35.6s
+route  pass  10 | routed 1633/1639 | unrouted 6 | conflicts 44 | vias 2226 | length 27800.3mm | 28.7s
+route  pass  11 | routed 1635/1639 | unrouted 4 | conflicts 46 | vias 2230 | length 27915.3mm | 27.8s
+route  pass  12 | routed 1634/1639 | unrouted 5 | conflicts 40 | vias 2225 | length 27767.9mm | 39.4s
+route  pass  13 | routed 1634/1639 | unrouted 5 | conflicts 40 | vias 2225 | length 27721.3mm | 24.2s
+route  pass  14 | routed 1635/1639 | unrouted 4 | conflicts 41 | vias 2227 | length 27802.1mm | 24.4s
+route  pass  15 | routed 1633/1639 | unrouted 6 | conflicts 43 | vias 2223 | length 27687.1mm | 30.6s
+route  pass  16 | routed 1633/1639 | unrouted 6 | conflicts 43 | vias 2223 | length 27687.1mm | 22.1s
+route  pass  17 | routed 1632/1639 | unrouted 7 | conflicts 38 | vias 2221 | length 27667.2mm | 22.1s
+route  pass  18 | routed 1634/1639 | unrouted 5 | conflicts 40 | vias 2225 | length 27767.9mm | 30.9s
+route  pass  19 | routed 1633/1639 | unrouted 6 | conflicts 39 | vias 2222 | length 27687.1mm | 21.5s
+route  pass  20 | routed 1634/1639 | unrouted 5 | conflicts 43 | vias 2225 | length 27721.6mm | 21.7s
+route  pass  21 | routed 1634/1639 | unrouted 5 | conflicts 39 | vias 2226 | length 27736.2mm | 30.6s
+route  pass  22 | routed 1636/1639 | unrouted 3 | conflicts 45 | vias 2230 | length 27839.1mm | 21.9s
+route  pass  23 | routed 1621/1639 | unrouted 18 | conflicts 0 | vias 2182 | length 27109.1mm | 64.0s
+route  pass  24 | routed 1626/1639 | unrouted 13 | conflicts 0 | vias 2193 | length 27181.7mm | 68.4s
+route  pass  25 | routed 1626/1639 | unrouted 13 | conflicts 0 | vias 2193 | length 27181.7mm | 59.0s
+route  pass  26 | routed 1626/1639 | unrouted 13 | conflicts 0 | vias 2193 | length 27181.7mm | 85.4s
+clean  pass  27 | routed 1626/1639 | unrouted 13 | conflicts 0 | vias 1980 | length 27083.1mm | 78.3s
+clean: improved 181 connections
+clean  pass  28 | routed 1626/1639 | unrouted 13 | conflicts 0 | vias 1959 | length 27026.1mm | 74.0s
+clean: improved 51 connections
+route  pass  29 | routed 1636/1639 | unrouted 3 | conflicts 18 | vias 1989 | length 27485.4mm | 17.0s
+route  pass  30 | routed 1635/1639 | unrouted 4 | conflicts 14 | vias 1989 | length 27457.9mm | 11.4s
+route  pass  31 | routed 1635/1639 | unrouted 4 | conflicts 12 | vias 1986 | length 27449.3mm | 10.7s
+route  pass  32 | routed 1635/1639 | unrouted 4 | conflicts 12 | vias 1986 | length 27449.3mm | 19.2s
+route  pass  33 | routed 1635/1639 | unrouted 4 | conflicts 12 | vias 1986 | length 27449.3mm | 10.9s
+route  pass  34 | routed 1636/1639 | unrouted 3 | conflicts 12 | vias 1989 | length 27478.3mm | 10.8s
+route  pass  35 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 72.5s
+route  pass  36 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 47.9s
+route  pass  37 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.0s
+route  pass  38 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 70.4s
+route  pass  39 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.1s
+route  pass  40 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 49.4s
+route  pass  41 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 47.3s
+route  pass  42 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 69.9s
+route  pass  43 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.3s
+route  pass  44 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.5s
+route  pass  45 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 47.7s
+route  pass  46 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 69.6s
+route  pass  47 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 47.9s
+route  pass  48 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 47.5s
+route  pass  49 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 47.7s
+route  pass  50 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 69.5s
+route  pass  51 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.4s
+route  pass  52 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.4s
+route  pass  53 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.4s
+route  pass  54 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 69.9s
+route  pass  55 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 47.6s
+route  pass  56 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.1s
+route  pass  57 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.5s
+route  pass  58 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 69.5s
+route  pass  59 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 47.8s
+route  pass  60 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.5s
+route  pass  61 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.4s
+route  pass  62 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 70.0s
+route  pass  63 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.3s
+route  pass  64 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 47.9s
+route  pass  65 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.0s
+route  pass  66 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 69.6s
+route  pass  67 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.2s
+route  pass  68 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 47.4s
+route  pass  69 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.6s
+route  pass  70 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 71.9s
+route  pass  71 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 46.0s
+route  pass  72 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 48.1s
+route  pass  73 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 45.8s
+route  pass  74 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 68.4s
+route  pass  75 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 44.9s
+route  pass  76 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 45.3s
+route  pass  77 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 45.2s
+route  pass  78 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1972 | length 27236.0mm | 66.1s
+clean  pass  79 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1967 | length 27216.2mm | 68.6s
+clean: improved 20 connections
+clean  pass  80 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1960 | length 27222.0mm | 68.0s
+clean: improved 13 connections
+clean  pass  81 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1958 | length 27225.3mm | 68.1s
+clean: improved 3 connections
+clean  pass  82 | routed 1629/1639 | unrouted 10 | conflicts 0 | vias 1958 | length 27217.4mm | 68.7s
+clean: improved 4 connections
+wrote session /out.ses

@@ -1,0 +1,17 @@
+OpenRoute 0.1 — design C:\Users\ahmad\Documents\Passive Radar for Counter Drone\hardware\board_c\route\board_c.dsn: 251 nets, 314 components, 8 layers, resolution um 10
+lattice 2176x1876x4 pitch=1000 connections=702
+fanout pass   1 | routed 131/702 | unrouted 571 | conflicts 0 | vias 135 | length 14.0mm | 0.1s
+route  pass   2 | routed 702/702 | unrouted 0 | conflicts 10471 | vias 1592 | length 22808.8mm | 74.6s
+route  pass   3 | routed 687/702 | unrouted 15 | conflicts 4353 | vias 1672 | length 22728.6mm | 106.5s
+route  pass   4 | routed 688/702 | unrouted 14 | conflicts 2389 | vias 1688 | length 22314.7mm | 156.9s
+route  pass   5 | routed 689/702 | unrouted 13 | conflicts 1905 | vias 1720 | length 22776.1mm | 297.8s
+route  pass   6 | routed 686/702 | unrouted 16 | conflicts 1504 | vias 1694 | length 22452.8mm | 423.9s
+route  pass   7 | routed 688/702 | unrouted 14 | conflicts 1271 | vias 1745 | length 22763.5mm | 508.9s
+route  pass   8 | routed 686/702 | unrouted 16 | conflicts 951 | vias 1754 | length 22864.7mm | 726.9s
+route  pass   9 | routed 689/702 | unrouted 13 | conflicts 768 | vias 1791 | length 23134.3mm | 1006.3s
+route  pass  10 | routed 687/702 | unrouted 15 | conflicts 522 | vias 1751 | length 23010.5mm | 1088.6s
+route  pass  11 | routed 689/702 | unrouted 13 | conflicts 515 | vias 1761 | length 23105.9mm | 1337.8s
+route  pass  12 | routed 683/702 | unrouted 19 | conflicts 301 | vias 1732 | length 22667.6mm | 1312.6s
+route  pass  13 | routed 684/702 | unrouted 18 | conflicts 304 | vias 1757 | length 22809.1mm | 1312.3s
+route  pass  14 | routed 684/702 | unrouted 18 | conflicts 207 | vias 1756 | length 22887.0mm | 1342.3s
+route  pass  15 | routed 684/702 | unrouted 18 | conflicts 221 | vias 1754 | length 22824.9mm | 1498.0s

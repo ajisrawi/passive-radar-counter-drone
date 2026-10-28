@@ -1,0 +1,48 @@
+{
+  "meta": {
+    "filename": "board_c2.kicad_pro",
+    "version": 1
+  },
+  "sheets": [
+    [
+      "03782813-1c8f-40ec-9d7b-bb5f0b74ef38",
+      "Root"
+    ],
+    [
+      "57df3778-576e-462b-a4f8-dfb7c95734ad",
+      "Power: 12 V in, sequenced rails incl. GTX, DDR termination"
+    ],
+    [
+      "5d6ddac7-c7af-4f20-b2e9-1fedfc8467a2",
+      "Zynq power pins, GTX power, configuration, JTAG, XADC"
+    ],
+    [
+      "8143bd3c-0f6c-4c5a-b482-44169a18756a",
+      "Zynq PS: clock, reset, boot straps, QSPI, SD, UART, I2C, SFP control"
+    ],
+    [
+      "92c6dd09-458b-436c-ae38-2f31b13b4c9f",
+      "DDR3L 1 GB x32 (2 x NT5CC256M16, PS DDR, bank 502)"
+    ],
+    [
+      "25e11e61-ea89-4822-bff8-d2a5f2a8053b",
+      "2 x 10 GbE SFP+ (GTX quad 112), 156.25 MHz reference, SFP I2C mux"
+    ],
+    [
+      "4998b787-8517-498a-981d-8f03ac8cb260",
+      "Gigabit Ethernet management port: RTL8211F (RGMII 3.3 V) + HR911130C"
+    ],
+    [
+      "00a8a53b-b52b-4591-b23d-0e47aa9b18cf",
+      "GNSS: u-blox MAX-M10S, VCC_IO 1.8 V, PPS to HP bank 33 (SRCC)"
+    ],
+    [
+      "a01a4bb1-53bf-4cb8-9453-d3ea2d6b8e4e",
+      "FMC LPC carrier: digitizer LVDS on HR banks 12/13 (2.5 V)"
+    ],
+    [
+      "30393d78-10fd-4061-ad8f-d6a22ed1e926",
+      "Zynq XC7Z035-2FFG676I (all units)"
+    ]
+  ]
+}

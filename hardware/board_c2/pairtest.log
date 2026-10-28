@@ -1,0 +1,33 @@
+unit mm
+constraint regions: 14
+lattice 722x657x6 pitch=305.17578125 connections=18
+fanout pass   1 | routed 0/18 | unrouted 18 | conflicts 0 | vias 0 | length 0.0mm | 0.0s
+route  pass   2 | routed 18/18 | unrouted 0 | conflicts 28 | vias 63 | length 2664.5mm | 5.9s
+route  pass   3 | routed 18/18 | unrouted 0 | conflicts 18 | vias 65 | length 2677.6mm | 1.8s
+route  pass   4 | routed 18/18 | unrouted 0 | conflicts 8 | vias 65 | length 2680.1mm | 1.2s
+route  pass   5 | routed 18/18 | unrouted 0 | conflicts 2 | vias 68 | length 2676.4mm | 0.6s
+route  pass   6 | routed 18/18 | unrouted 0 | conflicts 0 | vias 68 | length 2679.4mm | 0.1s
+clean  pass   7 | routed 18/18 | unrouted 0 | conflicts 0 | vias 58 | length 2696.8mm | 5.8s
+clean: improved 8 connections
+clean  pass   8 | routed 18/18 | unrouted 0 | conflicts 0 | vias 47 | length 2699.9mm | 5.0s
+clean: improved 7 connections
+nothing to route
+clean  pass  10 | routed 18/18 | unrouted 0 | conflicts 0 | vias 47 | length 2699.9mm | 4.1s
+clean: improved 0 connections
+tune AD3_DCLK_N: 155.340 -> 162.938 mm (target 162.938)
+tune AD3_FBCLK_N: 151.088 -> 162.938 mm (target 162.938)
+tune AD3_FRAME_N: 158.777 -> 162.938 mm (target 162.938)
+tune AD3_RXD0_N: 154.497 -> 162.938 mm (target 162.938)
+tune AD3_RXD1_N: 150.783 -> 162.938 mm (target 162.938)
+tune AD3_RXD2_P: 150.493 -> 162.938 mm (target 162.938)
+tune AD3_RXD3_N: 157.329 -> 162.938 mm (target 162.938)
+tune AD3_RXD4_N: 144.500 -> 162.938 mm (target 162.938)
+tune AD3_RXD5_N: 147.009 -> 162.938 mm (target 162.938)
+tune AD3_DCLK_P: 159.625 -> 162.938 mm (target 162.938)
+tune AD3_FBCLK_P: 155.208 -> 162.938 mm (target 162.938)
+tune AD3_RXD0_P: 157.133 -> 162.938 mm (target 162.938)
+tune AD3_RXD1_P: 160.908 -> 162.938 mm (target 162.938)
+tune AD3_RXD2_N: 152.448 -> 162.938 mm (target 162.938)
+tune AD3_RXD4_P: 146.758 -> 162.938 mm (target 162.938)
+tune AD3_RXD5_P: 154.789 -> 162.938 mm (target 162.938)
+wrote session /out.ses

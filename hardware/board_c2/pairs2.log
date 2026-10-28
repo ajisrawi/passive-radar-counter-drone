@@ -1,0 +1,10 @@
+unit mm
+shape route pass 1: 8 nets incomplete, 8 connections open, 0 conflicts, 0 rip-ups, 410.1s
+shape route pass 2: 9 nets incomplete, 9 connections open, 0 conflicts, 9 rip-ups, 499.8s
+shape route pass 3: 9 nets incomplete, 9 connections open, 0 conflicts, 18 rip-ups, 594.3s
+shape route pass 4: 4 nets incomplete, 4 connections open, 0 conflicts, 22 rip-ups, 671.9s
+shape route pass 5: 1 nets incomplete, 1 connections open, 0 conflicts, 23 rip-ups, 697.8s
+shape route pass 6: 1 nets incomplete, 1 connections open, 0 conflicts, 24 rip-ups, 719.8s
+shape route pass 7: 0 nets incomplete, 0 connections open, 0 conflicts, 24 rip-ups, 721.2s
+shape-based router: 86 nets, 0 connections open, 155 vias, wire length 8532.2 mm, 245 searches, 24 rip-ups — complete
+wrote session /out.ses

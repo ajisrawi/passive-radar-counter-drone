@@ -1,0 +1,25 @@
+2026-10-21 06:50:05.676 INFO   Freerouting v2.5.0 (build-date: 2026-10-05)
+2026-10-21 06:50:05.991 INFO   Hardware: 8 CPU cores, 460 CPU score, 2996 MB RAM
+2026-10-21 06:50:05.993 WARN   GUI is disabled and you don't have a console available, so the only feedback from Freerouting is in the log.
+2026-10-21 06:50:07.343 INFO   [FEC483\86B175] Loading board file 'board_a.dsn'...
+2026-10-21 06:50:07.543 INFO   [FEC483\86B175] Job 'FEC483\86B175' started at 2026-10-21T03:50:07.542774200Z.
+2026-10-21 06:50:09.385 WARN   Design Warning: Board has 6 pre-existing clearance violation(s) in the loaded design (before routing):
+  - 6 unfixable violation(s) (cannot be resolved by Freerouting):
+      * 6 fixed trace/via clearance violations (first 5 shown):
+          - R22.2 [net CH1_CAL] <-> FixedVia#1622 [net CH1_CAL]
+          - R24.2 [net CH3_CAL] <-> FixedVia#1624 [net CH3_CAL]
+          - R23.2 [net CH2_CAL] <-> FixedVia#1623 [net CH2_CAL]
+          - R21.2 [net CH0_CAL] <-> FixedVia#1621 [net CH0_CAL]
+          - R26.2 [net CH5_CAL] <-> FixedVia#1626 [net CH5_CAL]
+          ... and 1 more
+  - 0 potentially fixable violations
+Notice: Freerouting does not modify component placement, board outlines, or fixed items.
+Resolving these 6 unfixable violation(s) is the responsibility of the board author in their EDA tool (e.g. KiCad).
+2026-10-21 06:50:09.441 INFO   [FEC483\86B175] Pipeline thread limits: autorouter pass is single-threaded, optimizer.max_threads=7.
+2026-10-21 06:50:12.501 INFO   [FEC483\86B175] Auto-routing stage started on board 'a4bbdba1a50bef53d59ec6a75928f6a1' with baseline score 316.11 for 230 unrouted items.
+2026-10-21 06:51:43.051 INFO   [FEC483\86B175] Auto-routing pass #1 on board 'a4bbdba1a50bef53d59ec6a75928f6a1' was completed in 88.95 seconds with score 856.45 (47 unrouted and 6 violations), using 86.31 CPU seconds and the job allocated 21.29 GB of memory so far.
+2026-10-21 06:52:05.692 INFO   [FEC483\86B175] Auto-routing pass #2 on board '7e9e4a6e694b3dcdf1063d499ab7a04c' was completed in 21.03 seconds with score 862.54 (45 unrouted and 6 violations), using 108.94 CPU seconds and the job allocated 29.89 GB of memory so far.
+2026-10-21 06:52:26.520 INFO   [FEC483\86B175] Auto-routing pass #3 on board '5c611b56b537afef34d0192b085edc35' was completed in 19.20 seconds with score 847.32 (50 unrouted and 6 violations), using 129.73 CPU seconds and the job allocated 35.59 GB of memory so far.
+2026-10-21 06:52:48.114 INFO   [FEC483\86B175] Auto-routing pass #4 on board '026b4787b41de219c0d2ccae64480c1c' was completed in 19.49 seconds with score 889.93 (36 unrouted and 6 violations), using 150.64 CPU seconds and the job allocated 41.83 GB of memory so far.
+2026-10-21 06:53:07.502 INFO   [FEC483\86B175] Auto-routing pass #5 on board '32f90c7a90b0b23f3760e9f494edc5f9' was completed in 17.36 seconds with score 899.07 (33 unrouted and 6 violations), using 170.33 CPU seconds and the job allocated 47.16 GB of memory so far.
+2026-10-21 06:53:22.934 INFO   [FEC483\86B175] Auto-routing pass #6 on board '36f0733a769bcf1bd5a9c460948bff14' was completed in 13.66 seconds with score 911.24 (29 unrouted and 6 violations), using 185.12 CPU seconds and the job allocated 51.91 GB of memory so far.

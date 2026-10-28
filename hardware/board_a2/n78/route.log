@@ -1,0 +1,120 @@
+lattice 651x851x4 pitch=200 connections=490
+fanout pass   1 | routed 0/490 | unrouted 490 | conflicts 0 | vias 0 | length 0.0mm | 0.0s
+route  pass   2 | routed 480/490 | unrouted 10 | conflicts 175 | vias 196 | length 4257.2mm | 72.4s
+route  pass   3 | routed 480/490 | unrouted 10 | conflicts 49 | vias 205 | length 4259.0mm | 91.1s
+route  pass   4 | routed 481/490 | unrouted 9 | conflicts 11 | vias 205 | length 4278.4mm | 71.0s
+route  pass   5 | routed 481/490 | unrouted 9 | conflicts 11 | vias 205 | length 4278.4mm | 100.2s
+constraint regions: 12
+lattice 651x851x4 pitch=200 connections=490
+fanout pass   1 | routed 0/490 | unrouted 490 | conflicts 0 | vias 0 | length 0.0mm | 0.0s
+route  pass   2 | routed 486/490 | unrouted 4 | conflicts 195 | vias 208 | length 4304.6mm | 50.1s
+route  pass   3 | routed 486/490 | unrouted 4 | conflicts 52 | vias 214 | length 4295.2mm | 55.4s
+route  pass   4 | routed 485/490 | unrouted 5 | conflicts 51 | vias 212 | length 4281.0mm | 50.3s
+route  pass   5 | routed 484/490 | unrouted 6 | conflicts 34 | vias 211 | length 4261.2mm | 72.3s
+route  pass   6 | routed 483/490 | unrouted 7 | conflicts 28 | vias 210 | length 4241.2mm | 51.3s
+route  pass   7 | routed 483/490 | unrouted 7 | conflicts 28 | vias 209 | length 4241.2mm | 53.9s
+route  pass   8 | routed 483/490 | unrouted 7 | conflicts 28 | vias 209 | length 4241.2mm | 55.9s
+route  pass   9 | routed 483/490 | unrouted 7 | conflicts 28 | vias 209 | length 4240.8mm | 85.0s
+clean  pass  10 | routed 483/490 | unrouted 7 | conflicts 28 | vias 141 | length 4309.4mm | 20.9s
+clean: improved 64 connections
+clean  pass  11 | routed 483/490 | unrouted 7 | conflicts 28 | vias 129 | length 4341.2mm | 18.0s
+clean: improved 9 connections
+restored best routing
+wrote session /out.ses
+constraint regions: 21
+lattice 651x851x4 pitch=200 connections=490
+fanout pass   1 | routed 0/490 | unrouted 490 | conflicts 0 | vias 0 | length 0.0mm | 0.0s
+route  pass   2 | routed 490/490 | unrouted 0 | conflicts 120 | vias 212 | length 4266.4mm | 17.8s
+route  pass   3 | routed 489/490 | unrouted 1 | conflicts 43 | vias 209 | length 4256.4mm | 8.6s
+route  pass   4 | routed 488/490 | unrouted 2 | conflicts 40 | vias 206 | length 4241.0mm | 2.5s
+route  pass   5 | routed 488/490 | unrouted 2 | conflicts 29 | vias 208 | length 4236.8mm | 2.8s
+route  pass   6 | routed 488/490 | unrouted 2 | conflicts 29 | vias 208 | length 4236.8mm | 4.3s
+route  pass   7 | routed 488/490 | unrouted 2 | conflicts 31 | vias 208 | length 4236.8mm | 7.0s
+route  pass   8 | routed 488/490 | unrouted 2 | conflicts 29 | vias 207 | length 4236.8mm | 10.8s
+route  pass   9 | routed 488/490 | unrouted 2 | conflicts 29 | vias 207 | length 4236.8mm | 24.2s
+route  pass  10 | routed 488/490 | unrouted 2 | conflicts 29 | vias 207 | length 4236.8mm | 40.1s
+route  pass  11 | routed 487/490 | unrouted 3 | conflicts 23 | vias 206 | length 4215.2mm | 49.9s
+route  pass  12 | routed 487/490 | unrouted 3 | conflicts 23 | vias 206 | length 4215.2mm | 46.0s
+route  pass  13 | routed 487/490 | unrouted 3 | conflicts 23 | vias 206 | length 4215.2mm | 50.4s
+route  pass  14 | routed 487/490 | unrouted 3 | conflicts 23 | vias 206 | length 4215.2mm | 43.2s
+route  pass  15 | routed 487/490 | unrouted 3 | conflicts 23 | vias 206 | length 4215.2mm | 46.1s
+clean  pass  16 | routed 487/490 | unrouted 3 | conflicts 23 | vias 134 | length 4307.4mm | 25.0s
+clean: improved 61 connections
+clean  pass  17 | routed 487/490 | unrouted 3 | conflicts 23 | vias 120 | length 4339.8mm | 22.3s
+clean: improved 9 connections
+restored best routing
+wrote session /out.ses
+constraint regions: 21
+lattice 651x851x4 pitch=200 connections=490
+fanout pass   1 | routed 0/490 | unrouted 490 | conflicts 0 | vias 0 | length 0.0mm | 0.0s
+route  pass   2 | routed 485/490 | unrouted 5 | conflicts 173 | vias 194 | length 4211.0mm | 72.2s
+route  pass   3 | routed 489/490 | unrouted 1 | conflicts 79 | vias 197 | length 4234.8mm | 8.6s
+route  pass   4 | routed 488/490 | unrouted 2 | conflicts 38 | vias 197 | length 4221.2mm | 1.5s
+route  pass   5 | routed 486/490 | unrouted 4 | conflicts 36 | vias 195 | length 4182.4mm | 1.7s
+route  pass   6 | routed 485/490 | unrouted 5 | conflicts 26 | vias 194 | length 4165.4mm | 2.2s
+route  pass   7 | routed 486/490 | unrouted 4 | conflicts 17 | vias 195 | length 4184.8mm | 1.3s
+route  pass   8 | routed 486/490 | unrouted 4 | conflicts 17 | vias 195 | length 4184.8mm | 1.6s
+route  pass   9 | routed 486/490 | unrouted 4 | conflicts 17 | vias 195 | length 4184.8mm | 2.7s
+route  pass  10 | routed 486/490 | unrouted 4 | conflicts 17 | vias 195 | length 4184.8mm | 3.6s
+route  pass  11 | routed 487/490 | unrouted 3 | conflicts 17 | vias 195 | length 4202.8mm | 5.0s
+route  pass  12 | routed 487/490 | unrouted 3 | conflicts 17 | vias 195 | length 4202.8mm | 2.8s
+route  pass  13 | routed 486/490 | unrouted 4 | conflicts 16 | vias 194 | length 4183.4mm | 6.7s
+route  pass  14 | routed 486/490 | unrouted 4 | conflicts 16 | vias 194 | length 4183.4mm | 3.4s
+route  pass  15 | routed 486/490 | unrouted 4 | conflicts 16 | vias 194 | length 4183.4mm | 2.6s
+clean  pass  16 | routed 486/490 | unrouted 4 | conflicts 16 | vias 138 | length 4261.2mm | 20.8s
+clean: improved 51 connections
+clean  pass  17 | routed 486/490 | unrouted 4 | conflicts 16 | vias 134 | length 4264.0mm | 19.0s
+clean: improved 3 connections
+restored best routing
+wrote session /out.ses
+constraint regions: 21
+lattice 651x851x4 pitch=200 connections=480
+fanout pass   1 | routed 0/480 | unrouted 480 | conflicts 0 | vias 0 | length 0.0mm | 0.0s
+route  pass   2 | routed 469/480 | unrouted 11 | conflicts 40 | vias 183 | length 3990.2mm | 68.5s
+route  pass   3 | routed 474/480 | unrouted 6 | conflicts 0 | vias 186 | length 4030.4mm | 6.9s
+route  pass   4 | routed 474/480 | unrouted 6 | conflicts 0 | vias 186 | length 4030.4mm | 0.0s
+route  pass   5 | routed 474/480 | unrouted 6 | conflicts 0 | vias 186 | length 4030.4mm | 0.0s
+route  pass   6 | routed 474/480 | unrouted 6 | conflicts 0 | vias 186 | length 4030.4mm | 0.0s
+route  pass   7 | routed 474/480 | unrouted 6 | conflicts 0 | vias 186 | length 4030.4mm | 0.0s
+route  pass   8 | routed 474/480 | unrouted 6 | conflicts 0 | vias 186 | length 4030.4mm | 0.0s
+route  pass   9 | routed 474/480 | unrouted 6 | conflicts 0 | vias 186 | length 4030.4mm | 0.0s
+route  pass  10 | routed 474/480 | unrouted 6 | conflicts 0 | vias 186 | length 4030.4mm | 0.0s
+route  pass  11 | routed 474/480 | unrouted 6 | conflicts 0 | vias 186 | length 4030.4mm | 0.0s
+route  pass  12 | routed 474/480 | unrouted 6 | conflicts 0 | vias 186 | length 4030.4mm | 0.0s
+route  pass  13 | routed 474/480 | unrouted 6 | conflicts 0 | vias 186 | length 4030.4mm | 0.0s
+route  pass  14 | routed 474/480 | unrouted 6 | conflicts 0 | vias 186 | length 4030.4mm | 0.0s
+route  pass  15 | routed 474/480 | unrouted 6 | conflicts 0 | vias 186 | length 4030.4mm | 0.0s
+clean  pass  16 | routed 474/480 | unrouted 6 | conflicts 0 | vias 128 | length 4110.2mm | 21.1s
+clean: improved 52 connections
+clean  pass  17 | routed 474/480 | unrouted 6 | conflicts 0 | vias 124 | length 4113.0mm | 18.9s
+clean: improved 3 connections
+wrote session /out.ses
+lattice 579x757x4 pitch=225 connections=490
+fanout pass   1 | routed 0/490 | unrouted 490 | conflicts 0 | vias 0 | length 0.0mm | 0.0s
+route  pass   2 | routed 40/490 | unrouted 450 | conflicts 4 | vias 0 | length 0.0mm | 0.1s
+route  pass   3 | routed 40/490 | unrouted 450 | conflicts 4 | vias 0 | length 0.0mm | 0.0s
+route  pass   4 | routed 40/490 | unrouted 450 | conflicts 4 | vias 0 | length 0.0mm | 0.1s
+route  pass   5 | routed 40/490 | unrouted 450 | conflicts 4 | vias 0 | length 0.0mm | 0.0s
+route  pass   6 | routed 40/490 | unrouted 450 | conflicts 4 | vias 0 | length 0.0mm | 0.0s
+route  pass   7 | routed 40/490 | unrouted 450 | conflicts 4 | vias 0 | length 0.0mm | 0.0s
+route  pass   8 | routed 40/490 | unrouted 450 | conflicts 4 | vias 0 | length 0.0mm | 0.0s
+route  pass   9 | routed 40/490 | unrouted 450 | conflicts 4 | vias 0 | length 0.0mm | 0.0s
+route  pass  10 | routed 40/490 | unrouted 450 | conflicts 4 | vias 0 | length 0.0mm | 0.0s
+route  pass  11 | routed 40/490 | unrouted 450 | conflicts 4 | vias 0 | length 0.0mm | 0.0s
+route  pass  12 | routed 40/490 | unrouted 450 | conflicts 4 | vias 0 | length 0.0mm | 0.0s
+route  pass  13 | routed 40/490 | unrouted 450 | conflicts 4 | vias 0 | length 0.0mm | 0.0s
+route  pass  14 | routed 40/490 | unrouted 450 | conflicts 4 | vias 0 | length 0.0mm | 0.0s
+route  pass  15 | routed 40/490 | unrouted 450 | conflicts 4 | vias 0 | length 0.0mm | 0.0s
+clean  pass  16 | routed 40/490 | unrouted 450 | conflicts 4 | vias 0 | length 0.0mm | 0.0s
+clean: improved 0 connections
+wrote session /out.ses
+constraint regions: 21
+lattice 651x851x4 pitch=200 connections=474
+fanout pass   1 | routed 0/474 | unrouted 474 | conflicts 0 | vias 0 | length 0.0mm | 0.0s
+route  pass   2 | routed 469/474 | unrouted 5 | conflicts 40 | vias 183 | length 3990.2mm | 67.7s
+route  pass   3 | routed 474/474 | unrouted 0 | conflicts 0 | vias 186 | length 4030.4mm | 6.9s
+clean  pass   4 | routed 474/474 | unrouted 0 | conflicts 0 | vias 128 | length 4110.2mm | 21.0s
+clean: improved 52 connections
+clean  pass   5 | routed 474/474 | unrouted 0 | conflicts 0 | vias 124 | length 4113.0mm | 19.1s
+clean: improved 3 connections
+wrote session /out.ses

@@ -1,0 +1,17 @@
+﻿+1V35 1.8 mm {"ok": true, "net": "+1V35", "expanded": 3422, "traces": 2, "vias": 2, "length": 1.27, "layers": ["F.Cu", "In2.Cu"]} {"ok": false, "net": "+1V35", "expanded": 78}
+VADJ 3.2 mm {"ok": true, "net": "VADJ", "expanded": 2403, "traces": 2, "vias": 2, "length": 0.62, "layers": ["F.Cu", "In2.Cu"]} {"ok": true, "net": "VADJ", "expanded": 2167, "traces": 2, "vias": 2, "length": 2.81, "layers": ["F.Cu", "In2.Cu"]}
+VADJ 3.2 mm {"ok": true, "net": "VADJ", "expanded": 1574, "traces": 2, "vias": 2, "length": 0.65, "layers": ["F.Cu", "In2.Cu"]} {"ok": true, "net": "VADJ", "expanded": 1045, "traces": 2, "vias": 2, "length": 1.76, "layers": ["F.Cu", "In2.Cu"]}
+VADJ 3.2 mm {"ok": true, "net": "VADJ", "expanded": 2153, "traces": 2, "vias": 2, "length": 0.65, "layers": ["F.Cu", "In2.Cu"]} {"ok": true, "net": "VADJ", "expanded": 2289, "traces": 4, "vias": 4, "length": 4.17, "layers": ["F.Cu", "In2.Cu"]}
+VADJ 3.2 mm {"ok": true, "net": "VADJ", "expanded": 771, "traces": 1, "vias": 2, "length": 0.35, "layers": ["In2.Cu"]} {"ok": true, "net": "VADJ", "expanded": 3385, "traces": 1, "vias": 2, "length": 3.27, "layers": ["In2.Cu"]}
+VADJ 3.2 mm {"ok": true, "net": "VADJ", "expanded": 1690, "traces": 2, "vias": 2, "length": 0.6, "layers": ["F.Cu", "In2.Cu"]} {"ok": false, "net": "VADJ", "expanded": 2677}
+PS_POR_B 5.9 mm {"ok": true, "net": "PS_POR_B", "expanded": 100, "traces": 1, "vias": 0, "length": 4.63, "layers": ["F.Cu"]}
+USER_BTN_PS 6.3 mm {"ok": true, "net": "USER_BTN_PS", "expanded": 94, "traces": 1, "vias": 0, "length": 4.65, "layers": ["F.Cu"]}
+DDR_CKE 12.0 mm {"ok": false, "net": "DDR_CKE", "expanded": 141015}
+DDR_BA1 23.6 mm {"ok": true, "net": "DDR_BA1", "expanded": 286427, "traces": 5, "vias": 4, "length": 25.49, "layers": ["F.Cu", "In2.Cu"]}
+DDR_BA0 23.7 mm {"ok": true, "net": "DDR_BA0", "expanded": 172068, "traces": 5, "vias": 4, "length": 25.3, "layers": ["F.Cu", "In2.Cu", "In6.Cu"]}
+DDR_DQ30 27.8 mm {"ok": false, "net": "DDR_DQ30", "expanded": 107}
+SPI_DO 106.4 mm {"ok": true, "net": "SPI_DO", "expanded": 3393003, "traces": 4, "vias": 4, "length": 113.88, "layers": ["F.Cu", "In2.Cu", "In3.Cu"]}
+SPI_ENB3 109.1 mm {"ok": true, "net": "SPI_ENB3", "expanded": 4869496, "traces": 5, "vias": 4, "length": 118.58, "ripped": [], "layers": ["F.Cu", "In2.Cu"]}
+SPI_ENB2 110.2 mm {"ok": false, "net": "SPI_ENB2", "expanded": 6000001}
+SPI_CLK 115.0 mm {"ok": false, "net": "SPI_CLK", "expanded": 6000001}
+clearance 6, unconnected 6, hole-to-hole 2, diff-pair 37, length 8

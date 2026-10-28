@@ -1,0 +1,31 @@
+2026-10-22 18:39:42.921 INFO   Freerouting v2.5.0 (build-date: 2026-10-05)
+2026-10-22 18:39:43.217 INFO   Hardware: 8 CPU cores, 518 CPU score, 2996 MB RAM
+2026-10-22 18:39:44.360 INFO   Opening 'board_b/route/board_b.dsn'...
+2026-10-22 18:39:44.487 WARN   Invalid maxPasses value: 10000, using default 0 (no limit)
+2026-10-22 18:39:45.547 INFO   [DF9738\C9BB40] Loading board file 'board_b.dsn'...
+2026-10-22 18:39:46.100 WARN   DSN file 'board_b.dsn' was loaded with 2 warning(s).
+2026-10-22 18:40:04.233 WARN   Design Warning: Board has 5 pre-existing clearance violation(s) in the loaded design (before routing):
+  - 5 unfixable violation(s) (cannot be resolved by Freerouting):
+      * 5 fixed trace/via clearance violations:
+          - FixedVia#4592 [net AD2_1V3_DIG] <-> FixedTrace#2891 [net GND]
+          - FixedTrace#4298 [net AD1_RXD3_N] <-> J1.D11 [net AD1_RXD2_P]
+          - FixedTrace#4297 [net AD1_RXD3_N] <-> J1.D11 [net AD1_RXD2_P]
+          - FixedTrace#3787 [net CH0_RXN] <-> C69.1 [net CH0_RXP]
+          - FixedTrace#3784 [net CH0_RXN] <-> C69.1 [net CH0_RXP]
+  - 0 potentially fixable violations
+Notice: Freerouting does not modify component placement, board outlines, or fixed items.
+Resolving these 5 unfixable violation(s) is the responsibility of the board author in their EDA tool (e.g. KiCad).
+2026-10-22 18:40:09.725 INFO   [DF9738\C9BB40] Starting routing of 'board_b' on 8 threads...
+2026-10-22 18:40:09.845 INFO   [DF9738\C9BB40] Pipeline thread limits: autorouter pass is single-threaded, optimizer.max_threads=8.
+2026-10-22 18:40:42.140 INFO   [DF9738\C9BB40] Auto-routing stage started on board '4f31007a98e7df1695a914d59d22bb67' with baseline score 841.01 for 98 unrouted items.
+2026-10-22 18:43:11.087 WARN   BasicBoard.normalizeTraces: reached 2000 iterations for net 'AD3_RXVCO_1V1' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-10-22 18:49:44.991 WARN   BasicBoard.normalizeTraces: reached 2000 iterations for net 'CH5_RXN' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-10-22 18:53:03.691 INFO   [DF9738\C9BB40] Auto-routing pass #1 on board '4f31007a98e7df1695a914d59d22bb67' was completed in 724.73 seconds with score 891.29 (67 unrouted and 5 violations), using 750.34 CPU seconds and the job allocated 293.05 GB of memory so far.
+2026-10-22 18:56:57.714 WARN   BasicBoard.normalizeTraces: reached 2000 iterations for net 'AD2_1V3_BB' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-10-22 19:04:31.747 INFO   [DF9738\C9BB40] Auto-routing pass #2 on board 'e316b16fee49297c630402b146d07a8a' was completed in 668.89 seconds with score 910.76 (55 unrouted and 5 violations), using 1414.47 CPU seconds and the job allocated 580.64 GB of memory so far.
+2026-10-22 19:15:07.706 INFO   [DF9738\C9BB40] Auto-routing pass #3 on board '6b2f6256573ebe904021667103cc8f12' was completed in 606.83 seconds with score 920.49 (49 unrouted and 5 violations), using 2024.66 CPU seconds and the job allocated 805.63 GB of memory so far.
+2026-10-22 19:26:22.114 INFO   [DF9738\C9BB40] Auto-routing pass #4 on board '88f53f6a8fa782260d43d591a1094d21' was completed in 648.08 seconds with score 925.36 (46 unrouted and 5 violations), using 2665.86 CPU seconds and the job allocated 1049.00 GB of memory so far.
+2026-10-22 19:32:09.285 WARN   BasicBoard.normalizeTraces: reached 2000 iterations for net 'SPI_ENB3' — stopping to prevent hang. The board geometry for this net may be oscillating (split/combine cycle); traces are kept as-is and further normalization for this net is suppressed on this board candidate.
+2026-10-22 19:37:09.658 INFO   [DF9738\C9BB40] Auto-routing pass #5 on board 'c237af436a1c4587401e9464ee230d22' was completed in 625.94 seconds with score 925.36 (46 unrouted and 5 violations), using 3294.63 CPU seconds and the job allocated 1298.61 GB of memory so far.
+2026-10-22 19:40:07.322 INFO   Saving 'board_b/route/board_b.ses'...
+2026-10-22 19:40:07.495 INFO   Saved 338742 bytes to 'board_b/route/board_b.ses'.

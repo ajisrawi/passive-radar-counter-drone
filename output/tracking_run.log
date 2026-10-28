@@ -1,0 +1,14 @@
+C:\Users\ahmad\Documents\Passive Radar for Counter Drone\run_tracking_demo.py:178: RuntimeWarning: Mean of empty slice
+  mean_spec = 10 * np.log10(np.maximum(np.nanmean([f["spectrum"] for f in feats], axis=0), 1e-3))
+40 CPIs x 250 ms, 4 elements, DSI 43.8 dB
+  CPI  10/40  detections 3  live tracks 3  (72 s)
+  CPI  20/40  detections 3  live tracks 3  (140 s)
+  CPI  30/40  detections 2  live tracks 3  (211 s)
+  CPI  40/40  detections 2  live tracks 3  (282 s)
+
+Detections per CPI: mean 2.35; confirmed tracks: 3; dropped tentative tracks: 1
+  Track  1 -> bird        23 hits/40 scans  pos RMS   5.3 m  vel RMS 3.76 m/s  speed  9.7 m/s  z_near 1336.7  z_far    2.5  => bird    [correct]
+  Track  2 -> fixed-wing  39 hits/40 scans  pos RMS  18.8 m  vel RMS 5.57 m/s  speed 20.8 m/s  z_near    1.4  z_far  141.9  => UAV     [correct]
+  Track  3 -> quadcopter  31 hits/39 scans  pos RMS   6.4 m  vel RMS 3.59 m/s  speed  7.5 m/s  z_near    0.4  z_far   13.9  => UAV     [correct]
+
+Total 283 s. Figures: C:\Users\ahmad\Documents\Passive Radar for Counter Drone\output\tracking.png, C:\Users\ahmad\Documents\Passive Radar for Counter Drone\output\micro_doppler.png

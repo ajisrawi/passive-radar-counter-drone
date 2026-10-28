@@ -1,0 +1,11 @@
+unit mm
+shape route pass 1: 7 nets incomplete, 7 connections open, 6 conflicts, 0 rip-ups, 357.4s; 2 pairs routed net by net, retried as carriers next pass
+shape route pass 2: 7 nets incomplete, 7 connections open, 6 conflicts, 11 rip-ups, 429.8s; 2 pairs routed net by net, retried as carriers next pass
+shape route pass 3: 7 nets incomplete, 7 connections open, 6 conflicts, 26 rip-ups, 458.9s; 3 pairs routed net by net, retried as carriers next pass
+shape route pass 4: 3 nets incomplete, 3 connections open, 6 conflicts, 41 rip-ups, 483.3s; 1 pairs routed net by net, retried as carriers next pass
+shape route pass 5: 1 nets incomplete, 1 connections open, 6 conflicts, 46 rip-ups, 504.5s
+shape route pass 6: 1 nets incomplete, 1 connections open, 6 conflicts, 47 rip-ups, 522.6s
+shape route pass 7: 1 nets incomplete, 1 connections open, 6 conflicts, 48 rip-ups, 548.4s
+shape route pass 8: 1 nets incomplete, 1 connections open, 6 conflicts, 49 rip-ups, 568.2s
+shape-based router: 86 nets, 1 connections open, 134 vias, wire length 7871.2 mm, 305 searches, 49 rip-ups, 52 pair carriers (not as carriers: no path for the pair envelope x2, not an unrouted pair with the same pin count x13)
+wrote session /out.ses

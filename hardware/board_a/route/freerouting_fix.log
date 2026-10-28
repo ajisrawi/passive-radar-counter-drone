@@ -1,0 +1,27 @@
+2026-10-21 07:03:09.046 INFO   Freerouting v2.5.0 (build-date: 2026-10-05)
+2026-10-21 07:03:09.345 INFO   Hardware: 8 CPU cores, 451 CPU score, 2996 MB RAM
+2026-10-21 07:03:09.351 WARN   GUI is disabled and you don't have a console available, so the only feedback from Freerouting is in the log.
+2026-10-21 07:03:10.725 INFO   [A70B78\624EE9] Loading board file 'board_a_fix.dsn'...
+2026-10-21 07:03:10.974 INFO   [A70B78\624EE9] Job 'A70B78\624EE9' started at 2026-10-21T04:03:10.974083Z.
+2026-10-21 07:03:13.640 WARN   Design Warning: Board has 4 pre-existing clearance violation(s) in the loaded design (before routing):
+  - 4 unfixable violation(s) (cannot be resolved by Freerouting):
+      * 4 fixed trace/via clearance violations:
+          - U1.3 [net BUCK5V6_SW] <-> FixedVia#1808 [net BUCK5V6_SW]
+          - L1.1 [net BUCK5V6_SW] <-> FixedVia#1809 [net BUCK5V6_SW]
+          - U10.1 [net CH1_SW_RF1] <-> FixedVia#1807 [net CH1_SW_RF1]
+          - C46.2 [net CH1_SW_RF1] <-> FixedVia#1806 [net CH1_SW_RF1]
+  - 0 potentially fixable violations
+Notice: Freerouting does not modify component placement, board outlines, or fixed items.
+Resolving these 4 unfixable violation(s) is the responsibility of the board author in their EDA tool (e.g. KiCad).
+2026-10-21 07:03:13.710 INFO   [A70B78\624EE9] Pipeline thread limits: autorouter pass is single-threaded, optimizer.max_threads=7.
+2026-10-21 07:03:17.443 INFO   [A70B78\624EE9] Auto-routing stage started on board 'b2916a0b41d18f1b4d7c750a480b5c3e' with baseline score 564.43 for 143 unrouted items.
+2026-10-21 07:04:25.214 INFO   [A70B78\624EE9] Auto-routing pass #1 on board 'b2916a0b41d18f1b4d7c750a480b5c3e' was completed in 65.93 seconds with score 850.58 (49 unrouted and 4 violations), using 67.19 CPU seconds and the job allocated 14.40 GB of memory so far.
+2026-10-21 07:04:55.848 INFO   [A70B78\624EE9] Auto-routing pass #2 on board '346956dbbeabf9896ba4e71b3bd82a05' was completed in 27.85 seconds with score 844.49 (51 unrouted and 4 violations), using 96.75 CPU seconds and the job allocated 20.88 GB of memory so far.
+2026-10-21 07:05:23.559 INFO   [A70B78\624EE9] Auto-routing pass #3 on board 'fb7f0ddddad7591743aa0a9cdfe04362' was completed in 25.44 seconds with score 865.80 (44 unrouted and 4 violations), using 123.98 CPU seconds and the job allocated 27.80 GB of memory so far.
+2026-10-21 07:05:47.788 INFO   [A70B78\624EE9] Auto-routing pass #4 on board 'd6d32e7939b10590d6c5313da713ed86' was completed in 22.25 seconds with score 890.15 (36 unrouted and 4 violations), using 147.63 CPU seconds and the job allocated 35.00 GB of memory so far.
+2026-10-21 07:06:07.259 INFO   [A70B78\624EE9] Auto-routing pass #5 on board '252795cf8d80985df98796250a138708' was completed in 17.44 seconds with score 893.20 (35 unrouted and 4 violations), using 167.47 CPU seconds and the job allocated 40.81 GB of memory so far.
+2026-10-21 07:06:29.229 INFO   [A70B78\624EE9] Auto-routing pass #6 on board '294860e2b348a43e9b748b5b45459c39' was completed in 19.82 seconds with score 902.33 (32 unrouted and 4 violations), using 188.36 CPU seconds and the job allocated 45.39 GB of memory so far.
+2026-10-21 07:06:46.713 INFO   [A70B78\624EE9] Auto-routing pass #7 on board '6599c48235d98f97e309125e6ffa376d' was completed in 15.01 seconds with score 905.37 (31 unrouted and 4 violations), using 206.02 CPU seconds and the job allocated 49.36 GB of memory so far.
+2026-10-21 07:07:04.135 INFO   [A70B78\624EE9] Auto-routing pass #8 on board '20b812747e063988bc8290b58b727621' was completed in 15.42 seconds with score 905.37 (31 unrouted and 4 violations), using 222.83 CPU seconds and the job allocated 53.03 GB of memory so far.
+2026-10-21 07:07:20.082 INFO   [A70B78\624EE9] Auto-routing pass #9 on board '20b812747e063988bc8290b58b727621' was completed in 15.89 seconds with score 905.37 (31 unrouted and 4 violations), using 238.80 CPU seconds and the job allocated 56.38 GB of memory so far.
+2026-10-21 07:07:35.005 INFO   [A70B78\624EE9] Auto-routing pass #10 on board '20b812747e063988bc8290b58b727621' was completed in 14.87 seconds with score 905.37 (31 unrouted and 4 violations), using 253.66 CPU seconds and the job allocated 59.67 GB of memory so far.

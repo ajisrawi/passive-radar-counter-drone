@@ -1,0 +1,147 @@
+{
+ "w50_mm": 2.81,
+ "field_solver": {
+  "z0": 49.99,
+  "eeff": 3.358
+ },
+ "boards": {
+  "dipole_uhf": {
+   "board_mm": [
+    227.6,
+    176.7
+   ],
+   "reflector_plane_from_top_mm": 164.7,
+   "reflector_slot_mm": [
+    16.4,
+    2.0
+   ],
+   "taper_mm": 78.7,
+   "drc": "none",
+   "violations": 0,
+   "items": [],
+   "gerber": [
+    "dipole_uhf-fab.zip"
+   ],
+   "drills": [
+    "dipole_uhf-PTH.drl"
+   ],
+   "assembly": [
+    "dipole_uhf-BOM.csv",
+    "dipole_uhf-CPL.csv"
+   ],
+   "openems": "ok"
+  },
+  "dipole_mid": {
+   "board_mm": [
+    60.4,
+    56.7
+   ],
+   "reflector_plane_from_top_mm": 44.7,
+   "reflector_slot_mm": [
+    16.4,
+    2.0
+   ],
+   "taper_mm": 33.1,
+   "drc": "none",
+   "violations": 0,
+   "items": [],
+   "gerber": [
+    "dipole_mid-fab.zip"
+   ],
+   "drills": [
+    "dipole_mid-PTH.drl"
+   ],
+   "assembly": [
+    "dipole_mid-BOM.csv",
+    "dipole_mid-CPL.csv"
+   ],
+   "openems": "ok"
+  },
+  "dipole_high": {
+   "board_mm": [
+    46.6,
+    46.8
+   ],
+   "reflector_plane_from_top_mm": 34.8,
+   "reflector_slot_mm": [
+    16.4,
+    2.0
+   ],
+   "taper_mm": 25.0,
+   "drc": "none",
+   "violations": 0,
+   "items": [],
+   "gerber": [
+    "dipole_high-fab.zip"
+   ],
+   "drills": [
+    "dipole_high-PTH.drl"
+   ],
+   "assembly": [
+    "dipole_high-BOM.csv",
+    "dipole_high-CPL.csv"
+   ],
+   "openems": "ok"
+  },
+  "dipole_n78": {
+   "board_mm": [
+    35.1,
+    38.3
+   ],
+   "reflector_plane_from_top_mm": 26.3,
+   "reflector_slot_mm": [
+    16.4,
+    2.0
+   ],
+   "taper_mm": 18.1,
+   "drc": "none",
+   "violations": 0,
+   "items": [],
+   "gerber": [
+    "dipole_n78-fab.zip"
+   ],
+   "drills": [
+    "dipole_n78-PTH.drl"
+   ],
+   "assembly": [
+    "dipole_n78-BOM.csv",
+    "dipole_n78-CPL.csv"
+   ],
+   "openems": "ok"
+  },
+  "lpda_h": {
+   "board_mm": [
+    180.1,
+    89.3
+   ],
+   "dipole_x_from_feed_edge_mm": [
+    176.4,
+    149.7,
+    126.2,
+    105.6,
+    87.4,
+    71.4,
+    57.3,
+    44.9,
+    34.0,
+    24.4,
+    16.0,
+    8.6
+   ],
+   "drc": "none",
+   "violations": 0,
+   "items": [],
+   "gerber": [
+    "lpda_h-fab.zip"
+   ],
+   "drills": [
+    "lpda_h-PTH.drl"
+   ],
+   "assembly": [
+    "lpda_h-BOM.csv",
+    "lpda_h-CPL.csv"
+   ],
+   "openems": "ok"
+  }
+ }
+}

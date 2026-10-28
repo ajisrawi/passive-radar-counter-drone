@@ -1,0 +1,16 @@
+G04 OpenBoard fabrication output*
+%TF.GenerationSoftware,OpenBoard,OpenBoard,0.1*%
+%TF.FileFunction,Profile,NP*%
+%TF.FilePolarity,Positive*%
+%FSLAX46Y46*%
+%MOMM*%
+%LPD*%
+%ADD10C,0.100000*%
+D10*
+G01*
+X217500000Y-187500000D02*
+X0Y-187500000D01*
+X0Y0D01*
+X217500000Y0D01*
+X217500000Y-187500000D01*
+M02*

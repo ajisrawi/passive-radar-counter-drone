@@ -1,0 +1,4 @@
+constraint regions: 14
+lattice 722x657x6 pitch=305.17578125 connections=1113
+fanout pass   1 | routed 1097/1113 | unrouted 16 | conflicts 0 | vias 0 | length 0.0mm | 33.1s
+route  pass   2 | routed 1097/1113 | unrouted 16 | conflicts 0 | vias 0 | length 0.0mm | 88.7s

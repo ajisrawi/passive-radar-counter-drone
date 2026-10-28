@@ -1,0 +1,33 @@
+constraint regions: 16
+lattice 903x821x4 pitch=244.140625 connections=1632
+fanout pass   1 | routed 780/1632 | unrouted 852 | conflicts 2 | vias 781 | length 192.1mm | 0.9s
+route  pass   2 | routed 1630/1632 | unrouted 2 | conflicts 5230 | vias 1818 | length 27432.9mm | 150.0s
+route  pass   3 | routed 1597/1632 | unrouted 35 | conflicts 3202 | vias 1797 | length 27094.7mm | 103.6s
+route  pass   4 | routed 1597/1632 | unrouted 35 | conflicts 2326 | vias 1801 | length 27057.9mm | 107.8s
+route  pass   5 | routed 1591/1632 | unrouted 41 | conflicts 1771 | vias 1810 | length 27167.7mm | 132.1s
+route  pass   6 | routed 1592/1632 | unrouted 40 | conflicts 1378 | vias 1842 | length 27432.1mm | 135.3s
+route  pass   7 | routed 1588/1632 | unrouted 44 | conflicts 1201 | vias 1855 | length 27623.3mm | 164.3s
+route  pass   8 | routed 1589/1632 | unrouted 43 | conflicts 1169 | vias 1873 | length 28009.0mm | 239.0s
+clean  pass   9 | routed 1589/1632 | unrouted 43 | conflicts 1169 | vias 1756 | length 28143.3mm | 36.1s
+clean: improved 108 connections
+clean  pass  10 | routed 1589/1632 | unrouted 43 | conflicts 1169 | vias 1737 | length 28135.3mm | 32.1s
+clean: improved 35 connections
+restored best routing
+wrote session /out.ses
+constraint regions: 14
+lattice 903x821x4 pitch=244.140625 connections=1634
+fanout pass   1 | routed 867/1634 | unrouted 767 | conflicts 6 | vias 865 | length 315.9mm | 2.2s
+route  pass   2 | routed 1619/1634 | unrouted 15 | conflicts 5247 | vias 1881 | length 26734.9mm | 153.5s
+route  pass   3 | routed 1602/1634 | unrouted 32 | conflicts 2874 | vias 1906 | length 27001.7mm | 127.1s
+route  pass   4 | routed 1591/1634 | unrouted 43 | conflicts 2078 | vias 1891 | length 26700.9mm | 115.8s
+route  pass   5 | routed 1594/1634 | unrouted 40 | conflicts 1678 | vias 1896 | length 26703.4mm | 166.7s
+route  pass   6 | routed 1591/1634 | unrouted 43 | conflicts 1434 | vias 1917 | length 26892.3mm | 160.5s
+route  pass   7 | routed 1584/1634 | unrouted 50 | conflicts 1148 | vias 1912 | length 26734.9mm | 200.0s
+route  pass   8 | routed 1590/1634 | unrouted 44 | conflicts 1129 | vias 1935 | length 27306.6mm | 245.9s
+route  pass   9 | routed 1589/1634 | unrouted 45 | conflicts 1192 | vias 1945 | length 27385.3mm | 288.7s
+clean  pass  10 | routed 1589/1634 | unrouted 45 | conflicts 1191 | vias 1847 | length 27509.0mm | 20.7s
+clean: improved 89 connections
+clean  pass  11 | routed 1589/1634 | unrouted 45 | conflicts 1191 | vias 1842 | length 27502.7mm | 19.1s
+clean: improved 12 connections
+restored best routing
+wrote session /out.ses

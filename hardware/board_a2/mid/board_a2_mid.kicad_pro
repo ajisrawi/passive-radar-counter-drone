@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "filename": "board_a2_mid.kicad_pro",
+    "version": 1
+  },
+  "sheets": [
+    [
+      "f96c13d0-7b4d-459f-b987-e89175ff894b",
+      "Root"
+    ],
+    [
+      "93649d85-05f0-45eb-84a6-bd12d53b27e2",
+      "Power: 12 V in, 5.6 V buck, two low-noise 5 V LNA rails, noise-source rail, 3.3 V"
+    ],
+    [
+      "a032c8b4-c761-482d-b087-f15f1449ab47",
+      "Calibration noise source and 6-way splitter"
+    ],
+    [
+      "c61fcedc-ec79-4e32-b897-973bc7fb78bc",
+      "RF channels 0-2"
+    ],
+    [
+      "327c4562-20ce-4448-b2fd-889f262d6961",
+      "RF channels 3-5"
+    ]
+  ]
+}

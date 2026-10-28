@@ -1,0 +1,113 @@
+unit mm
+constraint regions: 14
+lattice 722x657x6 pitch=305.17578125 connections=1427
+fanout pass   1 | routed 880/1427 | unrouted 547 | conflicts 4 | vias 934 | length 499.9mm | 25.7s
+route  pass   2 | routed 1408/1427 | unrouted 19 | conflicts 317 | vias 1593 | length 13976.4mm | 113.7s
+route  pass   3 | routed 1405/1427 | unrouted 22 | conflicts 108 | vias 1598 | length 14035.9mm | 160.6s
+route  pass   4 | routed 1407/1427 | unrouted 20 | conflicts 46 | vias 1621 | length 14101.3mm | 157.8s
+route  pass   5 | routed 1408/1427 | unrouted 19 | conflicts 43 | vias 1622 | length 14115.9mm | 197.9s
+route  pass   6 | routed 1409/1427 | unrouted 18 | conflicts 35 | vias 1624 | length 14142.8mm | 142.7s
+route  pass   7 | routed 1409/1427 | unrouted 18 | conflicts 29 | vias 1624 | length 14151.3mm | 129.6s
+route  pass   8 | routed 1409/1427 | unrouted 18 | conflicts 25 | vias 1625 | length 14176.9mm | 134.3s
+route  pass   9 | routed 1408/1427 | unrouted 19 | conflicts 21 | vias 1622 | length 14187.3mm | 193.6s
+route  pass  10 | routed 1408/1427 | unrouted 19 | conflicts 21 | vias 1622 | length 14186.7mm | 141.1s
+route  pass  11 | routed 1408/1427 | unrouted 19 | conflicts 21 | vias 1622 | length 14186.7mm | 142.1s
+route  pass  12 | routed 1408/1427 | unrouted 19 | conflicts 21 | vias 1621 | length 14189.8mm | 139.6s
+route  pass  13 | routed 1408/1427 | unrouted 19 | conflicts 21 | vias 1621 | length 14189.8mm | 189.5s
+route  pass  14 | routed 1408/1427 | unrouted 19 | conflicts 21 | vias 1621 | length 14189.8mm | 133.7s
+route  pass  15 | routed 1408/1427 | unrouted 19 | conflicts 21 | vias 1621 | length 14189.8mm | 135.5s
+route  pass  16 | routed 1408/1427 | unrouted 19 | conflicts 21 | vias 1621 | length 14189.8mm | 128.0s
+route  pass  17 | routed 1408/1427 | unrouted 19 | conflicts 21 | vias 1621 | length 14189.8mm | 191.7s
+route  pass  18 | routed 1408/1427 | unrouted 19 | conflicts 21 | vias 1621 | length 14189.8mm | 136.7s
+route  pass  19 | routed 1408/1427 | unrouted 19 | conflicts 21 | vias 1621 | length 14189.8mm | 138.9s
+route  pass  20 | routed 1408/1427 | unrouted 19 | conflicts 21 | vias 1621 | length 14189.8mm | 150.3s
+route  pass  21 | routed 1408/1427 | unrouted 19 | conflicts 21 | vias 1621 | length 14189.8mm | 209.4s
+route  pass  22 | routed 1408/1427 | unrouted 19 | conflicts 21 | vias 1621 | length 14189.8mm | 141.8s
+route  pass  23 | routed 1402/1427 | unrouted 25 | conflicts 0 | vias 1611 | length 14062.8mm | 128.3s
+route  pass  24 | routed 1404/1427 | unrouted 23 | conflicts 2 | vias 1615 | length 14082.3mm | 136.4s
+route  pass  25 | routed 1403/1427 | unrouted 24 | conflicts 0 | vias 1611 | length 13966.1mm | 194.3s
+route  pass  26 | routed 1403/1427 | unrouted 24 | conflicts 0 | vias 1611 | length 13966.1mm | 163.6s
+clean  pass  27 | routed 1403/1427 | unrouted 24 | conflicts 0 | vias 1484 | length 14159.5mm | 60.3s
+clean: improved 127 connections
+clean  pass  28 | routed 1403/1427 | unrouted 24 | conflicts 0 | vias 1471 | length 14155.9mm | 50.1s
+clean: improved 26 connections
+route  pass  29 | routed 1408/1427 | unrouted 19 | conflicts 12 | vias 1483 | length 14419.3mm | 148.0s
+route  pass  30 | routed 1408/1427 | unrouted 19 | conflicts 4 | vias 1481 | length 14420.5mm | 148.3s
+route  pass  31 | routed 1408/1427 | unrouted 19 | conflicts 4 | vias 1481 | length 14420.5mm | 198.4s
+route  pass  32 | routed 1408/1427 | unrouted 19 | conflicts 4 | vias 1481 | length 14420.5mm | 141.2s
+route  pass  33 | routed 1408/1427 | unrouted 19 | conflicts 4 | vias 1481 | length 14420.5mm | 140.1s
+route  pass  34 | routed 1408/1427 | unrouted 19 | conflicts 4 | vias 1481 | length 14420.5mm | 140.8s
+route  pass  35 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 166.4s
+route  pass  36 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 120.3s
+route  pass  37 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 121.4s
+route  pass  38 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 119.3s
+route  pass  39 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 168.6s
+route  pass  40 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 119.4s
+route  pass  41 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 122.5s
+route  pass  42 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 121.2s
+route  pass  43 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 168.7s
+route  pass  44 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 120.3s
+route  pass  45 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 164.6s
+route  pass  46 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 148.0s
+route  pass  47 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 205.3s
+route  pass  48 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 130.8s
+route  pass  49 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 119.5s
+route  pass  50 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 121.9s
+route  pass  51 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 165.5s
+route  pass  52 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 119.8s
+route  pass  53 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 119.3s
+route  pass  54 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 121.5s
+route  pass  55 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 164.5s
+route  pass  56 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 121.1s
+route  pass  57 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 120.0s
+route  pass  58 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 120.3s
+route  pass  59 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 167.3s
+route  pass  60 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 122.2s
+route  pass  61 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 120.0s
+route  pass  62 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 119.8s
+route  pass  63 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 169.6s
+route  pass  64 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 117.4s
+route  pass  65 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 121.8s
+route  pass  66 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 121.7s
+route  pass  67 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 166.2s
+route  pass  68 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 119.3s
+route  pass  69 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 119.5s
+route  pass  70 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 123.6s
+route  pass  71 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 168.0s
+route  pass  72 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 119.5s
+route  pass  73 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 120.0s
+route  pass  74 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 117.5s
+route  pass  75 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 167.1s
+route  pass  76 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 118.7s
+route  pass  77 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 120.4s
+route  pass  78 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1478 | length 14399.7mm | 119.2s
+clean  pass  79 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1477 | length 14397.0mm | 44.7s
+clean: improved 4 connections
+clean  pass  80 | routed 1406/1427 | unrouted 21 | conflicts 0 | vias 1477 | length 14397.0mm | 44.8s
+clean: improved 0 connections
+tune DDR_A0: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_A1: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_A2: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_A3: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_A4: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_A5: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_A6: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_A7: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_A9: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_A10: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_A11: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_A12: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_A13: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_A14: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_BA0: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_BA1: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_BA2: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_RAS_B: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_CAS_B: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_WE_B: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_CS_B: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_CKE: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_ODT: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_CK_P: 0.000 -> 0.000 mm (target 105.578) NOT MET
+tune DDR_CK_N: 0.000 -> 0.000 mm (target 105.578) NOT MET
+wrote session /out.ses

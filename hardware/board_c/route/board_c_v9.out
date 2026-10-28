@@ -1,0 +1,48 @@
+OpenRoute 0.1 — design board_c: 251 nets, 314 components, 8 layers, resolution um 1
+unit mm
+lattice 2176x1876x4 pitch=100 connections=1156
+read routes: 840 pieces of copper loaded, 0 skipped
+route  pass   1 | routed 1996/1996 | unrouted 0 | conflicts 7 | vias 1652 | length 14505.6mm | 6.0s
+route  pass   2 | routed 1995/1996 | unrouted 1 | conflicts 0 | vias 1647 | length 14481.9mm | 3.8s
+route  pass   3 | routed 1996/1996 | unrouted 0 | conflicts 3 | vias 1652 | length 14505.9mm | 5.1s
+route  pass   4 | routed 1996/1996 | unrouted 0 | conflicts 3 | vias 1652 | length 14505.9mm | 5.1s
+route  pass   5 | routed 1996/1996 | unrouted 0 | conflicts 3 | vias 1652 | length 14505.9mm | 5.1s
+route  pass   6 | routed 1996/1996 | unrouted 0 | conflicts 3 | vias 1652 | length 14505.9mm | 5.3s
+route  pass   7 | routed 1996/1996 | unrouted 0 | conflicts 3 | vias 1652 | length 14505.9mm | 5.4s
+route  pass   8 | routed 1996/1996 | unrouted 0 | conflicts 3 | vias 1652 | length 14505.9mm | 5.4s
+route  pass   9 | routed 1996/1996 | unrouted 0 | conflicts 3 | vias 1652 | length 14505.9mm | 5.0s
+route  pass  10 | routed 1995/1996 | unrouted 1 | conflicts 0 | vias 1651 | length 14505.8mm | 4.1s
+route  pass  11 | routed 1995/1996 | unrouted 1 | conflicts 0 | vias 1651 | length 14505.8mm | 3.6s
+bestsave: current state (1001651) worse than saved best (4652); kept the saved session
+route  pass  12 | routed 1995/1996 | unrouted 1 | conflicts 0 | vias 1651 | length 14505.8mm | 3.5s
+route  pass  13 | routed 1995/1996 | unrouted 1 | conflicts 0 | vias 1651 | length 14505.8mm | 3.5s
+bestsave: current state (1001651) worse than saved best (4652); kept the saved session
+clean  pass  14 | routed 1995/1996 | unrouted 1 | conflicts 0 | vias 1651 | length 14505.2mm | 6.7s
+clean: improved 1 connections
+bestsave: current state (1001651) worse than saved best (4652); kept the saved session
+miter: 21 corners mitered, 398 kept square (clearance or a branch at the corner)
+wrote session C:\Users\ahmad\Documents\Passive Radar for Counter Drone\hardware\board_c\route/board_c_v9.ses
+#ROUTING STATUS <<< board_c >>>
+Nets         =      251   Connections         =     1996
+Completion   =   99.95%   Unconnections       =        1
+Conflicts    =        0   Total Vias          =     1651
+Routed length=  14505.170 mm
+# Overall Routing Time: 70.1s
+
+  Kind   Pass | Unroutes | Conflicts |  Vias |  Length(mm) |   Time
+  route     1 |        0 |         7 |  1652 |    14505.55 |    6.0s
+  route     2 |        1 |         0 |  1647 |    14481.87 |    3.8s
+  route     3 |        0 |         3 |  1652 |    14505.87 |    5.1s
+  route     4 |        0 |         3 |  1652 |    14505.87 |    5.1s
+  route     5 |        0 |         3 |  1652 |    14505.87 |    5.1s
+  route     6 |        0 |         3 |  1652 |    14505.87 |    5.3s
+  route     7 |        0 |         3 |  1652 |    14505.87 |    5.4s
+  route     8 |        0 |         3 |  1652 |    14505.87 |    5.4s
+  route     9 |        0 |         3 |  1652 |    14505.87 |    5.0s
+  route    10 |        1 |         0 |  1651 |    14505.77 |    4.1s
+  route    11 |        1 |         0 |  1651 |    14505.77 |    3.6s
+  route    12 |        1 |         0 |  1651 |    14505.77 |    3.5s
+  route    13 |        1 |         0 |  1651 |    14505.77 |    3.5s
+  clean    14 |        1 |         0 |  1651 |    14505.17 |    6.7s
+
+total time 70.2s

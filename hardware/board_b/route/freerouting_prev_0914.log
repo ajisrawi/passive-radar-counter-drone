@@ -1,0 +1,77 @@
+2026-10-20 23:01:50.098 INFO   Freerouting v2.5.0 (build-date: 2026-10-05)
+2026-10-20 23:01:50.410 INFO   Hardware: 8 CPU cores, 444 CPU score, 2996 MB RAM
+2026-10-20 23:01:50.411 WARN   Deprecated settings path '-mp / --router.max_passes'; use '--router.autorouter.max_passes' instead. The old path will be removed in a future release.
+2026-10-20 23:01:50.413 WARN   GUI is disabled and you don't have a console available, so the only feedback from Freerouting is in the log.
+2026-10-20 23:01:51.480 WARN   Deprecated settings path 'router.max_passes'; use 'router.autorouter.max_passes' instead. The old path will be removed in a future release.
+2026-10-20 23:01:51.753 INFO   [5365AD\3B52C0] Loading board file 'board_b.dsn'...
+2026-10-20 23:01:52.057 INFO   [5365AD\3B52C0] Job '5365AD\3B52C0' started at 2026-10-20T20:01:52.057639500Z.
+2026-10-20 23:02:04.934 INFO   [5365AD\3B52C0] Pipeline thread limits: autorouter pass is single-threaded, optimizer.max_threads=7.
+2026-10-20 23:02:29.236 INFO   [5365AD\3B52C0] Auto-routing stage started on board '8631947aab44e3321b220528965595ec' with baseline score 330.09 for 415 unrouted items.
+2026-10-20 23:29:12.285 INFO   [5365AD\3B52C0] Auto-routing pass #1 on board '8631947aab44e3321b220528965595ec' was completed in 1589.50 seconds with score 836.17 (101 unrouted and 0 violations), using 1598.50 CPU seconds and the job allocated 357.93 GB of memory so far.
+2026-10-20 23:40:21.275 INFO   [5365AD\3B52C0] Auto-routing pass #2 on board '90c437aaec52ba38cd9cf994fe10e6ca' was completed in 648.79 seconds with score 883.21 (72 unrouted and 0 violations), using 2242.83 CPU seconds and the job allocated 543.71 GB of memory so far.
+2026-10-20 23:48:58.594 INFO   [5365AD\3B52C0] Auto-routing pass #3 on board '28876b31fd09e20fa68ab10e69c182c4' was completed in 495.76 seconds with score 904.30 (59 unrouted and 0 violations), using 2738.56 CPU seconds and the job allocated 675.03 GB of memory so far.
+2026-10-20 23:56:46.667 INFO   [5365AD\3B52C0] Auto-routing pass #4 on board 'df1f90f90472023de41311ddb415d873' was completed in 445.36 seconds with score 896.19 (64 unrouted and 0 violations), using 3188.56 CPU seconds and the job allocated 795.66 GB of memory so far.
+2026-10-21 00:04:15.900 INFO   [5365AD\3B52C0] Auto-routing pass #5 on board '8df265b8ff1bfb53b7825f9d1449cb69' was completed in 427.14 seconds with score 933.50 (41 unrouted and 0 violations), using 3618.38 CPU seconds and the job allocated 906.17 GB of memory so far.
+2026-10-21 00:09:28.334 INFO   [5365AD\3B52C0] Auto-routing pass #6 on board '7e5d627e540ba21d2fcba2ab1b043122' was completed in 291.49 seconds with score 936.74 (39 unrouted and 0 violations), using 3921.20 CPU seconds and the job allocated 985.23 GB of memory so far.
+2026-10-21 00:13:06.183 INFO   [5365AD\3B52C0] Auto-routing pass #7 on board '14b22ca5d188991cc1023761423c8db9' was completed in 194.18 seconds with score 933.50 (41 unrouted and 0 violations), using 4130.80 CPU seconds and the job allocated 1040.57 GB of memory so far.
+2026-10-21 00:18:30.291 INFO   [5365AD\3B52C0] Auto-routing pass #8 on board '755d90dcfa403b8f0332d890d65f1af8' was completed in 304.41 seconds with score 943.23 (35 unrouted and 0 violations), using 4441.47 CPU seconds and the job allocated 1128.46 GB of memory so far.
+2026-10-21 00:22:26.244 INFO   [5365AD\3B52C0] Auto-routing pass #9 on board '8122252be2cade617049b12034dd2913' was completed in 214.37 seconds with score 941.61 (36 unrouted and 0 violations), using 4669.30 CPU seconds and the job allocated 1182.24 GB of memory so far.
+2026-10-21 00:27:31.822 INFO   [5365AD\3B52C0] Auto-routing pass #10 on board '5a4e75fd262d41b7dd5cbcd050072161' was completed in 283.83 seconds with score 943.23 (35 unrouted and 0 violations), using 4967.38 CPU seconds and the job allocated 1275.20 GB of memory so far.
+2026-10-21 00:31:58.530 INFO   [5365AD\3B52C0] Auto-routing pass #11 on board '80044cf557e32ab9964c1e248f3d0535' was completed in 245.52 seconds with score 943.23 (35 unrouted and 0 violations), using 5228.22 CPU seconds and the job allocated 1354.03 GB of memory so far.
+2026-10-21 00:36:30.390 INFO   [5365AD\3B52C0] Auto-routing pass #12 on board '4c90d9b9e571d373909115891f05e56e' was completed in 251.80 seconds with score 943.23 (35 unrouted and 0 violations), using 5494.42 CPU seconds and the job allocated 1435.52 GB of memory so far.
+2026-10-21 00:40:13.914 INFO   [5365AD\3B52C0] Auto-routing pass #13 on board '743d7dffefd0ebc1e8bd549c62d3ffe6' was completed in 203.31 seconds with score 941.61 (36 unrouted and 0 violations), using 5714.80 CPU seconds and the job allocated 1490.22 GB of memory so far.
+2026-10-21 00:43:43.558 INFO   [5365AD\3B52C0] Auto-routing pass #14 on board '031f407638e8a26cd42d7520f987e5d5' was completed in 189.55 seconds with score 939.98 (37 unrouted and 0 violations), using 5922.20 CPU seconds and the job allocated 1535.81 GB of memory so far.
+2026-10-21 00:48:20.102 INFO   [5365AD\3B52C0] Auto-routing pass #15 on board 'e2e60260fffb1bfd12d7e1e9acf950b2' was completed in 256.02 seconds with score 939.98 (37 unrouted and 0 violations), using 6193.25 CPU seconds and the job allocated 1618.51 GB of memory so far.
+2026-10-21 00:52:50.040 INFO   [5365AD\3B52C0] Auto-routing pass #16 on board '8122252be2cade617049b12034dd2913' was completed in 0.00 seconds with score 943.23 (35 unrouted and 0 violations), using 6457.83 CPU seconds and the job allocated 1693.90 GB of memory so far.
+2026-10-21 00:55:16.996 INFO   [5365AD\3B52C0] Auto-routing pass #17 on board '8122252be2cade617049b12034dd2913' was completed in 146.84 seconds with score 941.61 (36 unrouted and 0 violations), using 6602.11 CPU seconds and the job allocated 1754.07 GB of memory so far.
+2026-10-21 00:58:54.133 INFO   [5365AD\3B52C0] Auto-routing pass #18 on board '5f314a57a60d2483cf910eef4d17da78' was completed in 204.95 seconds with score 941.61 (36 unrouted and 0 violations), using 6813.11 CPU seconds and the job allocated 1854.63 GB of memory so far.
+2026-10-21 00:58:54.285 INFO   [5365AD\3B52C0] The router's best score (943.23) has not improved by more than 0.5 points since pass #8. Stopping the auto-router after 18 passes (35 items still unconnected).
+The following connections could not be routed -- please review your design (e.g. check pad clearances, trace width rules, and available routing space):
+  Net '+1V8' (29 unrouted connections):
+    - U9-16  ->  U9-15
+    - U9-2  ->  U9-1
+    - U7-15  ->  U7-16
+    - U7-2  ->  U7-1
+    - U8-16  ->  U8-15
+    - U8-1  ->  U8-2
+    - U9-3  ->  U9-2
+    - U7-2  ->  U7-3
+    - U8-2  ->  U8-3
+    - U9-1  ->  U9-16
+    - U7-1  ->  U7-16
+    - U8-1  ->  U8-16
+    - U7-15  ->  R49-2
+    - R47-1  ->  L1-2
+    - U8-15  ->  C104-1
+    - C116-1  ->  C115-1
+    - C104-1  ->  C103-1
+    - C109-1  ->  C110-1
+    - R49-2  ->  C101-1
+    - C115-1  ->  U7-3
+    - C99-1  ->  C100-1
+    - C99-1  ->  C109-1
+    - U6-14  ->  R49-2
+    - C116-1  ->  C103-1
+    - TP4-1  ->  C110-1
+    - C103-1  ->  R47-1
+    - U7-1  ->  U9-3
+    - U8-3  ->  C109-1
+    - U9-1  ->  conductionarea
+  Net 'AD_TXNRX' (1 unrouted connection):
+    - via  ->  U2-H4
+  Net 'AD_RESETB' (2 unrouted connections):
+    - via  ->  U2-K5
+    - U3-K5  ->  U2-K5
+  Net 'SPI_ENB3' (1 unrouted connection):
+    - U3-K6  ->  via
+  Net 'AD1_FRAME_P' (1 unrouted connection):
+    - J1-H07  ->  U1-G8
+  Net 'AD1_DCLK_N' (1 unrouted connection):
+    - J1-G07  ->  U1-H11
+  Net 'AD1_RXD5_N' (1 unrouted connection):
+    - U1-J7  ->  J1-G13
+2026-10-21 00:59:53.542 INFO   [5365AD\3B52C0] Auto-routing stage completed: started with 415 unrouted nets, completed in 7057.13 seconds, final score: 943.23 (35 unrouted and 0 violations), using 6872.30 total CPU seconds, 1867.63 GB total allocated, and 991.3 MB peak heap usage.
+2026-10-21 01:00:05.173 INFO   [5365AD\3B52C0] Skipping optimization stage: the board has 35 unrouted connection(s) (optimizer only runs on completely routed boards).
+2026-10-21 01:00:05.279 INFO   [5365AD\3B52C0] Job '5365AD\3B52C0' finished with state: COMPLETED (elapsed: 1 hour 58 minutes 13.22 seconds, finished at UTC: 2026-10-20T22:00:05.277001Z).
+2026-10-21 01:00:05.334 INFO   Saving output file 'C:\Users\ahmad\Documents\Passive Radar for Counter Drone\hardware\board_b\route\board_b.ses' (SES)...
+2026-10-21 01:00:05.344 INFO   Successfully saved output file 'C:\Users\ahmad\Documents\Passive Radar for Counter Drone\hardware\board_b\route\board_b.ses' (196653 bytes).

@@ -1,0 +1,8 @@
+lattice 961x673x4 pitch=156.25 connections=456
+fanout pass   1 | routed 432/456 | unrouted 24 | conflicts 0 | vias 8 | length 1.3mm | 7.5s
+route  pass   2 | routed 456/456 | unrouted 0 | conflicts 0 | vias 14 | length 174.2mm | 7.5s
+clean  pass   3 | routed 456/456 | unrouted 0 | conflicts 0 | vias 10 | length 184.4mm | 11.0s
+clean: improved 2 connections
+clean  pass   4 | routed 456/456 | unrouted 0 | conflicts 0 | vias 10 | length 184.4mm | 4.2s
+clean: improved 0 connections
+wrote session /out.ses

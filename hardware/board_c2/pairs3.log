@@ -1,0 +1,6 @@
+unit mm
+shape route pass 1: 7 nets incomplete, 7 connections open, 0 conflicts, 0 rip-ups, 335.7s
+shape route pass 2: 5 nets incomplete, 5 connections open, 0 conflicts, 5 rip-ups, 428.2s
+shape route pass 3: 0 nets incomplete, 0 connections open, 0 conflicts, 5 rip-ups, 440.6s
+shape-based router: 86 nets, 0 connections open, 127 vias, wire length 8192.0 mm, 257 searches, 5 rip-ups, 44 pair carriers (not as carriers: no path for the pair envelope x2, not an unrouted pair with the same pin count x9) — complete
+wrote session /out.ses

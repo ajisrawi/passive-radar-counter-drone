@@ -1,0 +1,486 @@
+{
+ "name": "dipole_uhf",
+ "version": 1,
+ "layers": [
+  {
+   "name": "F.Cu",
+   "type": "signal",
+   "color": "#e8492f",
+   "direction": "horizontal",
+   "visible": true,
+   "er": 4.4,
+   "lossTangent": 0.02,
+   "dielectric": 1.53
+  },
+  {
+   "name": "B.Cu",
+   "type": "signal",
+   "color": "#2fa3e8",
+   "direction": "vertical",
+   "visible": true,
+   "er": 4.4,
+   "lossTangent": 0.02
+  }
+ ],
+ "outline": [
+  {
+   "x": 0,
+   "y": 0
+  },
+  {
+   "x": 227.6,
+   "y": 0
+  },
+  {
+   "x": 227.6,
+   "y": 88.0
+  },
+  {
+   "x": 121.8,
+   "y": 88.0
+  },
+  {
+   "x": 121.8,
+   "y": 163.9
+  },
+  {
+   "x": 121.0,
+   "y": 163.9
+  },
+  {
+   "x": 121.0,
+   "y": 165.5
+  },
+  {
+   "x": 121.8,
+   "y": 165.5
+  },
+  {
+   "x": 121.8,
+   "y": 176.7
+  },
+  {
+   "x": 105.8,
+   "y": 176.7
+  },
+  {
+   "x": 105.8,
+   "y": 165.5
+  },
+  {
+   "x": 106.6,
+   "y": 165.5
+  },
+  {
+   "x": 106.6,
+   "y": 163.9
+  },
+  {
+   "x": 105.8,
+   "y": 163.9
+  },
+  {
+   "x": 105.8,
+   "y": 88.0
+  },
+  {
+   "x": 0,
+   "y": 88.0
+  }
+ ],
+ "footprints": {
+  "SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount": {
+   "name": "SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount",
+   "pads": [
+    {
+     "id": "1",
+     "x": 0,
+     "y": 0,
+     "w": 3.2,
+     "h": 1.27,
+     "shape": "rect",
+     "th": false
+    },
+    {
+     "id": "2",
+     "x": -0.25,
+     "y": 2.825,
+     "w": 3.7,
+     "h": 1.35,
+     "shape": "rect",
+     "th": false
+    },
+    {
+     "id": "2",
+     "x": -0.25,
+     "y": 2.825,
+     "w": 3.7,
+     "h": 1.35,
+     "shape": "rect",
+     "th": false
+    },
+    {
+     "id": "2",
+     "x": -0.25,
+     "y": -2.825,
+     "w": 3.7,
+     "h": 1.35,
+     "shape": "rect",
+     "th": false
+    },
+    {
+     "id": "2",
+     "x": -0.25,
+     "y": -2.825,
+     "w": 3.7,
+     "h": 1.35,
+     "shape": "rect",
+     "th": false
+    }
+   ],
+   "outline": [
+    [
+     {
+      "x": -1.71,
+      "y": 0.84
+     },
+     {
+      "x": -1.71,
+      "y": 1.95
+     }
+    ],
+    [
+     {
+      "x": -1.71,
+      "y": -1.95
+     },
+     {
+      "x": -1.71,
+      "y": -0.84
+     }
+    ],
+    [
+     {
+      "x": 1.54,
+      "y": 0.84
+     },
+     {
+      "x": 1.54,
+      "y": 1.95
+     }
+    ],
+    [
+     {
+      "x": 1.54,
+      "y": -1.95
+     },
+     {
+      "x": 1.54,
+      "y": -0.84
+     }
+    ]
+   ],
+   "body": {
+    "w": 4.2,
+    "h": 7
+   },
+   "outlineKind": "silk"
+  },
+  "Antenna:SMA_EdgeMount_rear_legs": {
+   "name": "Antenna:SMA_EdgeMount_rear_legs",
+   "pads": [
+    {
+     "id": "2",
+     "x": 0.25,
+     "y": 2.825,
+     "w": 3.7,
+     "h": 1.35,
+     "shape": "rect",
+     "th": false
+    },
+    {
+     "id": "2",
+     "x": 0.25,
+     "y": -2.825,
+     "w": 3.7,
+     "h": 1.35,
+     "shape": "rect",
+     "th": false
+    }
+   ],
+   "outline": [],
+   "body": {
+    "w": 3.7,
+    "h": 7.0
+   }
+  }
+ },
+ "components": [
+  {
+   "ref": "J1",
+   "footprint": "SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount",
+   "value": "SMA edge 1.6mm",
+   "x": 113.8,
+   "y": 174.1,
+   "rot": 270,
+   "side": "front"
+  },
+  {
+   "ref": "J1B",
+   "footprint": "Antenna:SMA_EdgeMount_rear_legs",
+   "value": "DNP",
+   "x": 113.8,
+   "y": 174.1,
+   "rot": 270,
+   "side": "back"
+  }
+ ],
+ "nets": [
+  {
+   "name": "RF",
+   "pins": [
+    "J1-1"
+   ]
+  },
+  {
+   "name": "GND",
+   "pins": [
+    "J1-2",
+    "J1B-2"
+   ]
+  }
+ ],
+ "rules": {
+  "width": 0.25,
+  "clearance": 0.2,
+  "viaDiameter": 0.6,
+  "viaDrill": 0.3,
+  "edgeClearance": 0.3,
+  "minTrackWidth": 0.1,
+  "minAnnularRing": 0.1,
+  "holeToCopper": 0.25,
+  "holeToHole": 0.25,
+  "silkToCopper": 0.15,
+  "silkWidth": 0.15,
+  "maskExpansion": 0.05,
+  "minMaskSliver": 0.1,
+  "viaLength": 1.6,
+  "minMicroviaDiameter": 0.2,
+  "minMicroviaDrill": 0.1,
+  "laserHoleToCopper": 0.15,
+  "laserHoleToHole": 0.24,
+  "laserHoleToHoleSameNet": 0.13,
+  "parallelGap": 0,
+  "parallelLimit": 0,
+  "tandemGap": 0,
+  "tandemLimit": 0
+ },
+ "traces": [],
+ "vias": [
+  {
+   "id": 5,
+   "net": "GND",
+   "x": 118.8,
+   "y": 175.1,
+   "diameter": 0.6,
+   "drill": 0.3
+  },
+  {
+   "id": 6,
+   "net": "GND",
+   "x": 118.8,
+   "y": 171.1,
+   "diameter": 0.6,
+   "drill": 0.3
+  },
+  {
+   "id": 8,
+   "net": "GND",
+   "x": 108.8,
+   "y": 175.1,
+   "diameter": 0.6,
+   "drill": 0.3
+  },
+  {
+   "id": 9,
+   "net": "GND",
+   "x": 108.8,
+   "y": 171.1,
+   "diameter": 0.6,
+   "drill": 0.3
+  }
+ ],
+ "keepouts": [],
+ "zones": [
+  {
+   "id": 2,
+   "net": "GND",
+   "layer": "B.Cu",
+   "points": [
+    {
+     "x": 107.8,
+     "y": 176.3
+    },
+    {
+     "x": 119.8,
+     "y": 176.3
+    },
+    {
+     "x": 119.8,
+     "y": 164.7
+    },
+    {
+     "x": 115.8,
+     "y": 86.0
+    },
+    {
+     "x": 115.8,
+     "y": 64.5
+    },
+    {
+     "x": 224.6,
+     "y": 85.0
+    },
+    {
+     "x": 224.6,
+     "y": 3.0
+    },
+    {
+     "x": 111.8,
+     "y": 23.5
+    },
+    {
+     "x": 111.8,
+     "y": 86.0
+    },
+    {
+     "x": 107.8,
+     "y": 164.7
+    }
+   ],
+   "clearance": 0.2,
+   "dynamic": false
+  },
+  {
+   "id": 3,
+   "net": "RF",
+   "layer": "F.Cu",
+   "points": [
+    {
+     "x": 112.395,
+     "y": 174.1
+    },
+    {
+     "x": 115.205,
+     "y": 174.1
+    },
+    {
+     "x": 115.205,
+     "y": 164.7
+    },
+    {
+     "x": 115.8,
+     "y": 86.0
+    },
+    {
+     "x": 115.8,
+     "y": 23.5
+    },
+    {
+     "x": 3.0,
+     "y": 3.0
+    },
+    {
+     "x": 3.0,
+     "y": 85.0
+    },
+    {
+     "x": 111.8,
+     "y": 64.5
+    },
+    {
+     "x": 111.8,
+     "y": 86.0
+    },
+    {
+     "x": 112.395,
+     "y": 164.7
+    }
+   ],
+   "clearance": 0.2,
+   "dynamic": false
+  },
+  {
+   "id": 4,
+   "net": "GND",
+   "layer": "F.Cu",
+   "points": [
+    {
+     "x": 116.205,
+     "y": 176.3
+    },
+    {
+     "x": 119.8,
+     "y": 176.3
+    },
+    {
+     "x": 119.8,
+     "y": 169.7
+    },
+    {
+     "x": 116.205,
+     "y": 169.7
+    }
+   ],
+   "clearance": 0.2,
+   "dynamic": false
+  },
+  {
+   "id": 7,
+   "net": "GND",
+   "layer": "F.Cu",
+   "points": [
+    {
+     "x": 107.8,
+     "y": 176.3
+    },
+    {
+     "x": 111.395,
+     "y": 176.3
+    },
+    {
+     "x": 111.395,
+     "y": 169.7
+    },
+    {
+     "x": 107.8,
+     "y": 169.7
+    }
+   ],
+   "clearance": 0.2,
+   "dynamic": false
+  }
+ ],
+ "diffPairs": [],
+ "lengthGroups": [],
+ "nextId": 9,
+ "netClasses": [],
+ "classClearances": [],
+ "regions": [],
+ "texts": [],
+ "dimensions": [],
+ "rooms": [],
+ "variants": [],
+ "structures": [],
+ "waivers": [],
+ "backdrill": [],
+ "sources": [],
+ "loads": [],
+ "rfElements": [],
+ "voids": [],
+ "bondWires": [],
+ "bondProfiles": [],
+ "flexZones": [],
+ "bends": [],
+ "stiffeners": []
+}

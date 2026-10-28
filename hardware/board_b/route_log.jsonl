@@ -1,0 +1,27 @@
+{"batch": "other", "nets": 60, "state": "done", "ms": 45265, "ok": 60, "total": 60, "failed": [], "copper": [519, 32]}
+{"batch": "bga0", "nets": 15, "state": "done", "ms": 50975, "ok": 15, "total": 15, "failed": [], "copper": [772, 75]}
+{"batch": "bga1", "nets": 15, "state": "done", "ms": 115530, "ok": 8, "total": 15, "failed": ["AD1_RXD2_N", "AD1_RXD3_N", "AD1_RXD3_P", "AD1_RXD4_N", "AD1_RXD4_P", "AD1_RXD5_N", "AD1_RXD5_P"], "copper": [860, 94]}
+{"batch": "bga2", "nets": 15, "state": "done", "ms": 54778, "ok": 15, "total": 15, "failed": [], "copper": [1070, 141]}
+{"batch": "bga3", "nets": 15, "state": "done", "ms": 155650, "ok": 9, "total": 15, "failed": ["AD2_RXD3_N", "AD2_RXD3_P", "AD2_RXD4_N", "AD2_RXD4_P", "AD2_RXD5_N", "AD2_SYNC"], "copper": [1216, 163]}
+{"batch": "bga4", "nets": 15, "state": "done", "ms": 194061, "ok": 12, "total": 15, "failed": ["AD3_FBCLK_N", "AD3_RXD1_N", "AD3_RXD1_P"], "copper": [1380, 192]}
+{"batch": "bga5", "nets": 15, "state": "done", "ms": 249042, "ok": null, "total": null, "failed": null, "copper": [1380, 192]}
+{"batch": "bga5a", "nets": 7, "state": "done", "ms": 49377, "ok": null, "total": null, "failed": null, "copper": [1380, 192]}
+{"batch": "bga5aa", "nets": 3, "state": "done", "ms": 59174, "ok": null, "total": null, "failed": null, "copper": [1380, 192]}
+{"batch": "bga5aaa", "nets": 1, "state": "done", "ms": 20549, "ok": 0, "total": 1, "failed": ["AD3_RXD4_P"], "copper": [1380, 192]}
+{"batch": "bga5aab", "nets": 2, "state": "done", "ms": 36204, "ok": 0, "total": 2, "failed": ["AD3_RXD5_N", "AD3_RXD5_P"], "copper": [1380, 192]}
+{"batch": "bga5ab", "nets": 4, "state": "done", "ms": 48554, "ok": null, "total": null, "failed": null, "copper": [1380, 192]}
+{"batch": "bga5aba", "nets": 2, "state": "done", "ms": 55863, "ok": 2, "total": 2, "failed": [], "copper": [1387, 194]}
+{"batch": "bga5abb", "nets": 2, "state": "done", "ms": 4380, "ok": 2, "total": 2, "failed": [], "copper": [1407, 198]}
+{"batch": "bga5b", "nets": 8, "state": "done", "ms": 149254, "ok": null, "total": null, "failed": null, "copper": [1407, 198]}
+{"batch": "bga5ba", "nets": 4, "state": "done", "ms": 198820, "ok": null, "total": null, "failed": null, "copper": [1407, 198]}
+{"batch": "bga5baa", "nets": 2, "state": "done", "ms": 249444, "ok": null, "total": null, "failed": null, "copper": [1407, 198]}
+{"batch": "bga5baaa", "nets": 1, "state": "done", "ms": 49095, "ok": null, "total": null, "failed": null, "copper": [1407, 198]}
+{"batch": "bga5baab", "nets": 1, "state": "done", "ms": 58778, "ok": null, "total": null, "failed": null, "copper": [1407, 198]}
+{"batch": "bga5bab", "nets": 2, "state": "done", "ms": 28561, "ok": null, "total": null, "failed": null, "copper": [1407, 198]}
+{"batch": "bga5baba", "nets": 1, "state": "done", "ms": 38398, "ok": null, "total": null, "failed": null, "copper": [1407, 198]}
+{"batch": "bga5babb", "nets": 1, "state": "done", "ms": 49338, "ok": null, "total": null, "failed": null, "copper": [1407, 198]}
+{"batch": "bga5bb", "nets": 4, "state": "done", "ms": 10614, "ok": 4, "total": 4, "failed": [], "copper": [1452, 207]}
+{"batch": "bga6", "nets": 15, "state": "done", "ms": 38340, "ok": null, "total": null, "failed": null, "copper": [1452, 207]}
+{"batch": "bga6a", "nets": 7, "state": "done", "ms": 8980, "ok": null, "total": null, "failed": null, "copper": [1452, 207]}
+{"batch": "bga6aa", "nets": 3, "state": "done", "ms": 7355, "ok": 2, "total": 3, "failed": ["CH2_RXP"], "copper": [1461, 207]}
+{"batch": "bga6ab", "nets": 4, "state": "done", "ms": 10864, "ok": 4, "total": 4, "failed": [], "copper": [1503, 217]}

@@ -1,0 +1,37 @@
+unit mm
+shape route: 43 imported connections broke the current rules and were ripped up
+shape route pass 1: 7 nets incomplete, 336 connections open, 0 conflicts, 43 rip-ups, 71.8s
+shape route pass 2: 29 nets incomplete, 39 connections open, 0 conflicts, 72 rip-ups, 115.0s
+shape route pass 3: 19 nets incomplete, 28 connections open, 0 conflicts, 92 rip-ups, 154.2s
+shape route pass 4: 15 nets incomplete, 19 connections open, 0 conflicts, 107 rip-ups, 174.3s
+shape route pass 5: 13 nets incomplete, 17 connections open, 0 conflicts, 120 rip-ups, 205.8s
+shape route pass 6: 9 nets incomplete, 12 connections open, 0 conflicts, 129 rip-ups, 227.8s
+shape route pass 7: 11 nets incomplete, 26 connections open, 1 conflicts, 140 rip-ups, 251.4s
+shape route pass 8: 8 nets incomplete, 10 connections open, 1 conflicts, 149 rip-ups, 281.2s
+shape route pass 9: 5 nets incomplete, 8 connections open, 1 conflicts, 154 rip-ups, 299.2s
+shape route pass 10: 7 nets incomplete, 7 connections open, 1 conflicts, 161 rip-ups, 310.6s
+shape route pass 11: 2 nets incomplete, 5 connections open, 1 conflicts, 163 rip-ups, 324.3s
+shape route pass 12: 1 nets incomplete, 1 connections open, 1 conflicts, 164 rip-ups, 325.6s
+shape route pass 13: 1 nets incomplete, 1 connections open, 1 conflicts, 165 rip-ups, 325.7s
+shape route pass 14: 1 nets incomplete, 1 connections open, 1 conflicts, 166 rip-ups, 326.7s
+shape route pass 15: 1 nets incomplete, 1 connections open, 1 conflicts, 167 rip-ups, 326.9s
+shape route pass 16: 1 nets incomplete, 1 connections open, 1 conflicts, 168 rip-ups, 328.1s
+shape route pass 17: 1 nets incomplete, 1 connections open, 1 conflicts, 169 rip-ups, 329.2s
+shape route pass 18: 1 nets incomplete, 1 connections open, 1 conflicts, 170 rip-ups, 330.6s
+shape route pass 19: 1 nets incomplete, 1 connections open, 1 conflicts, 171 rip-ups, 331.0s
+shape route pass 20: 1 nets incomplete, 1 connections open, 1 conflicts, 172 rip-ups, 331.1s
+shape route pass 21: 1 nets incomplete, 1 connections open, 1 conflicts, 173 rip-ups, 332.0s
+shape route pass 22: 1 nets incomplete, 1 connections open, 1 conflicts, 174 rip-ups, 332.0s
+shape route pass 23: 1 nets incomplete, 1 connections open, 1 conflicts, 175 rip-ups, 333.7s
+shape route pass 24: 1 nets incomplete, 1 connections open, 1 conflicts, 176 rip-ups, 333.8s
+shape route pass 25: 3 nets incomplete, 6 connections open, 1 conflicts, 179 rip-ups, 335.5s
+shape route pass 26: 1 nets incomplete, 1 connections open, 1 conflicts, 180 rip-ups, 337.0s
+shape route pass 27: 1 nets incomplete, 1 connections open, 1 conflicts, 181 rip-ups, 339.1s
+shape route pass 28: 1 nets incomplete, 1 connections open, 1 conflicts, 182 rip-ups, 339.5s
+shape route pass 29: 3 nets incomplete, 11 connections open, 1 conflicts, 185 rip-ups, 341.9s
+shape route pass 30: 3 nets incomplete, 14 connections open, 1 conflicts, 189 rip-ups, 343.8s
+shape route pass 31: 2 nets incomplete, 3 connections open, 1 conflicts, 191 rip-ups, 344.6s
+shape route pass 32: 1 nets incomplete, 1 connections open, 1 conflicts, 192 rip-ups, 345.2s
+shape route pass 33: 0 nets incomplete, 0 connections open, 1 conflicts, 192 rip-ups, 345.9s
+shape-based router: 166 nets, 0 connections open, 927 vias, wire length 10181.7 mm, 849 searches, 192 rip-ups — complete
+wrote session /out.ses

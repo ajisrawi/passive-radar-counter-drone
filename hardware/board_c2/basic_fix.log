@@ -1,0 +1,22 @@
+﻿round 1: 18 opens
+  MGTAVTT 3.2 mm {"ok": true, "vias": 2, "length": 0.47, "ripped": [], "layers": ["F.Cu", "In2.Cu"]}
+  MGTAVTT 3.2 mm {"ok": true, "vias": 2, "length": 0.47, "ripped": [], "layers": ["F.Cu", "In2.Cu"]}
+  USER_BTN_PS 6.3 mm {"ok": true, "vias": 0, "length": 4.65, "ripped": [], "layers": ["F.Cu"]}
+  ETH_MDIO 7.0 mm {"ok": true, "vias": 2, "length": 9.34, "ripped": [], "layers": ["F.Cu", "In2.Cu"]}
+  DDR_A11 8.5 mm {"ok": true, "vias": 2, "length": 8.66, "ripped": [], "layers": ["F.Cu", "In2.Cu"]}
+  MGTAVCC 10.1 mm {"ok": true, "vias": 2, "length": 0.47, "ripped": [], "layers": ["F.Cu", "In2.Cu"]}
+  MGTAVCC 10.1 mm {"ok": true, "vias": 2, "length": 0.47, "ripped": [], "layers": ["F.Cu", "In2.Cu"]}
+  DDR_A11 12.0 mm {"ok": true, "vias": 0, "length": 13.52, "ripped": [], "layers": ["F.Cu"]}
+  PHY_RXC 20.4 mm {"ok": true, "vias": 2, "length": 23.92, "ripped": [], "layers": ["F.Cu", "In2.Cu"]}
+  DDR_RESET_B 20.7 mm {"ok": true, "vias": 2, "length": 21.41, "ripped": [], "layers": ["F.Cu", "In2.Cu"]}
+  DDR_DQ2 25.8 mm {"ok": true, "vias": 2, "length": 27.05, "ripped": [], "layers": ["F.Cu", "In2.Cu"]}
+  DDR_DQ26 29.3 mm {"ok": true, "vias": 1, "length": 32.53, "ripped": [], "layers": ["In2.Cu"]}
+  SD_CD 54.2 mm {"ok": true, "vias": 4, "length": 60.58, "ripped": [], "layers": ["F.Cu", "In2.Cu"]}
+  RGMII_RXD3 72.0 mm {"ok": true, "vias": 8, "length": 77.74, "ripped": [], "layers": ["F.Cu", "In2.Cu", "In6.Cu"]}
+  ETH_MDIO 75.4 mm {"ok": true, "vias": 6, "length": 77.28, "ripped": [], "layers": ["In2.Cu", "In3.Cu", "In6.Cu"]}
+  GNSS_RXD 96.3 mm {"ok": true, "vias": 2, "length": 105.14, "ripped": [], "layers": ["F.Cu", "In2.Cu"]}
+  GNSS_PPS 98.0 mm {"ok": true, "vias": 2, "length": 106.85, "ripped": [], "layers": ["F.Cu", "In2.Cu"]}
+  AD3_RXD4_N 111.2 mm {"ok": true, "vias": 8, "length": 120.67, "ripped": [], "layers": ["B.Cu", "F.Cu", "In2.Cu", "In7.Cu"]}
+  AD1_FRAME_N 115.1 mm {"ok": true, "vias": 10, "length": 127.86, "ripped": [], "layers": ["F.Cu", "In2.Cu", "In3.Cu"]}
+round 2: 0 opens
+clearance 1, hole-to-copper 1

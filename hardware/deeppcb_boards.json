@@ -1,0 +1,20 @@
+{
+ "board_a": {
+  "boardId": "ca1dfc9c-0cd4-4cc4-a421-e90bc436b4c0",
+  "requestId": "board_a-75dd32b0",
+  "file": "deeppcb_submit/board_a_proj/board_a.kicad_pcb",
+  "routingType": "EmptyBoard"
+ },
+ "board_b": {
+  "boardId": "694abe42-c45b-4093-ae34-3d39931f9781",
+  "requestId": "board_b-763207cb",
+  "file": "deeppcb_submit/board_b_proj/board_b.kicad_pcb",
+  "routingType": "EmptyBoard"
+ },
+ "board_c": {
+  "boardId": "b9f1ec14-2905-4afc-8a86-46d0ddfc4811",
+  "requestId": "board_c-7d56c0f7",
+  "file": "deeppcb_submit/board_c_proj/board_c.kicad_pcb",
+  "routingType": "EmptyBoard"
+ }
+}

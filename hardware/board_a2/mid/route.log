@@ -1,0 +1,17 @@
+lattice 651x851x4 pitch=200 connections=472
+fanout pass   1 | routed 0/472 | unrouted 472 | conflicts 0 | vias 0 | length 0.0mm | 0.0s
+route  pass   2 | routed 462/472 | unrouted 10 | conflicts 169 | vias 198 | length 4138.2mm | 75.1s
+route  pass   3 | routed 460/472 | unrouted 12 | conflicts 19 | vias 213 | length 4106.2mm | 86.2s
+route  pass   4 | routed 463/472 | unrouted 9 | conflicts 9 | vias 206 | length 4157.2mm | 74.1s
+route  pass   5 | routed 463/472 | unrouted 9 | conflicts 9 | vias 206 | length 4157.2mm | 104.0s
+constraint regions: 21
+lattice 651x851x4 pitch=200 connections=456
+fanout pass   1 | routed 0/456 | unrouted 456 | conflicts 0 | vias 0 | length 0.0mm | 0.0s
+route  pass   2 | routed 451/456 | unrouted 5 | conflicts 33 | vias 179 | length 3873.0mm | 87.8s
+route  pass   3 | routed 455/456 | unrouted 1 | conflicts 0 | vias 182 | length 3909.2mm | 5.5s
+route  pass   4 | routed 456/456 | unrouted 0 | conflicts 0 | vias 182 | length 3913.2mm | 0.0s
+clean  pass   5 | routed 456/456 | unrouted 0 | conflicts 0 | vias 121 | length 4002.2mm | 20.2s
+clean: improved 47 connections
+clean  pass   6 | routed 456/456 | unrouted 0 | conflicts 0 | vias 105 | length 4062.2mm | 21.8s
+clean: improved 10 connections
+wrote session /out.ses

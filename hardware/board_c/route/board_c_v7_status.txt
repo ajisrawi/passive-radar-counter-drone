@@ -1,0 +1,22 @@
+#ROUTING STATUS <<< board_c >>>
+Nets         =      251   Connections         =     1997
+Completion   =   99.95%   Unconnections       =        0
+Conflicts    =        2   Total Vias          =     1653
+Routed length=  14506.385 mm
+# Overall Routing Time: 64.3s
+
+  Kind   Pass | Unroutes | Conflicts |  Vias |  Length(mm) |   Time
+  route     1 |        0 |         3 |  1652 |    14505.84 |    4.4s
+  route     2 |        1 |         0 |  1647 |    14482.18 |    3.9s
+  route     3 |        0 |         3 |  1652 |    14506.18 |    5.3s
+  route     4 |        0 |         3 |  1652 |    14506.18 |    5.3s
+  route     5 |        0 |         3 |  1652 |    14506.18 |    5.4s
+  route     6 |        0 |         3 |  1652 |    14506.18 |    5.2s
+  route     7 |        0 |         3 |  1652 |    14506.18 |    5.1s
+  route     8 |        0 |         3 |  1652 |    14506.18 |    5.0s
+  route     9 |        0 |         3 |  1652 |    14506.18 |    5.3s
+  route    10 |        0 |         2 |  1653 |    14506.38 |    3.9s
+  route    11 |        0 |         2 |  1653 |    14506.38 |    3.5s
+  route    12 |        0 |         2 |  1653 |    14506.38 |    3.6s
+  route    13 |        0 |         2 |  1653 |    14506.38 |    3.6s
+  clean    14 |        0 |         2 |  1653 |    14506.38 |    2.2s

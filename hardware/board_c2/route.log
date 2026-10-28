@@ -1,0 +1,216 @@
+unit mm
+constraint regions: 14
+lattice 722x657x6 pitch=305.17578125 connections=1634
+fanout pass   1 | routed 881/1634 | unrouted 753 | conflicts 0 | vias 874 | length 396.7mm | 18.6s
+route  pass   2 | routed 1633/1634 | unrouted 1 | conflicts 973 | vias 1990 | length 26700.7mm | 78.9s
+route  pass   3 | routed 1626/1634 | unrouted 8 | conflicts 323 | vias 2030 | length 26717.2mm | 33.6s
+route  pass   4 | routed 1623/1634 | unrouted 11 | conflicts 164 | vias 2044 | length 26643.1mm | 15.5s
+route  pass   5 | routed 1627/1634 | unrouted 7 | conflicts 92 | vias 2075 | length 26815.2mm | 11.4s
+route  pass   6 | routed 1633/1634 | unrouted 1 | conflicts 75 | vias 2093 | length 26987.9mm | 10.8s
+route  pass   7 | routed 1632/1634 | unrouted 2 | conflicts 74 | vias 2107 | length 27009.6mm | 8.9s
+route  pass   8 | routed 1632/1634 | unrouted 2 | conflicts 49 | vias 2111 | length 27045.0mm | 7.6s
+route  pass   9 | routed 1630/1634 | unrouted 4 | conflicts 37 | vias 2105 | length 26993.1mm | 8.9s
+route  pass  10 | routed 1633/1634 | unrouted 1 | conflicts 45 | vias 2114 | length 27114.6mm | 12.2s
+route  pass  11 | routed 1633/1634 | unrouted 1 | conflicts 39 | vias 2116 | length 27117.0mm | 20.3s
+route  pass  12 | routed 1633/1634 | unrouted 1 | conflicts 39 | vias 2116 | length 27120.1mm | 23.4s
+route  pass  13 | routed 1633/1634 | unrouted 1 | conflicts 39 | vias 2116 | length 27120.1mm | 22.6s
+route  pass  14 | routed 1633/1634 | unrouted 1 | conflicts 39 | vias 2115 | length 27122.2mm | 23.2s
+route  pass  15 | routed 1633/1634 | unrouted 1 | conflicts 39 | vias 2115 | length 27122.2mm | 22.5s
+route  pass  16 | routed 1633/1634 | unrouted 1 | conflicts 39 | vias 2115 | length 27122.2mm | 23.1s
+route  pass  17 | routed 1632/1634 | unrouted 2 | conflicts 37 | vias 2111 | length 27086.8mm | 22.8s
+route  pass  18 | routed 1633/1634 | unrouted 1 | conflicts 37 | vias 2114 | length 27127.4mm | 22.8s
+route  pass  19 | routed 1632/1634 | unrouted 2 | conflicts 35 | vias 2110 | length 27092.0mm | 23.6s
+route  pass  20 | routed 1633/1634 | unrouted 1 | conflicts 37 | vias 2114 | length 27127.4mm | 23.1s
+route  pass  21 | routed 1632/1634 | unrouted 2 | conflicts 35 | vias 2110 | length 27092.0mm | 23.0s
+route  pass  22 | routed 1632/1634 | unrouted 2 | conflicts 35 | vias 2110 | length 27092.0mm | 23.4s
+route  pass  23 | routed 1616/1634 | unrouted 18 | conflicts 0 | vias 2075 | length 26483.8mm | 49.0s
+route  pass  24 | routed 1621/1634 | unrouted 13 | conflicts 0 | vias 2085 | length 26560.4mm | 73.3s
+route  pass  25 | routed 1621/1634 | unrouted 13 | conflicts 0 | vias 2085 | length 26560.4mm | 75.4s
+route  pass  26 | routed 1621/1634 | unrouted 13 | conflicts 0 | vias 2085 | length 26560.4mm | 113.1s
+clean  pass  27 | routed 1621/1634 | unrouted 13 | conflicts 0 | vias 1878 | length 26813.0mm | 63.2s
+clean: improved 189 connections
+clean  pass  28 | routed 1621/1634 | unrouted 13 | conflicts 0 | vias 1848 | length 26779.5mm | 65.9s
+clean: improved 62 connections
+route  pass  29 | routed 1633/1634 | unrouted 1 | conflicts 70 | vias 1878 | length 27352.0mm | 3.2s
+route  pass  30 | routed 1632/1634 | unrouted 2 | conflicts 33 | vias 1876 | length 27325.1mm | 7.2s
+route  pass  31 | routed 1633/1634 | unrouted 1 | conflicts 51 | vias 1882 | length 27344.4mm | 0.9s
+route  pass  32 | routed 1633/1634 | unrouted 1 | conflicts 47 | vias 1881 | length 27343.4mm | 0.6s
+route  pass  33 | routed 1633/1634 | unrouted 1 | conflicts 4 | vias 1882 | length 27338.6mm | 0.5s
+route  pass  34 | routed 1633/1634 | unrouted 1 | conflicts 4 | vias 1882 | length 27338.6mm | 0.4s
+route  pass  35 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.1s
+route  pass  36 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  37 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  38 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  39 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  40 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  41 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  42 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  43 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  44 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  45 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  46 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  47 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  48 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  49 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  50 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  51 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  52 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  53 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  54 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  55 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  56 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  57 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  58 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  59 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  60 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  61 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  62 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  63 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  64 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  65 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  66 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  67 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  68 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  69 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  70 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  71 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  72 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  73 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  74 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  75 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  76 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  77 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+route  pass  78 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1882 | length 27338.0mm | 0.0s
+clean  pass  79 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1878 | length 27307.1mm | 64.9s
+clean: improved 18 connections
+clean  pass  80 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1878 | length 27305.3mm | 64.0s
+clean: improved 3 connections
+clean  pass  81 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1878 | length 27304.1mm | 66.0s
+clean: improved 2 connections
+clean  pass  82 | routed 1633/1634 | unrouted 1 | conflicts 0 | vias 1878 | length 27304.1mm | 64.6s
+clean: improved 0 connections
+tune SFP0_TXN_FPGA: 40.951 -> 44.686 mm (target 44.686)
+tune SFP0_RXN_FPGA: 40.434 -> 45.878 mm (target 45.878)
+tune SFP0_RD_N: 22.799 -> 24.030 mm (target 24.030)
+tune SFP1_TXN_FPGA: 54.598 -> 56.447 mm (target 56.447)
+tune SFP1_TD_P: 19.292 -> 22.307 mm (target 22.307)
+tune SFP1_RXN_FPGA: 59.146 -> 69.091 mm (target 69.091)
+tune SFP1_RD_P: 18.611 -> 20.104 mm (target 20.104)
+tune MGTREF156_N: 55.087 -> 58.492 mm (target 58.492)
+tune REF156_P_OSC: 16.116 -> 17.429 mm (target 17.429)
+tune FPGA_REFCLK_P: 165.915 -> 167.139 mm (target 167.139)
+tune DDR_CK_N: 83.565 -> 109.756 mm (target 109.756)
+tune DDR_DQS0_N: 29.943 -> 29.943 mm (target 41.824) NOT MET
+tune DDR_DQS1_N: 37.875 -> 52.633 mm (target 52.633)
+tune DDR_DQS2_N: 31.778 -> 31.778 mm (target 46.375) NOT MET
+tune DDR_DQS3_P: 42.602 -> 51.567 mm (target 51.567)
+tune AD1_FBCLK_N: 149.396 -> 163.206 mm (target 163.206)
+tune AD1_RXD0_N: 152.194 -> 163.206 mm (target 163.206)
+tune AD1_RXD1_N: 148.316 -> 163.206 mm (target 163.206)
+tune AD1_RXD2_N: 155.517 -> 163.206 mm (target 163.206)
+tune AD1_RXD3_N: 155.972 -> 163.206 mm (target 163.206)
+tune AD1_RXD4_N: 151.459 -> 163.206 mm (target 163.206)
+tune AD1_RXD5_N: 148.986 -> 163.206 mm (target 163.206)
+tune AD2_DCLK_N: 162.279 -> 169.563 mm (target 169.563)
+tune AD2_FBCLK_N: 148.489 -> 169.563 mm (target 169.563)
+tune AD2_FRAME_N: 157.030 -> 169.563 mm (target 169.563)
+tune AD2_RXD0_N: 152.201 -> 169.563 mm (target 169.563)
+tune AD2_RXD1_P: 151.576 -> 169.563 mm (target 169.563)
+tune AD2_RXD2_N: 148.321 -> 169.563 mm (target 169.563)
+tune AD2_RXD3_N: 149.904 -> 169.563 mm (target 169.563)
+tune AD2_RXD4_N: 143.650 -> 169.563 mm (target 169.563)
+tune AD2_RXD5_N: 145.331 -> 169.563 mm (target 169.563)
+tune AD3_DCLK_N: 157.784 -> 162.571 mm (target 162.571)
+tune AD3_FBCLK_N: 156.181 -> 162.571 mm (target 162.571)
+tune AD3_FRAME_P: 160.370 -> 162.571 mm (target 162.571)
+tune AD3_RXD0_N: 152.897 -> 162.571 mm (target 162.571)
+tune AD3_RXD1_N: 151.163 -> 162.571 mm (target 162.571)
+tune AD3_RXD2_N: 152.245 -> 162.571 mm (target 162.571)
+tune AD3_RXD3_N: 155.729 -> 162.571 mm (target 162.571)
+tune AD3_RXD4_N: 142.290 -> 162.571 mm (target 162.571)
+tune AD3_RXD5_P: 146.508 -> 162.571 mm (target 162.571)
+tune DDR_DQ0: 33.703 -> 41.824 mm (target 41.824)
+tune DDR_DQ1: 35.847 -> 41.824 mm (target 41.824)
+tune DDR_DQ2: 35.981 -> 41.824 mm (target 41.824)
+tune DDR_DQ3: 32.185 -> 41.824 mm (target 41.824)
+tune DDR_DQ4: 28.441 -> 41.824 mm (target 41.824)
+tune DDR_DQ5: 35.668 -> 41.824 mm (target 41.824)
+tune DDR_DQ6: 36.245 -> 41.824 mm (target 41.824)
+tune DDR_DQ7: 36.072 -> 41.824 mm (target 41.824)
+tune DDR_DM0: 35.828 -> 41.824 mm (target 41.824)
+tune DDR_DQ8: 33.593 -> 38.393 mm (target 52.633) NOT MET
+tune DDR_DQ9: 41.578 -> 52.633 mm (target 52.633)
+tune DDR_DQ10: 33.164 -> 33.164 mm (target 52.633) NOT MET
+tune DDR_DQ11: 44.444 -> 52.633 mm (target 52.633)
+tune DDR_DQ12: 38.277 -> 52.633 mm (target 52.633)
+tune DDR_DQ13: 42.605 -> 52.633 mm (target 52.633)
+tune DDR_DQ14: 39.342 -> 52.633 mm (target 52.633)
+tune DDR_DQ15: 49.765 -> 52.633 mm (target 52.633)
+tune DDR_DM1: 40.745 -> 52.633 mm (target 52.633)
+tune DDR_DQ16: 35.403 -> 46.375 mm (target 46.375)
+tune DDR_DQ18: 34.632 -> 46.375 mm (target 46.375)
+tune DDR_DQ19: 43.468 -> 46.375 mm (target 46.375)
+tune DDR_DQ20: 41.259 -> 46.375 mm (target 46.375)
+tune DDR_DQ21: 40.197 -> 46.375 mm (target 46.375)
+tune DDR_DQ22: 37.397 -> 46.375 mm (target 46.375)
+tune DDR_DQ23: 36.034 -> 46.375 mm (target 46.375)
+tune DDR_DM2: 45.413 -> 46.375 mm (target 46.375)
+tune DDR_DQS2_P: 40.783 -> 46.375 mm (target 46.375)
+tune DDR_DQ24: 35.815 -> 35.815 mm (target 51.567) NOT MET
+tune DDR_DQ25: 34.828 -> 34.828 mm (target 51.567) NOT MET
+tune DDR_DQ26: 43.501 -> 51.567 mm (target 51.567)
+tune DDR_DQ27: 36.024 -> 51.567 mm (target 51.567)
+tune DDR_DQ28: 40.808 -> 51.567 mm (target 51.567)
+tune DDR_DQ29: 39.396 -> 51.567 mm (target 51.567)
+tune DDR_DQ30: 43.504 -> 51.567 mm (target 51.567)
+tune DDR_DM3: 36.105 -> 51.567 mm (target 51.567)
+tune DDR_DQS3_N: 46.739 -> 51.567 mm (target 51.567)
+tune DDR_A0: 82.137 -> 109.756 mm (target 109.756)
+tune DDR_A1: 70.641 -> 70.641 mm (target 109.756) NOT MET
+tune DDR_A2: 100.309 -> 109.756 mm (target 109.756)
+tune DDR_A3: 101.107 -> 109.756 mm (target 109.756)
+tune DDR_A4: 80.840 -> 80.840 mm (target 109.756) NOT MET
+tune DDR_A5: 90.475 -> 109.756 mm (target 109.756)
+tune DDR_A6: 77.497 -> 109.756 mm (target 109.756)
+tune DDR_A7: 100.998 -> 109.756 mm (target 109.756)
+tune DDR_A8: 86.697 -> 109.756 mm (target 109.756)
+tune DDR_A9: 98.412 -> 109.756 mm (target 109.756)
+tune DDR_A10: 74.608 -> 109.756 mm (target 109.756)
+tune DDR_A11: 70.076 -> 70.076 mm (target 109.756) NOT MET
+tune DDR_A12: 93.553 -> 109.756 mm (target 109.756)
+tune DDR_A13: 77.411 -> 109.756 mm (target 109.756)
+tune DDR_A14: 65.185 -> 65.185 mm (target 109.756) NOT MET
+tune DDR_BA0: 97.476 -> 109.756 mm (target 109.756)
+tune DDR_BA1: 73.301 -> 109.301 mm (target 109.756)
+tune DDR_BA2: 90.739 -> 109.756 mm (target 109.756)
+tune DDR_RAS_B: 91.587 -> 109.756 mm (target 109.756)
+tune DDR_CAS_B: 83.003 -> 109.403 mm (target 109.756)
+tune DDR_CS_B: 90.866 -> 109.756 mm (target 109.756)
+tune DDR_CKE: 90.413 -> 109.613 mm (target 109.756)
+tune DDR_ODT: 108.012 -> 109.756 mm (target 109.756)
+tune DDR_CK_P: 97.899 -> 109.756 mm (target 109.756)
+tune AD1_FBCLK_P: 151.374 -> 163.206 mm (target 163.206)
+tune AD1_FRAME_N: 158.089 -> 163.206 mm (target 163.206)
+tune AD1_FRAME_P: 158.908 -> 163.206 mm (target 163.206)
+tune AD1_RXD0_P: 154.550 -> 163.206 mm (target 163.206)
+tune AD1_RXD1_P: 151.732 -> 163.206 mm (target 163.206)
+tune AD1_RXD2_P: 157.478 -> 163.206 mm (target 163.206)
+tune AD1_RXD4_P: 154.673 -> 163.206 mm (target 163.206)
+tune AD1_RXD5_P: 153.959 -> 163.206 mm (target 163.206)
+tune AD2_FBCLK_P: 153.396 -> 169.563 mm (target 169.563)
+tune AD2_FRAME_P: 162.741 -> 169.563 mm (target 169.563)
+tune AD2_RXD0_P: 154.623 -> 169.563 mm (target 169.563)
+tune AD2_RXD1_N: 161.010 -> 169.563 mm (target 169.563)
+tune AD2_RXD2_P: 152.025 -> 169.563 mm (target 169.563)
+tune AD2_RXD3_P: 159.141 -> 169.563 mm (target 169.563)
+tune AD2_RXD4_P: 149.335 -> 169.563 mm (target 169.563)
+tune AD2_RXD5_P: 152.296 -> 169.563 mm (target 169.563)
+tune AD3_DCLK_P: 159.369 -> 162.571 mm (target 162.571)
+tune AD3_FBCLK_P: 159.347 -> 162.571 mm (target 162.571)
+tune AD3_RXD0_P: 155.806 -> 162.571 mm (target 162.571)
+tune AD3_RXD1_P: 152.448 -> 162.571 mm (target 162.571)
+tune AD3_RXD2_P: 153.753 -> 162.571 mm (target 162.571)
+tune AD3_RXD3_P: 160.312 -> 162.571 mm (target 162.571)
+tune AD3_RXD4_P: 143.628 -> 162.571 mm (target 162.571)
+tune AD3_RXD5_N: 149.275 -> 162.571 mm (target 162.571)
+wrote session /out.ses

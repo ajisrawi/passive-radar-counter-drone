@@ -1,0 +1,28 @@
+unit mm
+shape route pass 1: 2 nets incomplete, 2 connections open, 3 conflicts, 0 rip-ups, 0.7s
+shape route pass 2: 7 nets incomplete, 25 connections open, 3 conflicts, 7 rip-ups, 7.6s
+shape route pass 3: 6 nets incomplete, 6 connections open, 3 conflicts, 13 rip-ups, 16.2s
+shape route pass 4: 8 nets incomplete, 383 connections open, 3 conflicts, 21 rip-ups, 23.2s
+shape route pass 5: 14 nets incomplete, 37 connections open, 3 conflicts, 35 rip-ups, 55.1s
+shape route pass 6: 11 nets incomplete, 40 connections open, 3 conflicts, 46 rip-ups, 68.9s
+shape route pass 7: 16 nets incomplete, 43 connections open, 4 conflicts, 62 rip-ups, 81.5s
+shape route pass 8: 22 nets incomplete, 47 connections open, 3 conflicts, 84 rip-ups, 113.4s
+shape route pass 9: 15 nets incomplete, 35 connections open, 2 conflicts, 99 rip-ups, 135.1s
+shape route pass 10: 15 nets incomplete, 20 connections open, 2 conflicts, 114 rip-ups, 168.1s
+shape route pass 11: 10 nets incomplete, 11 connections open, 2 conflicts, 124 rip-ups, 180.7s
+shape route pass 12: 12 nets incomplete, 19 connections open, 2 conflicts, 136 rip-ups, 195.4s
+shape route pass 13: 12 nets incomplete, 21 connections open, 2 conflicts, 148 rip-ups, 210.2s
+shape route pass 14: 6 nets incomplete, 6 connections open, 2 conflicts, 154 rip-ups, 219.0s
+shape route pass 15: 4 nets incomplete, 4 connections open, 2 conflicts, 158 rip-ups, 229.1s
+shape route pass 16: 5 nets incomplete, 5 connections open, 3 conflicts, 163 rip-ups, 236.1s
+shape route pass 17: 5 nets incomplete, 5 connections open, 3 conflicts, 168 rip-ups, 253.3s
+shape route pass 18: 4 nets incomplete, 4 connections open, 3 conflicts, 172 rip-ups, 275.4s
+shape route pass 19: 6 nets incomplete, 16 connections open, 3 conflicts, 178 rip-ups, 289.0s
+shape route pass 20: 6 nets incomplete, 8 connections open, 3 conflicts, 184 rip-ups, 306.3s
+shape route pass 21: 6 nets incomplete, 8 connections open, 3 conflicts, 190 rip-ups, 328.5s
+shape route pass 22: 2 nets incomplete, 2 connections open, 3 conflicts, 192 rip-ups, 333.0s
+shape route pass 23: 1 nets incomplete, 1 connections open, 3 conflicts, 193 rip-ups, 341.4s
+shape route pass 24: 2 nets incomplete, 2 connections open, 3 conflicts, 195 rip-ups, 342.2s
+shape route pass 25: 1 nets incomplete, 1 connections open, 3 conflicts, 196 rip-ups, 346.2s
+shape-based router: 166 nets, 1 connections open, 959 vias, wire length 10433.0 mm, 836 searches, 196 rip-ups
+wrote session /out.ses

@@ -1,0 +1,4 @@
+phase 1: 152 critical nets
+{"ok": true, "complete": false, "connections": 210, "unrouted": 3, "conflicts": 0, "vias": 424, "seconds": 1329.807, "passes": [{"pass": 1, "kind": "fanout", "unrouted": 210, "conflicts": 0, "vias": 0}, {"pass": 2, "kind": "route", "unrouted": 0, "conflicts": 379, "vias": 475}, {"pass": 3, "kind": "route", "unrouted": 4, "conflicts": 141, "vias": 482}, {"pass": 4, "kind": "route", "unrouted": 5, "
+locked 812 critical track segments
+{"ok": true, "complete": false, "connections": 1427, "unrouted": 21, "conflicts": 0, "vias": 1477, "seconds": 10913.502, "passes": [{"pass": 1, "kind": "fanout", "unrouted": 547, "conflicts": 4, "vias": 934}, {"pass": 2, "kind": "route", "unrouted": 19, "conflicts": 317, "vias": 1593}, {"pass": 3, "kind": "route", "unrouted": 22, "conflicts": 108, "vias": 1598}, {"pass": 4, "kind": "route", "unrou

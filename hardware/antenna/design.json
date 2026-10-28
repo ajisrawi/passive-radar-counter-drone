@@ -1,0 +1,519 @@
+{
+ "slant_deg": 45.0,
+ "elements_per_panel": 4,
+ "substrate": "FR-4 1.6 mm, er 4.4",
+ "bands": {
+  "uhf": {
+   "services": "DVB-T 470-694, LTE B28/B20, 5G n28",
+   "spacing_mm": 180.0,
+   "reflector_length_mm": 851.0,
+   "element": {
+    "fc_MHz": 621.2,
+    "lambda_c_mm": 482.6,
+    "fractional_bw_pct": 56.5,
+    "arm_shape": "bowtie: width w at the feed gap flaring to 2w at the tips",
+    "resonance_MHz": 559.1,
+    "expected_match": "VSWR < 2 over ~520-821 MHz, < 3 at 470 MHz (about 1.2 dB mismatch loss at the band bottom)",
+    "dipole_length_mm": 221.6,
+    "arm_width_mm": 41.0,
+    "feed_gap_mm": 4.8,
+    "height_above_reflector_mm": 120.7,
+    "balun": {
+     "type": "microstrip-to-parallel-strip taper (double-sided printed dipole): F.Cu 50 ohm strip widens, B.Cu ground narrows, both to the parallel-strip width, over the stem height (~lambda/4)",
+     "stem_length_mm": 120.7,
+     "microstrip_50ohm_width_mm_formula": 3.08,
+     "microstrip_50ohm_width_mm_field_solved": "see pcb/pcb_report.json (2.81 mm)",
+     "parallel_strip_width_mm": 4.0,
+     "stem_ground_width_mm": 12.0,
+     "lambda_g_mm": 264.4
+    },
+    "board_mm": [
+     225.6,
+     164.7
+    ],
+    "trim": "arms are drawn 3 % long: trim both ends equally for resonance at fc; trim the open stub for match",
+    "reflector_width_mm": 414.6,
+    "flange_height_mm": 72.4
+   },
+   "array": {
+    "f_low": {
+     "freq_MHz": 470.0,
+     "d_over_lambda": 0.282,
+     "element_gain_dBi": 7.3,
+     "element_hpbw_az_deg": 85.4,
+     "element_gain_at_60deg_dB": -6.8,
+     "steer_0": {
+      "beam_hpbw_deg": 47.6,
+      "sidelobe_dB": -33.4,
+      "scan_loss_dB": -0.0
+     },
+     "steer_30": {
+      "beam_hpbw_deg": 59.0,
+      "sidelobe_dB": -14.1,
+      "scan_loss_dB": 1.4
+     },
+     "steer_50": {
+      "beam_hpbw_deg": 68.8,
+      "sidelobe_dB": -10.1,
+      "scan_loss_dB": 4.3
+     },
+     "grating_free_scan_deg": 90.0
+    },
+    "f_c": {
+     "freq_MHz": 621.2,
+     "d_over_lambda": 0.373,
+     "element_gain_dBi": 6.6,
+     "element_hpbw_az_deg": 94.8,
+     "element_gain_at_60deg_dB": -5.7,
+     "steer_0": {
+      "beam_hpbw_deg": 35.5,
+      "sidelobe_dB": -18.3,
+      "scan_loss_dB": -0.0
+     },
+     "steer_30": {
+      "beam_hpbw_deg": 42.3,
+      "sidelobe_dB": -11.3,
+      "scan_loss_dB": 1.0
+     },
+     "steer_50": {
+      "beam_hpbw_deg": 62.5,
+      "sidelobe_dB": -9.0,
+      "scan_loss_dB": 3.4
+     },
+     "grating_free_scan_deg": 90.0
+    },
+    "f_high": {
+     "freq_MHz": 821.0,
+     "d_over_lambda": 0.493,
+     "element_gain_dBi": 6.3,
+     "element_hpbw_az_deg": 115.9,
+     "element_gain_at_60deg_dB": -3.5,
+     "steer_0": {
+      "beam_hpbw_deg": 26.7,
+      "sidelobe_dB": -12.4,
+      "scan_loss_dB": 0.1
+     },
+     "steer_30": {
+      "beam_hpbw_deg": 31.4,
+      "sidelobe_dB": -11.2,
+      "scan_loss_dB": 0.1
+     },
+     "steer_50": {
+      "beam_hpbw_deg": 53.0,
+      "sidelobe_dB": -10.2,
+      "scan_loss_dB": 1.6
+     },
+     "grating_free_scan_deg": 90.0
+    }
+   }
+  },
+  "mid": {
+   "services": "LTE B3, B1",
+   "spacing_mm": 69.0,
+   "reflector_length_mm": 298.0,
+   "element": {
+    "fc_MHz": 1979.1,
+    "lambda_c_mm": 151.5,
+    "fractional_bw_pct": 18.4,
+    "arm_shape": "straight strip",
+    "resonance_MHz": 1979.1,
+    "expected_match": "VSWR < 2 across the band (fractional bandwidth well inside a fat printed dipole's ~25 %)",
+    "dipole_length_mm": 54.4,
+    "arm_width_mm": 7.6,
+    "feed_gap_mm": 1.5,
+    "height_above_reflector_mm": 37.9,
+    "balun": {
+     "type": "microstrip-to-parallel-strip taper (double-sided printed dipole): F.Cu 50 ohm strip widens, B.Cu ground narrows, both to the parallel-strip width, over the stem height (~lambda/4)",
+     "stem_length_mm": 37.9,
+     "microstrip_50ohm_width_mm_formula": 3.08,
+     "microstrip_50ohm_width_mm_field_solved": "see pcb/pcb_report.json (2.81 mm)",
+     "parallel_strip_width_mm": 4.0,
+     "stem_ground_width_mm": 12.0,
+     "lambda_g_mm": 83.0
+    },
+    "board_mm": [
+     58.4,
+     48.4
+    ],
+    "trim": "arms are drawn 3 % long: trim both ends equally for resonance at fc; trim the open stub for match",
+    "reflector_width_mm": 121.2,
+    "flange_height_mm": 22.7
+   },
+   "array": {
+    "f_low": {
+     "freq_MHz": 1805.0,
+     "d_over_lambda": 0.415,
+     "element_gain_dBi": 6.8,
+     "element_hpbw_az_deg": 92.6,
+     "element_gain_at_60deg_dB": -5.9,
+     "steer_0": {
+      "beam_hpbw_deg": 31.8,
+      "sidelobe_dB": -16.4,
+      "scan_loss_dB": -0.0
+     },
+     "steer_30": {
+      "beam_hpbw_deg": 37.7,
+      "sidelobe_dB": -10.9,
+      "scan_loss_dB": 1.1
+     },
+     "steer_50": {
+      "beam_hpbw_deg": 60.5,
+      "sidelobe_dB": -8.7,
+      "scan_loss_dB": 3.6
+     },
+     "grating_free_scan_deg": 90.0
+    },
+    "f_c": {
+     "freq_MHz": 1979.1,
+     "d_over_lambda": 0.456,
+     "element_gain_dBi": 6.5,
+     "element_hpbw_az_deg": 97.2,
+     "element_gain_at_60deg_dB": -5.4,
+     "steer_0": {
+      "beam_hpbw_deg": 29.0,
+      "sidelobe_dB": -14.7,
+      "scan_loss_dB": -0.0
+     },
+     "steer_30": {
+      "beam_hpbw_deg": 34.1,
+      "sidelobe_dB": -10.8,
+      "scan_loss_dB": 0.9
+     },
+     "steer_50": {
+      "beam_hpbw_deg": 58.9,
+      "sidelobe_dB": -8.8,
+      "scan_loss_dB": 3.2
+     },
+     "grating_free_scan_deg": 90.0
+    },
+    "f_high": {
+     "freq_MHz": 2170.0,
+     "d_over_lambda": 0.499,
+     "element_gain_dBi": 6.2,
+     "element_hpbw_az_deg": 103.2,
+     "element_gain_at_60deg_dB": -4.8,
+     "steer_0": {
+      "beam_hpbw_deg": 26.4,
+      "sidelobe_dB": -13.4,
+      "scan_loss_dB": -0.0
+     },
+     "steer_30": {
+      "beam_hpbw_deg": 30.9,
+      "sidelobe_dB": -10.8,
+      "scan_loss_dB": 0.7
+     },
+     "steer_50": {
+      "beam_hpbw_deg": 51.0,
+      "sidelobe_dB": -9.2,
+      "scan_loss_dB": 2.7
+     },
+     "grating_free_scan_deg": 90.0
+    }
+   }
+  },
+  "high": {
+   "services": "LTE B7, 5G n41",
+   "spacing_mm": 56.0,
+   "reflector_length_mm": 237.0,
+   "element": {
+    "fc_MHz": 2591.2,
+    "lambda_c_mm": 115.7,
+    "fractional_bw_pct": 7.5,
+    "arm_shape": "straight strip",
+    "resonance_MHz": 2591.2,
+    "expected_match": "VSWR < 2 across the band (fractional bandwidth well inside a fat printed dipole's ~25 %)",
+    "dipole_length_mm": 40.6,
+    "arm_width_mm": 5.8,
+    "feed_gap_mm": 1.2,
+    "height_above_reflector_mm": 28.9,
+    "balun": {
+     "type": "microstrip-to-parallel-strip taper (double-sided printed dipole): F.Cu 50 ohm strip widens, B.Cu ground narrows, both to the parallel-strip width, over the stem height (~lambda/4)",
+     "stem_length_mm": 28.9,
+     "microstrip_50ohm_width_mm_formula": 3.08,
+     "microstrip_50ohm_width_mm_field_solved": "see pcb/pcb_report.json (2.81 mm)",
+     "parallel_strip_width_mm": 4.0,
+     "stem_ground_width_mm": 12.0,
+     "lambda_g_mm": 63.4
+    },
+    "board_mm": [
+     44.6,
+     37.7
+    ],
+    "trim": "arms are drawn 3 % long: trim both ends equally for resonance at fc; trim the open stub for match",
+    "reflector_width_mm": 92.6,
+    "flange_height_mm": 17.4
+   },
+   "array": {
+    "f_low": {
+     "freq_MHz": 2496.0,
+     "d_over_lambda": 0.466,
+     "element_gain_dBi": 6.6,
+     "element_hpbw_az_deg": 95.3,
+     "element_gain_at_60deg_dB": -5.6,
+     "steer_0": {
+      "beam_hpbw_deg": 28.3,
+      "sidelobe_dB": -14.6,
+      "scan_loss_dB": -0.0
+     },
+     "steer_30": {
+      "beam_hpbw_deg": 33.3,
+      "sidelobe_dB": -10.7,
+      "scan_loss_dB": 1.0
+     },
+     "steer_50": {
+      "beam_hpbw_deg": 58.5,
+      "sidelobe_dB": -8.7,
+      "scan_loss_dB": 3.4
+     },
+     "grating_free_scan_deg": 90.0
+    },
+    "f_c": {
+     "freq_MHz": 2591.2,
+     "d_over_lambda": 0.484,
+     "element_gain_dBi": 6.5,
+     "element_hpbw_az_deg": 97.4,
+     "element_gain_at_60deg_dB": -5.4,
+     "steer_0": {
+      "beam_hpbw_deg": 27.2,
+      "sidelobe_dB": -14.1,
+      "scan_loss_dB": -0.0
+     },
+     "steer_30": {
+      "beam_hpbw_deg": 32.0,
+      "sidelobe_dB": -10.7,
+      "scan_loss_dB": 0.9
+     },
+     "steer_50": {
+      "beam_hpbw_deg": 57.9,
+      "sidelobe_dB": -8.8,
+      "scan_loss_dB": 3.2
+     },
+     "grating_free_scan_deg": 90.0
+    },
+    "f_high": {
+     "freq_MHz": 2690.0,
+     "d_over_lambda": 0.502,
+     "element_gain_dBi": 6.4,
+     "element_hpbw_az_deg": 99.6,
+     "element_gain_at_60deg_dB": -5.2,
+     "steer_0": {
+      "beam_hpbw_deg": 26.2,
+      "sidelobe_dB": -13.6,
+      "scan_loss_dB": -0.0
+     },
+     "steer_30": {
+      "beam_hpbw_deg": 30.7,
+      "sidelobe_dB": -10.7,
+      "scan_loss_dB": 0.8
+     },
+     "steer_50": {
+      "beam_hpbw_deg": 50.2,
+      "sidelobe_dB": -8.9,
+      "scan_loss_dB": 3.0
+     },
+     "grating_free_scan_deg": 81.9
+    }
+   }
+  },
+  "n78": {
+   "services": "5G n78",
+   "spacing_mm": 39.0,
+   "reflector_length_mm": 168.0,
+   "element": {
+    "fc_MHz": 3541.2,
+    "lambda_c_mm": 84.7,
+    "fractional_bw_pct": 14.1,
+    "arm_shape": "straight strip",
+    "resonance_MHz": 3541.2,
+    "expected_match": "VSWR < 2 across the band (fractional bandwidth well inside a fat printed dipole's ~25 %)",
+    "dipole_length_mm": 29.1,
+    "arm_width_mm": 4.2,
+    "feed_gap_mm": 1.0,
+    "height_above_reflector_mm": 21.2,
+    "balun": {
+     "type": "microstrip-to-parallel-strip taper (double-sided printed dipole): F.Cu 50 ohm strip widens, B.Cu ground narrows, both to the parallel-strip width, over the stem height (~lambda/4)",
+     "stem_length_mm": 21.2,
+     "microstrip_50ohm_width_mm_formula": 3.08,
+     "microstrip_50ohm_width_mm_field_solved": "see pcb/pcb_report.json (2.81 mm)",
+     "parallel_strip_width_mm": 4.0,
+     "stem_ground_width_mm": 12.0,
+     "lambda_g_mm": 46.4
+    },
+    "board_mm": [
+     33.1,
+     28.4
+    ],
+    "trim": "arms are drawn 3 % long: trim both ends equally for resonance at fc; trim the open stub for match",
+    "reflector_width_mm": 67.7,
+    "flange_height_mm": 12.7
+   },
+   "array": {
+    "f_low": {
+     "freq_MHz": 3300.0,
+     "d_over_lambda": 0.429,
+     "element_gain_dBi": 6.7,
+     "element_hpbw_az_deg": 93.8,
+     "element_gain_at_60deg_dB": -5.8,
+     "steer_0": {
+      "beam_hpbw_deg": 30.8,
+      "sidelobe_dB": -15.7,
+      "scan_loss_dB": -0.0
+     },
+     "steer_30": {
+      "beam_hpbw_deg": 36.3,
+      "sidelobe_dB": -10.8,
+      "scan_loss_dB": 1.0
+     },
+     "steer_50": {
+      "beam_hpbw_deg": 59.9,
+      "sidelobe_dB": -8.7,
+      "scan_loss_dB": 3.5
+     },
+     "grating_free_scan_deg": 90.0
+    },
+    "f_c": {
+     "freq_MHz": 3541.2,
+     "d_over_lambda": 0.461,
+     "element_gain_dBi": 6.5,
+     "element_hpbw_az_deg": 97.5,
+     "element_gain_at_60deg_dB": -5.4,
+     "steer_0": {
+      "beam_hpbw_deg": 28.6,
+      "sidelobe_dB": -14.6,
+      "scan_loss_dB": -0.0
+     },
+     "steer_30": {
+      "beam_hpbw_deg": 33.7,
+      "sidelobe_dB": -10.8,
+      "scan_loss_dB": 0.9
+     },
+     "steer_50": {
+      "beam_hpbw_deg": 58.8,
+      "sidelobe_dB": -8.8,
+      "scan_loss_dB": 3.2
+     },
+     "grating_free_scan_deg": 90.0
+    },
+    "f_high": {
+     "freq_MHz": 3800.0,
+     "d_over_lambda": 0.494,
+     "element_gain_dBi": 6.3,
+     "element_hpbw_az_deg": 102.0,
+     "element_gain_at_60deg_dB": -4.9,
+     "steer_0": {
+      "beam_hpbw_deg": 26.6,
+      "sidelobe_dB": -13.6,
+      "scan_loss_dB": -0.0
+     },
+     "steer_30": {
+      "beam_hpbw_deg": 31.2,
+      "sidelobe_dB": -10.8,
+      "scan_loss_dB": 0.7
+     },
+     "steer_50": {
+      "beam_hpbw_deg": 52.5,
+      "sidelobe_dB": -9.1,
+      "scan_loss_dB": 2.8
+     },
+     "grating_free_scan_deg": 90.0
+    }
+   }
+  }
+ },
+ "lpda": [
+  {
+   "name": "U",
+   "f_MHz": [
+    450.0,
+    870.0
+   ],
+   "tau": 0.88,
+   "sigma": 0.16,
+   "alpha_deg": 10.62,
+   "elements": 11,
+   "element_lengths_mm": [
+    323.1,
+    284.3,
+    250.2,
+    220.2,
+    193.8,
+    170.5,
+    150.1,
+    132.0,
+    116.2,
+    102.3,
+    90.0
+   ],
+   "spacings_mm": [
+    103.4,
+    91.0,
+    80.1,
+    70.5,
+    62.0,
+    54.6,
+    48.0,
+    42.3,
+    37.2,
+    32.7
+   ],
+   "boom_length_mm": 621.7,
+   "gain_dBi_approx": 7.5,
+   "front_to_back_dB_approx": 18,
+   "build": "aluminium: two 12 mm square booms 8 mm apart, 4 mm rod half-elements alternating between booms; RG-316/RG-402 coax run inside one boom (infinite balun), shield to that boom, centre to the other at the short end; booms shorted at the long end. Element lengths are for rods (no substrate shortening).",
+   "boom_width_mm": 9.2,
+   "board_mm": [
+    641.7,
+    343.1
+   ],
+   "mount": "slant 45 deg, aimed at the transmitter; elevation tilt toward the transmitter mast"
+  },
+  {
+   "name": "H",
+   "f_MHz": [
+    1700.0,
+    4000.0
+   ],
+   "tau": 0.88,
+   "sigma": 0.16,
+   "alpha_deg": 10.62,
+   "elements": 12,
+   "element_lengths_mm": [
+    83.3,
+    73.3,
+    64.5,
+    56.8,
+    50.0,
+    44.0,
+    38.7,
+    34.0,
+    30.0,
+    26.4,
+    23.2,
+    20.4
+   ],
+   "spacings_mm": [
+    26.7,
+    23.5,
+    20.6,
+    18.2,
+    16.0,
+    14.1,
+    12.4,
+    10.9,
+    9.6,
+    8.4,
+    7.4
+   ],
+   "boom_length_mm": 167.7,
+   "gain_dBi_approx": 7.5,
+   "front_to_back_dB_approx": 18,
+   "build": "printed twin-boom on FR-4 1.6 mm: half-elements on alternating faces; fed at the short end by a 50 ohm microstrip (3.08 mm) running inside the top boom (infinite balun), shorted at the long end",
+   "boom_width_mm": 9.2,
+   "board_mm": [
+    187.7,
+    103.3
+   ],
+   "mount": "slant 45 deg, aimed at the transmitter; elevation tilt toward the transmitter mast"
+  }
+ ]
+}

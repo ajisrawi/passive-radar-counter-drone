@@ -1,0 +1,11 @@
+route pass 1: unrouted=0 conflicts=19 vias=1653 length=14504.57mm completion=99.75% time=7.5s
+route pass 2: unrouted=4 conflicts=3 vias=1653 length=14466.42mm completion=99.70% time=7.9s
+route pass 3: unrouted=0 conflicts=3 vias=1655 length=14504.02mm completion=99.90% time=4.2s
+route pass 4: unrouted=0 conflicts=3 vias=1655 length=14504.02mm completion=99.90% time=4.3s
+route pass 5: unrouted=0 conflicts=3 vias=1655 length=14504.02mm completion=99.90% time=4.1s
+route pass 6: unrouted=0 conflicts=3 vias=1655 length=14504.02mm completion=99.90% time=4.2s
+route pass 7: unrouted=0 conflicts=3 vias=1655 length=14504.92mm completion=99.90% time=4.2s
+route pass 8: unrouted=0 conflicts=3 vias=1655 length=14504.02mm completion=99.90% time=4.2s
+route pass 9: unrouted=0 conflicts=3 vias=1655 length=14504.02mm completion=99.90% time=4.1s
+route pass 10: unrouted=0 conflicts=0 vias=1656 length=14504.02mm completion=100.00% time=3.7s
+clean pass 12: unrouted=0 conflicts=0 vias=1653 length=14510.32mm completion=100.00% time=15.5s

@@ -1,0 +1,4 @@
+read_verilog -sv hdl/canceller.v hdl/md_engine.v hdl/stream_pack.v hdl/pcl_core.v
+chparam -set NTAPS 64 -set P 32 -set NTGT 3 pcl_core
+synth_xilinx -top pcl_core -family xc7 -flatten
+tee -o build/synth_c2_stat.txt stat

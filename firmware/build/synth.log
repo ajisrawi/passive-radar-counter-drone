@@ -1,0 +1,12 @@
+﻿yosys.exe : Warning: Replacing memory \rh_q with list of registers. See hdl/canceller.v:87, hdl/canceller.v:63
+At line:1 char:462
++ ... \firmware"; & yosys.exe -q -s build/synth.ys *> build/synth.log; "rc= ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: Replac.../canceller.v:63:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Warning: Replacing memory \rh_i with list of registers. See hdl/canceller.v:87, hdl/canceller.v:62
+Warning: Replacing memory \wq_a with list of registers. See hdl/md_engine.v:98, hdl/md_engine.v:69
+Warning: Replacing memory \wi_a with list of registers. See hdl/md_engine.v:98, hdl/md_engine.v:69
+Warning: Replacing memory \en_a with list of registers. See hdl/md_engine.v:97, hdl/md_engine.v:68
+Warning: Replacing memory \tau_a with list of registers. See hdl/md_engine.v:97, hdl/md_engine.v:68

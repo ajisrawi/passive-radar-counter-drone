@@ -1,0 +1,3 @@
+read_verilog -sv hdl/canceller.v hdl/md_engine.v hdl/stream_pack.v hdl/pcl_core.v
+synth_xilinx -top pcl_core -family xc7 -flatten
+tee -o build/synth_stat.txt stat

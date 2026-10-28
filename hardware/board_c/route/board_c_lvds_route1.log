@@ -1,0 +1,11 @@
+unit mm
+shape route: 121 imported connections broke the current rules and were ripped up
+shape route pass 1: 57 nets incomplete, 637 connections open, 0 conflicts, 121 rip-ups, 332.5s
+shape route pass 2: 94 nets incomplete, 248 connections open, 0 conflicts, 219 rip-ups, 485.8s
+shape route pass 3: 87 nets incomplete, 243 connections open, 0 conflicts, 319 rip-ups, 625.3s
+shape route pass 4: 79 nets incomplete, 224 connections open, 4 conflicts, 405 rip-ups, 839.5s
+shape route pass 5: 73 nets incomplete, 219 connections open, 4 conflicts, 479 rip-ups, 983.2s
+shape route pass 6: 77 nets incomplete, 220 connections open, 4 conflicts, 558 rip-ups, 1180.8s
+shape route pass 7: 72 nets incomplete, 217 connections open, 4 conflicts, 637 rip-ups, 1368.1s
+shape route pass 8: 65 nets incomplete, 208 connections open, 0 conflicts, 703 rip-ups, 1550.9s
+shape route pass 9: 57 nets incomplete, 196 connections open, 0 conflicts, 759 rip-ups, 1698.4s

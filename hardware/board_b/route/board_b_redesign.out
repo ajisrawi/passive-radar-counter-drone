@@ -1,0 +1,75 @@
+OpenRoute 0.1 — design board_b_redesign: 166 nets, 228 components, 8 layers, resolution um 1
+unit mm
+lattice 1501x1051x4 pitch=100 connections=818
+route  pass   1 | routed 818/818 | unrouted 0 | conflicts 305 | vias 891 | length 8756.1mm | 252.0s
+route  pass   2 | routed 815/818 | unrouted 3 | conflicts 117 | vias 901 | length 8658.9mm | 108.2s
+route  pass   3 | routed 817/818 | unrouted 1 | conflicts 115 | vias 930 | length 8761.6mm | 82.9s
+route  pass   4 | routed 817/818 | unrouted 1 | conflicts 56 | vias 940 | length 8772.9mm | 55.6s
+route  pass   5 | routed 817/818 | unrouted 1 | conflicts 36 | vias 943 | length 8779.2mm | 42.4s
+route  pass   6 | routed 816/818 | unrouted 2 | conflicts 44 | vias 941 | length 8761.9mm | 40.9s
+bestsave: current state (2044941) worse than saved best (1115930); kept the saved session
+route  pass   7 | routed 816/818 | unrouted 2 | conflicts 20 | vias 949 | length 8784.5mm | 49.2s
+route  pass   8 | routed 816/818 | unrouted 2 | conflicts 12 | vias 956 | length 8792.4mm | 20.7s
+route  pass   9 | routed 816/818 | unrouted 2 | conflicts 10 | vias 957 | length 8805.3mm | 9.1s
+bestsave: current state (2010957) worse than saved best (1115930); kept the saved session
+route  pass  10 | routed 818/818 | unrouted 0 | conflicts 10 | vias 964 | length 8849.8mm | 7.1s
+route  pass  11 | routed 818/818 | unrouted 0 | conflicts 10 | vias 964 | length 8850.2mm | 6.1s
+route  pass  12 | routed 818/818 | unrouted 0 | conflicts 10 | vias 963 | length 8851.0mm | 6.2s
+route  pass  13 | routed 818/818 | unrouted 0 | conflicts 10 | vias 963 | length 8851.0mm | 6.5s
+route  pass  14 | routed 818/818 | unrouted 0 | conflicts 10 | vias 963 | length 8851.0mm | 6.4s
+route  pass  15 | routed 818/818 | unrouted 0 | conflicts 10 | vias 962 | length 8852.7mm | 6.6s
+route  pass  16 | routed 818/818 | unrouted 0 | conflicts 10 | vias 962 | length 8853.3mm | 7.6s
+route  pass  17 | routed 818/818 | unrouted 0 | conflicts 10 | vias 962 | length 8852.7mm | 8.5s
+route  pass  18 | routed 818/818 | unrouted 0 | conflicts 10 | vias 962 | length 8852.7mm | 7.7s
+route  pass  19 | routed 818/818 | unrouted 0 | conflicts 10 | vias 962 | length 8852.7mm | 7.2s
+route  pass  20 | routed 818/818 | unrouted 0 | conflicts 10 | vias 962 | length 8852.7mm | 7.2s
+route  pass  21 | routed 818/818 | unrouted 0 | conflicts 10 | vias 962 | length 8852.7mm | 7.8s
+route  pass  22 | routed 815/818 | unrouted 3 | conflicts 0 | vias 944 | length 8691.9mm | 2.3s
+route  pass  23 | routed 815/818 | unrouted 3 | conflicts 0 | vias 944 | length 8691.9mm | 0.0s
+route  pass  24 | routed 815/818 | unrouted 3 | conflicts 0 | vias 944 | length 8691.9mm | 0.0s
+bestsave: current state (3000944) worse than saved best (10962); kept the saved session
+route  pass  25 | routed 815/818 | unrouted 3 | conflicts 0 | vias 944 | length 8691.9mm | 0.0s
+route  pass  26 | routed 815/818 | unrouted 3 | conflicts 0 | vias 944 | length 8691.9mm | 0.0s
+bestsave: current state (3000944) worse than saved best (10962); kept the saved session
+clean  pass  27 | routed 815/818 | unrouted 3 | conflicts 0 | vias 888 | length 8737.1mm | 189.8s
+clean: improved 58 connections
+bestsave: current state (3000888) worse than saved best (10962); kept the saved session
+miter: 696 corners mitered, 118 kept square (clearance or a branch at the corner)
+wrote session C:\Users\ahmad\Documents\Passive Radar for Counter Drone\hardware\board_b\route/board_b_redesign.ses
+#ROUTING STATUS <<< board_b_redesign >>>
+Nets         =      166   Connections         =      818
+Completion   =   99.63%   Unconnections       =        3
+Conflicts    =        0   Total Vias          =      888
+Routed length=   8737.100 mm
+# Overall Routing Time: 939.2s
+
+  Kind   Pass | Unroutes | Conflicts |  Vias |  Length(mm) |   Time
+  route     1 |        0 |       305 |   891 |     8756.10 |  252.0s
+  route     2 |        3 |       117 |   901 |     8658.90 |  108.2s
+  route     3 |        1 |       115 |   930 |     8761.60 |   82.9s
+  route     4 |        1 |        56 |   940 |     8772.90 |   55.6s
+  route     5 |        1 |        36 |   943 |     8779.20 |   42.4s
+  route     6 |        2 |        44 |   941 |     8761.90 |   40.9s
+  route     7 |        2 |        20 |   949 |     8784.50 |   49.2s
+  route     8 |        2 |        12 |   956 |     8792.40 |   20.7s
+  route     9 |        2 |        10 |   957 |     8805.30 |    9.1s
+  route    10 |        0 |        10 |   964 |     8849.80 |    7.1s
+  route    11 |        0 |        10 |   964 |     8850.20 |    6.1s
+  route    12 |        0 |        10 |   963 |     8851.00 |    6.2s
+  route    13 |        0 |        10 |   963 |     8851.00 |    6.5s
+  route    14 |        0 |        10 |   963 |     8851.00 |    6.4s
+  route    15 |        0 |        10 |   962 |     8852.70 |    6.6s
+  route    16 |        0 |        10 |   962 |     8853.30 |    7.6s
+  route    17 |        0 |        10 |   962 |     8852.70 |    8.5s
+  route    18 |        0 |        10 |   962 |     8852.70 |    7.7s
+  route    19 |        0 |        10 |   962 |     8852.70 |    7.2s
+  route    20 |        0 |        10 |   962 |     8852.70 |    7.2s
+  route    21 |        0 |        10 |   962 |     8852.70 |    7.8s
+  route    22 |        3 |         0 |   944 |     8691.90 |    2.3s
+  route    23 |        3 |         0 |   944 |     8691.90 |    0.0s
+  route    24 |        3 |         0 |   944 |     8691.90 |    0.0s
+  route    25 |        3 |         0 |   944 |     8691.90 |    0.0s
+  route    26 |        3 |         0 |   944 |     8691.90 |    0.0s
+  clean    27 |        3 |         0 |   888 |     8737.10 |  189.8s
+
+total time 939.2s

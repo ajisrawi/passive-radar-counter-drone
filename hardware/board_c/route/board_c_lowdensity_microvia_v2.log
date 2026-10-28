@@ -1,0 +1,29 @@
+unit mm
+lattice 2176x1876x4 pitch=100 connections=703
+read routes: 382 pieces of copper loaded, 4 skipped
+route  pass   1 | routed 899/1085 | unrouted 186 | conflicts 267 | vias 1038 | length 12325.3mm | 486.9s
+route  pass   2 | routed 1023/1085 | unrouted 62 | conflicts 481 | vias 1194 | length 12975.1mm | 574.5s
+route  pass   3 | routed 1059/1085 | unrouted 26 | conflicts 113 | vias 1254 | length 13633.6mm | 572.9s
+route  pass   4 | routed 1039/1085 | unrouted 46 | conflicts 65 | vias 1225 | length 13142.9mm | 1276.8s
+route  pass   5 | routed 1074/1085 | unrouted 11 | conflicts 64 | vias 1292 | length 13809.4mm | 582.0s
+route  pass   6 | routed 1070/1085 | unrouted 15 | conflicts 20 | vias 1306 | length 13829.6mm | 644.7s
+route  pass   7 | routed 1074/1085 | unrouted 11 | conflicts 42 | vias 1316 | length 13895.5mm | 641.2s
+route  pass   8 | routed 1074/1085 | unrouted 11 | conflicts 29 | vias 1316 | length 13896.9mm | 1112.9s
+route  pass   9 | routed 1074/1085 | unrouted 11 | conflicts 26 | vias 1314 | length 13895.9mm | 825.1s
+route  pass  10 | routed 1074/1085 | unrouted 11 | conflicts 26 | vias 1314 | length 13895.9mm | 631.5s
+route  pass  11 | routed 1074/1085 | unrouted 11 | conflicts 26 | vias 1314 | length 13895.9mm | 617.9s
+route  pass  12 | routed 1074/1085 | unrouted 11 | conflicts 26 | vias 1314 | length 13895.9mm | 1064.8s
+route  pass  13 | routed 1062/1085 | unrouted 23 | conflicts 0 | vias 1278 | length 13702.5mm | 721.6s
+route  pass  14 | routed 1064/1085 | unrouted 21 | conflicts 0 | vias 1285 | length 13789.3mm | 532.3s
+route  pass  15 | routed 1064/1085 | unrouted 21 | conflicts 0 | vias 1285 | length 13789.3mm | 531.4s
+bestsave: current state (21001285) worse than saved best (11027314); kept the saved session
+route  pass  16 | routed 1064/1085 | unrouted 21 | conflicts 0 | vias 1285 | length 13789.3mm | 953.1s
+route  pass  17 | routed 1064/1085 | unrouted 21 | conflicts 0 | vias 1285 | length 13789.3mm | 784.5s
+route  pass  18 | routed 1064/1085 | unrouted 21 | conflicts 0 | vias 1285 | length 13789.3mm | 535.1s
+bestsave: current state (21001285) worse than saved best (11027314); kept the saved session
+clean  pass  19 | routed 1064/1085 | unrouted 21 | conflicts 0 | vias 1201 | length 13643.8mm | 132.6s
+clean: improved 74 connections
+bestsave: current state (21001201) worse than saved best (11027314); kept the saved session
+miter: 2986 corners mitered, 851 kept square (clearance or a branch at the corner)
+wrote session C:/Users/ahmad/Documents/Passive Radar for Counter Drone/hardware/board_c/route/board_c_lowdensity_microvia_v2.ses
+wrote session /out.ses

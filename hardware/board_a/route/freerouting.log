@@ -1,0 +1,61 @@
+2026-10-21 10:04:37.046 INFO   Freerouting v2.5.0 (build-date: 2026-10-05)
+2026-10-21 10:04:37.368 INFO   Hardware: 8 CPU cores, 441 CPU score, 2996 MB RAM
+2026-10-21 10:04:38.586 INFO   Opening 'board_a/route/board_a.dsn'...
+2026-10-21 10:04:38.920 WARN   Invalid maxPasses value: 10000, using default 0 (no limit)
+2026-10-21 10:04:40.334 INFO   [E79EA3\8920D8] Loading board file 'board_a.dsn'...
+2026-10-21 10:04:50.637 INFO   [E79EA3\8920D8] Starting routing of 'board_a' on 6 threads...
+2026-10-21 10:04:50.764 INFO   [E79EA3\8920D8] Pipeline thread limits: autorouter pass is single-threaded, optimizer.max_threads=6.
+2026-10-21 10:04:56.678 INFO   [E79EA3\8920D8] Auto-routing stage started on board '4a6d7f78341bdb0f804ebc9292640b69' with baseline score 316.59 for 230 unrouted items.
+2026-10-21 10:07:58.038 INFO   [E79EA3\8920D8] Auto-routing pass #1 on board '4a6d7f78341bdb0f804ebc9292640b69' was completed in 178.09 seconds with score 872.15 (42 unrouted and 0 violations), using 185.23 CPU seconds and the job allocated 30.49 GB of memory so far.
+2026-10-21 10:08:47.178 INFO   [E79EA3\8920D8] Auto-routing pass #2 on board '2a89a7d200904365e33868489f865e72' was completed in 44.83 seconds with score 875.19 (41 unrouted and 0 violations), using 233.92 CPU seconds and the job allocated 37.85 GB of memory so far.
+2026-10-21 10:09:35.099 INFO   [E79EA3\8920D8] Auto-routing pass #3 on board '8af0877e9021e80a9de024609fb55258' was completed in 42.24 seconds with score 893.46 (35 unrouted and 0 violations), using 281.36 CPU seconds and the job allocated 45.78 GB of memory so far.
+2026-10-21 10:10:11.759 INFO   [E79EA3\8920D8] Auto-routing pass #4 on board 'b6f2ed8475d3632723053958dae2a3e4' was completed in 32.66 seconds with score 905.63 (31 unrouted and 0 violations), using 317.00 CPU seconds and the job allocated 52.64 GB of memory so far.
+2026-10-21 10:10:41.117 INFO   [E79EA3\8920D8] Auto-routing pass #5 on board '03275edb1356a2ac80c26a5f79c937df' was completed in 25.68 seconds with score 914.76 (28 unrouted and 0 violations), using 346.70 CPU seconds and the job allocated 58.15 GB of memory so far.
+2026-10-21 10:11:10.592 INFO   [E79EA3\8920D8] Auto-routing pass #6 on board 'ce2237e974b2246c44db55cebde135b7' was completed in 25.62 seconds with score 917.81 (27 unrouted and 0 violations), using 375.31 CPU seconds and the job allocated 63.67 GB of memory so far.
+2026-10-21 10:11:36.372 INFO   [E79EA3\8920D8] Auto-routing pass #7 on board '6ad82de21f5507f7f9757078e69319e0' was completed in 21.91 seconds with score 920.85 (26 unrouted and 0 violations), using 401.27 CPU seconds and the job allocated 68.03 GB of memory so far.
+2026-10-21 10:11:59.878 INFO   [E79EA3\8920D8] Auto-routing pass #8 on board '89fd2af8363884615d0879ea689b5339' was completed in 19.77 seconds with score 920.85 (26 unrouted and 0 violations), using 424.22 CPU seconds and the job allocated 72.21 GB of memory so far.
+2026-10-21 10:12:21.116 INFO   [E79EA3\8920D8] Auto-routing pass #9 on board '89fd2af8363884615d0879ea689b5339' was completed in 21.17 seconds with score 920.85 (26 unrouted and 0 violations), using 446.16 CPU seconds and the job allocated 75.96 GB of memory so far.
+2026-10-21 10:12:41.369 INFO   [E79EA3\8920D8] Auto-routing pass #10 on board '89fd2af8363884615d0879ea689b5339' was completed in 20.18 seconds with score 920.85 (26 unrouted and 0 violations), using 466.05 CPU seconds and the job allocated 79.54 GB of memory so far.
+2026-10-21 10:13:02.409 INFO   [E79EA3\8920D8] Auto-routing pass #11 on board '89fd2af8363884615d0879ea689b5339' was completed in 20.96 seconds with score 920.85 (26 unrouted and 0 violations), using 486.95 CPU seconds and the job allocated 83.15 GB of memory so far.
+2026-10-21 10:13:23.114 INFO   [E79EA3\8920D8] Auto-routing pass #12 on board '89fd2af8363884615d0879ea689b5339' was completed in 20.62 seconds with score 920.85 (26 unrouted and 0 violations), using 507.83 CPU seconds and the job allocated 86.83 GB of memory so far.
+2026-10-21 10:13:43.113 INFO   [E79EA3\8920D8] Auto-routing pass #13 on board '89fd2af8363884615d0879ea689b5339' was completed in 19.93 seconds with score 920.85 (26 unrouted and 0 violations), using 527.70 CPU seconds and the job allocated 90.46 GB of memory so far.
+2026-10-21 10:13:58.982 INFO   [E79EA3\8920D8] Auto-routing pass #14 on board '89fd2af8363884615d0879ea689b5339' was completed in 15.81 seconds with score 920.85 (26 unrouted and 0 violations), using 542.64 CPU seconds and the job allocated 93.90 GB of memory so far.
+2026-10-21 10:14:15.663 INFO   [E79EA3\8920D8] Auto-routing pass #15 on board '89fd2af8363884615d0879ea689b5339' was completed in 16.63 seconds with score 920.85 (26 unrouted and 0 violations), using 559.53 CPU seconds and the job allocated 97.61 GB of memory so far.
+2026-10-21 10:14:30.497 INFO   [E79EA3\8920D8] Auto-routing pass #16 on board '89fd2af8363884615d0879ea689b5339' was completed in 14.77 seconds with score 920.85 (26 unrouted and 0 violations), using 574.45 CPU seconds and the job allocated 101.26 GB of memory so far.
+2026-10-21 10:14:45.694 INFO   [E79EA3\8920D8] Auto-routing pass #17 on board '89fd2af8363884615d0879ea689b5339' was completed in 15.14 seconds with score 920.85 (26 unrouted and 0 violations), using 589.53 CPU seconds and the job allocated 104.84 GB of memory so far.
+2026-10-21 10:15:01.458 INFO   [E79EA3\8920D8] Auto-routing pass #18 on board '89fd2af8363884615d0879ea689b5339' was completed in 15.70 seconds with score 920.85 (26 unrouted and 0 violations), using 604.66 CPU seconds and the job allocated 108.31 GB of memory so far.
+2026-10-21 10:15:01.538 INFO   [E79EA3\8920D8] The router's score (920.85) has not improved by more than 0.5 points in the last 10 passes (26 items still unconnected). Stopping the auto-router.
+The following connections could not be routed -- please review your design (e.g. check pad clearances, trace width rules, and available routing space):
+  Net '+5V_LNA' (26 unrouted connections):
+    - U2-11  ->  U2-12
+    - U2-11  ->  U2-10
+    - C83-1  ->  C93-1
+    - C72-1  ->  C82-1
+    - C50-1  ->  C60-1
+    - C71-1  ->  C61-1
+    - C49-1  ->  C39-1
+    - C38-1  ->  C13-1
+    - U4-3  ->  U4-1
+    - C82-1  ->  L21-1
+    - C49-1  ->  L9-1
+    - C38-1  ->  L5-1
+    - L25-1  ->  C93-1
+    - L17-1  ->  C71-1
+    - L13-1  ->  C60-1
+    - U4-1  ->  C19-1
+    - C94-1  ->  C12-1
+    - C93-1  ->  L21-1
+    - L17-1  ->  C82-1
+    - L5-1  ->  C49-1
+    - C50-1  ->  C61-1
+    - C39-1  ->  C50-1
+    - U2-10  ->  conductionarea
+    - C19-1  ->  U2-12
+    - C38-1  ->  C94-1
+    - C94-1  ->  conductionarea
+2026-10-21 10:15:09.680 INFO   [E79EA3\8920D8] Auto-routing stage completed: started with 230 unrouted nets, completed in 619.04 seconds, final score: 920.85 (26 unrouted and 0 violations), using 613.66 total CPU seconds, 110.47 GB total allocated, and 277.3 MB peak heap usage.
+2026-10-21 10:15:09.792 INFO   [E79EA3\8920D8] Starting optimization on 6 threads...
+2026-10-21 10:15:12.487 INFO   [E79EA3\8920D8] Skipping optimization stage: the board has 26 unrouted connection(s) (optimizer only runs on completely routed boards).
+2026-10-21 10:15:15.128 INFO   [E79EA3\8920D8] Optimization was completed in 5.34 seconds with the score of 920.85 (26 unrouted and 0 violations).
+2026-10-21 10:15:20.590 INFO   Saving 'board_a/route/board_a.ses'...
+2026-10-21 10:15:20.648 INFO   Saved 108476 bytes to 'board_a/route/board_a.ses'.

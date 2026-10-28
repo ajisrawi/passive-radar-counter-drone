@@ -1,0 +1,11 @@
+constraint regions: 14
+lattice 722x657x6 pitch=305.17578125 connections=1119
+fanout pass   1 | routed 1097/1119 | unrouted 22 | conflicts 0 | vias 7 | length 11.0mm | 29.2s
+route  pass   2 | routed 1103/1119 | unrouted 16 | conflicts 0 | vias 31 | length 434.0mm | 81.8s
+route  pass   3 | routed 1103/1119 | unrouted 16 | conflicts 0 | vias 31 | length 434.0mm | 125.4s
+route  pass   4 | routed 1103/1119 | unrouted 16 | conflicts 0 | vias 31 | length 434.0mm | 128.0s
+clean  pass   5 | routed 1103/1119 | unrouted 16 | conflicts 0 | vias 29 | length 436.4mm | 46.4s
+clean: improved 2 connections
+clean  pass   6 | routed 1103/1119 | unrouted 16 | conflicts 0 | vias 29 | length 436.4mm | 18.2s
+clean: improved 0 connections
+wrote session /out.ses

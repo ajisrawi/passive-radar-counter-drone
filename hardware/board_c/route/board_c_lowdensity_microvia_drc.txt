@@ -1,0 +1,6 @@
+# DRC: 5 violation(s)
+clearance  vs GND layer F.Cu at (102750,-104000) dist=0 need=100
+clearance GND vs USB_DP layer F.Cu at (102250,-104000) dist=0 need=100
+clearance USB_DP vs USB_DN layer F.Cu at (101750,-104000) dist=0 need=100
+clearance USB_DN vs +3V3 layer F.Cu at (101250,-104000) dist=0 need=100
+clearance USB_DN vs +3V3 layer F.Cu at (101250,-104000) dist=50 need=100

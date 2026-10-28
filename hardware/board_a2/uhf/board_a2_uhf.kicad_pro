@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "filename": "board_a2_uhf.kicad_pro",
+    "version": 1
+  },
+  "sheets": [
+    [
+      "74a02162-1f60-4bd0-8733-c5f6564e2c92",
+      "Root"
+    ],
+    [
+      "8fb0102f-38aa-4208-9a20-eb6caf6654b0",
+      "Power: 12 V in, 5.6 V buck, two low-noise 5 V LNA rails, noise-source rail, 3.3 V"
+    ],
+    [
+      "bb5a6c5a-2d8c-4bd1-bf98-3c2f2e61c006",
+      "Calibration noise source and 6-way splitter"
+    ],
+    [
+      "3ed086af-06e1-4d3c-9f8e-7e75e90f7acf",
+      "RF channels 0-2"
+    ],
+    [
+      "f6146b8c-1353-4db0-8dfd-2a9118d49521",
+      "RF channels 3-5"
+    ]
+  ]
+}

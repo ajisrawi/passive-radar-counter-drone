@@ -1,0 +1,45 @@
+OpenRoute 0.1 — design board_c: 251 nets, 314 components, 8 layers, resolution um 1
+unit mm
+lattice 2176x1876x4 pitch=100 connections=1156
+read routes: 842 pieces of copper loaded, 0 skipped
+route  pass   1 | routed 1998/1998 | unrouted 0 | conflicts 4 | vias 1644 | length 14482.7mm | 4.9s
+route  pass   2 | routed 1998/1998 | unrouted 0 | conflicts 6 | vias 1643 | length 14481.5mm | 6.4s
+route  pass   3 | routed 1995/1998 | unrouted 3 | conflicts 0 | vias 1644 | length 14470.2mm | 8.2s
+route  pass   4 | routed 1998/1998 | unrouted 0 | conflicts 15 | vias 1652 | length 14508.4mm | 6.7s
+route  pass   5 | routed 1997/1998 | unrouted 1 | conflicts 0 | vias 1651 | length 14508.0mm | 5.5s
+route  pass   6 | routed 1998/1998 | unrouted 0 | conflicts 7 | vias 1652 | length 14508.1mm | 3.8s
+route  pass   7 | routed 1998/1998 | unrouted 0 | conflicts 3 | vias 1652 | length 14508.1mm | 5.3s
+route  pass   8 | routed 1998/1998 | unrouted 0 | conflicts 3 | vias 1652 | length 14508.1mm | 5.4s
+route  pass   9 | routed 1998/1998 | unrouted 0 | conflicts 3 | vias 1652 | length 14508.1mm | 6.8s
+route  pass  10 | routed 1998/1998 | unrouted 0 | conflicts 2 | vias 1653 | length 14508.3mm | 4.0s
+route  pass  11 | routed 1998/1998 | unrouted 0 | conflicts 2 | vias 1653 | length 14508.3mm | 3.9s
+route  pass  12 | routed 1998/1998 | unrouted 0 | conflicts 2 | vias 1653 | length 14508.3mm | 3.9s
+route  pass  13 | routed 1998/1998 | unrouted 0 | conflicts 2 | vias 1653 | length 14508.3mm | 4.0s
+clean  pass  14 | routed 1998/1998 | unrouted 0 | conflicts 2 | vias 1653 | length 14508.3mm | 4.3s
+clean: improved 0 connections
+miter: 70 corners mitered, 400 kept square (clearance or a branch at the corner)
+wrote session C:\Users\ahmad\Documents\Passive Radar for Counter Drone\hardware\board_c\route/board_c_v6.ses
+#ROUTING STATUS <<< board_c >>>
+Nets         =      251   Connections         =     1998
+Completion   =   99.95%   Unconnections       =        0
+Conflicts    =        2   Total Vias          =     1653
+Routed length=  14508.277 mm
+# Overall Routing Time: 75.8s
+
+  Kind   Pass | Unroutes | Conflicts |  Vias |  Length(mm) |   Time
+  route     1 |        0 |         4 |  1644 |    14482.74 |    4.9s
+  route     2 |        0 |         6 |  1643 |    14481.47 |    6.4s
+  route     3 |        3 |         0 |  1644 |    14470.16 |    8.2s
+  route     4 |        0 |        15 |  1652 |    14508.36 |    6.7s
+  route     5 |        1 |         0 |  1651 |    14507.98 |    5.5s
+  route     6 |        0 |         7 |  1652 |    14508.08 |    3.8s
+  route     7 |        0 |         3 |  1652 |    14508.08 |    5.3s
+  route     8 |        0 |         3 |  1652 |    14508.08 |    5.4s
+  route     9 |        0 |         3 |  1652 |    14508.08 |    6.8s
+  route    10 |        0 |         2 |  1653 |    14508.28 |    4.0s
+  route    11 |        0 |         2 |  1653 |    14508.28 |    3.9s
+  route    12 |        0 |         2 |  1653 |    14508.28 |    3.9s
+  route    13 |        0 |         2 |  1653 |    14508.28 |    4.0s
+  clean    14 |        0 |         2 |  1653 |    14508.28 |    4.3s
+
+total time 75.8s

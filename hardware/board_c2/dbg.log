@@ -1,0 +1,11 @@
+unit mm
+  carrier SFP1_TXN_FPGA/SFP1_TXP_FPGA: lanes too close to each other (layer F.Cu)
+shape route pass 1: 0 nets incomplete, 0 connections open, 0 conflicts, 0 rip-ups, 12.1s; 1 pairs routed net by net, retried as carriers next pass
+  carrier SFP1_TXN_FPGA/SFP1_TXP_FPGA: lanes too close to each other (layer F.Cu)
+shape route pass 2: 0 nets incomplete, 0 connections open, 0 conflicts, 2 rip-ups, 12.9s; 1 pairs routed net by net, retried as carriers next pass
+  carrier SFP1_TXN_FPGA/SFP1_TXP_FPGA: lanes too close to each other (layer F.Cu)
+shape route pass 3: 0 nets incomplete, 0 connections open, 0 conflicts, 4 rip-ups, 18.0s; 1 pairs routed net by net, retried as carriers next pass
+  carrier SFP1_TXN_FPGA/SFP1_TXP_FPGA: lanes too close to each other (layer F.Cu)
+shape route pass 4: 0 nets incomplete, 0 connections open, 0 conflicts, 6 rip-ups, 19.0s
+shape-based router: 10 nets, 0 connections open, 4 vias, wire length 850.9 mm, 32 searches, 6 rip-ups, 4 pair carriers (not as carriers: lanes too close to each other x4) — complete
+wrote session /out.ses

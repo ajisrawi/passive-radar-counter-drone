@@ -1,0 +1,11 @@
+﻿round 1: 4 opens
+  +1V35 1.8 mm {"ok": true, "vias": 2, "length": 1.52, "ripped": [], "layers": ["F.Cu", "In2.Cu"]}
+  +1V35 1.8 mm {"ok": true, "vias": 2, "length": 0.35, "ripped": ["DDR_A0", "DDR_A10", "DDR_CS_B"], "layers": ["In2.Cu"]}
+  DDR_CKE 12.0 mm {"ok": true, "vias": 3, "length": 13.07, "ripped": ["DDR_A10"], "layers": ["F.Cu", "In2.Cu", "In3.Cu"]}
+  SPI_CLK 115.0 mm {"ok": false}
+round 2: 4 opens
+  DDR_A0 12.0 mm {"ok": true, "vias": 2, "length": 12.08, "ripped": [], "layers": ["F.Cu", "In2.Cu", "In3.Cu"]}
+  DDR_A10 12.0 mm {"ok": true, "vias": 2, "length": 12.81, "ripped": [], "layers": ["In2.Cu", "In3.Cu"]}
+  DDR_CS_B 12.0 mm {"ok": true, "vias": 4, "length": 13.2, "ripped": [], "layers": ["F.Cu", "In2.Cu", "In7.Cu"]}
+  SPI_CLK 115.0 mm {"ok": false}
+round 3: 1 opens

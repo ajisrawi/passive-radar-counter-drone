@@ -1,0 +1,18 @@
+unit mm
+lattice 2176x1876x4 pitch=100 connections=703
+fanout pass   1 | routed 132/703 | unrouted 571 | conflicts 0 | vias 132 | length 14.6mm | 0.2s
+route  pass   2 | routed 701/703 | unrouted 2 | conflicts 5333 | vias 1143 | length 10165.2mm | 88.6s
+route  pass   3 | routed 687/703 | unrouted 16 | conflicts 2677 | vias 1166 | length 10156.1mm | 57.2s
+route  pass   4 | routed 687/703 | unrouted 16 | conflicts 2129 | vias 1202 | length 10268.6mm | 78.8s
+route  pass   5 | routed 685/703 | unrouted 18 | conflicts 1670 | vias 1213 | length 10319.2mm | 193.8s
+route  pass   6 | routed 686/703 | unrouted 17 | conflicts 1193 | vias 1203 | length 10269.4mm | 119.2s
+route  pass   7 | routed 687/703 | unrouted 16 | conflicts 958 | vias 1241 | length 10505.2mm | 133.5s
+route  pass   8 | routed 688/703 | unrouted 15 | conflicts 865 | vias 1244 | length 10560.9mm | 193.9s
+route  pass   9 | routed 688/703 | unrouted 15 | conflicts 913 | vias 1243 | length 10571.0mm | 420.9s
+route  pass  10 | routed 686/703 | unrouted 17 | conflicts 865 | vias 1253 | length 10477.8mm | 430.2s
+route  pass  11 | routed 690/703 | unrouted 13 | conflicts 926 | vias 1274 | length 10651.4mm | 413.8s
+route  pass  12 | routed 688/703 | unrouted 15 | conflicts 926 | vias 1272 | length 10637.3mm | 564.3s
+route  pass  13 | routed 687/703 | unrouted 16 | conflicts 804 | vias 1251 | length 10608.4mm | 720.8s
+route  pass  14 | routed 679/703 | unrouted 24 | conflicts 668 | vias 1253 | length 10484.7mm | 743.7s
+route  pass  15 | routed 683/703 | unrouted 20 | conflicts 739 | vias 1249 | length 10571.2mm | 433.2s
+route  pass  16 | routed 687/703 | unrouted 16 | conflicts 708 | vias 1250 | length 10633.8mm | 540.7s

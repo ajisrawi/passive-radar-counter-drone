@@ -1,0 +1,15 @@
+fanout pass 1: unrouted=571 conflicts=0 vias=135 length=14.00mm completion=18.66% time=0.1s
+route pass 2: unrouted=0 conflicts=10471 vias=1592 length=22808.80mm completion=56.70% time=74.6s
+route pass 3: unrouted=15 conflicts=4353 vias=1672 length=22728.60mm completion=63.25% time=106.5s
+route pass 4: unrouted=14 conflicts=2389 vias=1688 length=22314.70mm completion=68.52% time=156.9s
+route pass 5: unrouted=13 conflicts=1905 vias=1720 length=22776.10mm completion=73.65% time=297.8s
+route pass 6: unrouted=16 conflicts=1504 vias=1694 length=22452.80mm completion=74.50% time=423.9s
+route pass 7: unrouted=14 conflicts=1271 vias=1745 length=22763.50mm completion=76.78% time=508.9s
+route pass 8: unrouted=16 conflicts=951 vias=1754 length=22864.70mm completion=79.34% time=726.9s
+route pass 9: unrouted=13 conflicts=768 vias=1791 length=23134.30mm completion=80.34% time=1006.3s
+route pass 10: unrouted=15 conflicts=522 vias=1751 length=23010.50mm completion=85.33% time=1088.6s
+route pass 11: unrouted=13 conflicts=515 vias=1761 length=23105.90mm completion=86.04% time=1337.8s
+route pass 12: unrouted=19 conflicts=301 vias=1732 length=22667.60mm completion=88.18% time=1312.6s
+route pass 13: unrouted=18 conflicts=304 vias=1757 length=22809.10mm completion=89.32% time=1312.3s
+route pass 14: unrouted=18 conflicts=207 vias=1756 length=22887.00mm completion=90.03% time=1342.3s
+route pass 15: unrouted=18 conflicts=221 vias=1754 length=22824.90mm completion=90.17% time=1498.0s
